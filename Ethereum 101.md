@@ -37,9 +37,12 @@ Core Components
 - Transactions: Messages containing sender, recipient, value and data payload.
 - State machine:
     -  Uses the Ethereum Virtual Machine (EVM) to process state changes.
-    - Executes smart contract written in Solidity or Vyper.
+    -  Executes smart contract written in Solidity or Vyper.
 - Data Structures:
-    -   Stores state in a database (LevelDB) 
+    -   Stores state in a database (LevelDB)
+    -  Uses Merkle Patricia Tree for efficient transaction and state storage
+- Economic Security:
+   -  
 
 
 
