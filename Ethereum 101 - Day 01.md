@@ -66,6 +66,7 @@ Core Components
      -  Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system 
 
 - What is the halting problem:
+    - In Turing-complete system, it's impossible to determine in advance whether a given pr   
 
 
 
