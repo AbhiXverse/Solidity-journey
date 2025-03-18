@@ -41,35 +41,36 @@ Core Components
     - Transactions modify the state and trigger smart contract execution
 
 - State machine (EVM):
-    -  Uses the Ethereum Virtual Machine (EVM) to process state changes.
-    -  Executes smart contract written in Solidity or Vyper
+    - Uses the Ethereum Virtual Machine (EVM) to process state changes.
+    - Executes smart contract written in Solidity or Vyper
 
 - Data Structures:
-    -  Stores state in a database (LevelDB)
-    -  Uses Merkle Patricia Tree for efficient transaction and state storage
+    - Stores state in a database (LevelDB)
+    - Uses Merkle Patricia Tree for efficient transaction and state storage
 
 - Consensus Algorithms:
     - Bitcoin uses Nakamoto Consensus PoW (proof-of -work), securing the chain by making it costly to attack
     - Ethereum originally used PoW (Ethash) but transitioned to PoS (proof-of-state) in Ethereum 2.0 (Serenity) for better scalability and efficiency
 
 - Economic Security:
-    -  PoW ensured security by making the 51% attack expensive
-    -  PoS enchances security by requiring validatiors to stake ETH, discouraging malicious behavior
+    - PoW ensured security by making the 51% attack expensive
+    - PoS enchances security by requiring validatiors to stake ETH, discouraging malicious behavior
 
 - Software Implementations 
-    -  Go-Ethereum (Geth) - Most widely used 
-    -  OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
-    -  Other clients: Nethermind, Erigon, Turbo-geth
+    - Go-Ethereum (Geth) - Most widely used 
+    - OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
+    - Other clients: Nethermind, Erigon, Turbo-geth
 
 - Halting Problem in Etheruem:
 
-     -  Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system 
+     - Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system 
 - What is the halting problem:
-    -  In Turing-complete system, it's impossible to determine in advance whether a given program will eventually stop or run forever. This is known as the halting problem
+    - In Turing-complete system, it's impossible to determine in advance whether a given program will eventually stop or run forever. This is known as the halting problem
 - How does this affect Ethereum ?
-    -  Since Ethereum runs smart contracts, it cannot predict if a contract will stop or how long it will run. To prevent contracts from running indefinitely and consuming unlimited resources, Ethereum uses a gas system
+    - Since Ethereum runs smart contracts, it cannot predict if a contract will stop or how long it will run. To prevent contracts from running indefinitely and consuming unlimited resources, Ethereum uses a gas system
 - Why gas ? 
-- 
+    - Gas acts as a meter that limits how much       computation a contract can perform 
+    - 
 
 
 
