@@ -35,23 +35,27 @@ Core Components
 
 - P2P Network - Runs on Ethereum mainnet, uses TCP port 30303, and follows the DEVp2p protocol
 - Unlike traditional client-server models, Ethereum nodes interact as peers, exchanging messages
+
 - Transactions: 
     -  Messages containing sender, recipient, value and data payload
-    - Transactions modify the state and trigger smart contract execu
-- State machine:
+    - Transactions modify the state and trigger smart contract execution
+
+- State machine (EVM):
     -  Uses the Ethereum Virtual Machine (EVM) to process state changes.
     -  Executes smart contract written in Solidity or Vyper
+
 - Data Structures:
     -   Stores state in a database (LevelDB)
     -  Uses Merkle Patricia Tree for efficient transaction and state storage
+
 - Economic Security:
     -  Previously used Ethash (PoW)
     -  Now secured by staking in PoS 
+
 - Software Implementations 
     -  Go-Ethereum (Geth) - Most widely used 
     -  OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
     - Other clients: Nethermind, Erigon, Turbo-geth
-- 
 
 
 
