@@ -54,7 +54,7 @@ Core Components
 
 - Economic Security:
     -  PoW ensured security by making the 51% attack expensive
-    -  Now secured by staking in PoS 
+    -  PoS enchances security by requiring validatiors to stake ETH, discouraging malicious behavior
 
 - Software Implementations 
     -  Go-Ethereum (Geth) - Most widely used 
