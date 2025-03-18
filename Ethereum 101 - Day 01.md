@@ -65,8 +65,9 @@ Core Components
 
      -  Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system 
 - What is the halting problem:
-    - In Turing-complete system, it's impossible to determine in advance whether a given program will eventually stop or run forever. This is known as the halting problem
-- How does this affect Ethereum
+    -  In Turing-complete system, it's impossible to determine in advance whether a given program will eventually stop or run forever. This is known as the halting problem
+- How does this affect Ethereum?
+    -  Since Ethereum runs smart contracts, it cannot predict if a contract will stop or how long it will run. To prevent contra
 
 
 
