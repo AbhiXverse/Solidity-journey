@@ -33,12 +33,14 @@ How they track transactions ?
 
 Core Components 
 
-- P2P Network - Runs on Ethereum mainnet, uses TCP port 30303, and follows the DEVp2p protocol.
-- Unlike traditional client-server models, Ethereum nodes interact 
-- Transactions: Messages containing sender, recipient, value and data payload.
+- P2P Network - Runs on Ethereum mainnet, uses TCP port 30303, and follows the DEVp2p protocol
+- Unlike traditional client-server models, Ethereum nodes interact as peers, exchanging messages
+- Transactions: 
+    -  Messages containing sender, recipient, value and data payload
+    - Transactions modify the state and trigger smart contract execu
 - State machine:
     -  Uses the Ethereum Virtual Machine (EVM) to process state changes.
-    -  Executes smart contract written in Solidity or Vyper.
+    -  Executes smart contract written in Solidity or Vyper
 - Data Structures:
     -   Stores state in a database (LevelDB)
     -  Uses Merkle Patricia Tree for efficient transaction and state storage
