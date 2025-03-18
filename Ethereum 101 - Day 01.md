@@ -87,7 +87,7 @@ Types of Decentralization:
 - Logical decentralization
 
 Different Units of Ether: 
-- 
+
 
 
 
