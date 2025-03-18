@@ -73,7 +73,7 @@ Core Components
     - If a contract runs out of gas, it stops 
     - This prevents contracts from running forever and keeps Ethereum safe and efficient
 
-- Dapps (Decentralized Applications) shifts from Web
+- DApps (Decentralized Applications) shifts from Web 2.0, where apps runs on decentralized peer-to-peer networks for computing, storage and messaging 
 
 
 
