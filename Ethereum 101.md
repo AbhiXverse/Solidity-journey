@@ -36,7 +36,9 @@ Core Components
 - P2P Network - Runs on Ethereum mainnet, uses TCP port 30303, and follows the DEVp2p protocol.
 - Transactions: Messages containing sender, recipient, value and data payload.
 - State machine:
-    -  Uses the Ethererm
+    -  Uses the Ethereum Virtual Machine (EVM) to process state changes.
+    - Executes smart contract written in Solidity or Vyper.
+    - 
 
 
 
