@@ -71,11 +71,14 @@ Core Components
 - Why gas ? 
     - Gas is like a fuel - every action in a contract uses gas 
     - If a contract runs out of gas, it stops 
-    - This prevents contracts from running forever and keeps Ethereum safe and efficient.
+    - This prevents contracts from running forever and keeps Ethereum safe and efficient
 
-- DApps (Decentralized Applications) shifts from Web 2.0, where apps are controlled by a central authority, to Web 3.0, where apps runs on decentralized peer-to-peer networks for computing, storage and messaging.
+- DApps (Decentralized Applications) shifts from Web 2.0, where apps are controlled by a central authority, to Web 3.0, where apps runs on decentralized peer-to-peer networks for computing, storage and messaging
 
-How Ethereum Powers Web3 
+How Ethereum Powers Web3:
+
+- Computing Power -> Ethereum Blockchain 
+- File Sto
 
 
 
