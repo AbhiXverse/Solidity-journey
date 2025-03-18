@@ -49,8 +49,8 @@ Core Components
     -  Uses Merkle Patricia Tree for efficient transaction and state storage
 
 - Consensus Algorithms:
-    - Bitcoin uses Nakamoto Consensus (proof-of -work) PoW, securing the chain by making it costly to attack
-    - Ethereum originally used PoW(Ethash)
+    - Bitcoin uses Nakamoto Consensus PoW (proof-of -work), securing the chain by making it costly to attack
+    - Ethereum originally used PoW(Ethash) but transitioned to PoS (proof-of-state) in Ethereum 2.0 (Sern)
 
 - Economic Security:
     -  Previously used Ethash (PoW)
