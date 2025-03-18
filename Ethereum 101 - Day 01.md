@@ -57,23 +57,23 @@ Core Components
     - PoS enchances security by requiring validatiors to stake ETH, discouraging malicious behavior
 
 - Software Implementations 
-    - Go-Ethereum (Geth) - Most widely used 
+    - Go-Ethereum (Geth) - Most widely used
     - OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
     - Other clients: Nethermind, Erigon, Turbo-geth
 
 - Halting Problem in Etheruem:
 
-     - Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system 
+     - Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system
 - What is the halting problem:
-    - In Turing-complete system, it's impossible to determine in advance whether a given program will eventually stop or run forever. This is known as the Halting problem
+    - In Turing-complete system, it's impossible to determine in advance whether a given program will eventually stop or run forever.This is known as the Halting problem
 - How does this affect Ethereum ?
     - Since Ethereum runs smart contracts, it cannot predict if a contract will stop or how long it will run. To prevent contracts from running indefinitely and consuming unlimited resources, Ethereum uses a gas system
 - Why gas ? 
     - Gas is like a fuel - every action in a contract uses gas 
     - If a contract runs out of gas, it stops 
-    - This prevents contracts from running forever and keeps Ethereum safe and efficient
+    - This prevents contracts from running forever and keeps Ethereum safe and efficient.
 
-- DApps (Decentralized Applications) shifts from Web 2.0, apps are controlled by a central authority , to Web 3.0, where apps runs on decentralized peer-to-peer networks for computing, storage and messaging 
+- DApps (Decentralized Applications) shifts from Web 2.0, where apps are controlled by a central authority, to Web 3.0, where apps runs on decentralized peer-to-peer networks for computing, storage and messaging.
 
 How Ethereum Powers Web3 
 
