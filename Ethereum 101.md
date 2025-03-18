@@ -38,7 +38,8 @@ Core Components
 - State machine:
     -  Uses the Ethereum Virtual Machine (EVM) to process state changes.
     - Executes smart contract written in Solidity or Vyper.
-    - 
+- Data Structures:
+    -   Stores state in a database (LevelDB) 
 
 
 
