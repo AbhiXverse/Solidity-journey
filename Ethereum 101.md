@@ -50,10 +50,10 @@ Core Components
 
 - Consensus Algorithms:
     - Bitcoin uses Nakamoto Consensus PoW (proof-of -work), securing the chain by making it costly to attack
-    - Ethereum originally used PoW(Ethash) but transitioned to PoS (proof-of-state) in Ethereum 2.0 (Sern)
+    - Ethereum originally used PoW(Ethash) but transitioned to PoS (proof-of-state) in Ethereum 2.0 (Serenity) for better scalability and efficiency
 
 - Economic Security:
-    -  Previously used Ethash (PoW)
+    -  PoW ensured security by making the 51% attack expensive
     -  Now secured by staking in PoS 
 
 - Software Implementations 
