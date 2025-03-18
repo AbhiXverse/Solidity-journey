@@ -34,7 +34,9 @@ How they track transactions ?
 Core Components 
 
 - P2P Network - Runs on Ethereum mainnet, uses TCP port 30303, and follows the DEVp2p protocol.
-- Transactions: Messages containing 
+- Transactions: Messages containing sender, recipient, value and data payload.
+- State machine:
+    -  Uses the Ethererm
 
 
 
