@@ -63,7 +63,9 @@ Core Components
 
 - Halting Problem in Etheruem:
 
-     -  Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory 
+     -  Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system 
+
+- What is the halting problem:
 
 
 
