@@ -46,7 +46,9 @@ Core Components
     -  Now secured by staking in PoS 
 - Software Implementations 
     -  Go-Ethereum (Geth) - Most widely used 
-    -  OpenEthereum - Deprecated, transitioning to Erigon 
+    -  OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
+    - Other clients: Nethermind, Erigon, Turbo-geth
+- 
 
 
 
