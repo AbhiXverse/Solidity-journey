@@ -86,7 +86,8 @@ Types of Decentralization:
 - Political decentralization 
 - Logical decentralization
 
-How Ether is divided 
+Different Units of Ether: 
+- 
 
 
 
