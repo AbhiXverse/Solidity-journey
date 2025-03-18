@@ -78,7 +78,8 @@ Core Components
 How Ethereum Powers Web3:
 
 - Computing Power -> Ethereum Blockchain 
-- File Sto
+- File Storage -> Swarm 
+- Messaging -> Waku (previously whisper)
 
 
 
