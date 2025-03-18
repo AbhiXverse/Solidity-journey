@@ -72,7 +72,8 @@ Core Components
     - Gas acts as a meter that limits how much       computation a contract can perform 
     - Users must pay gas fees to execute smart contract, ensuring efficient use of network resources
     - If a contract runs out of gas, it stops execution
-    
+
+
 
 
 
