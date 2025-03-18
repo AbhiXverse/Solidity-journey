@@ -71,7 +71,7 @@ Core Components
 - Why gas ? 
     - Gas is like a fuel - every action in a contract uses gas 
     - If a contract runs out of gas, it stops 
-    - 
+    - This prevents contracts from running forever and keeps Ethereum safe and efficient
 
 
 
