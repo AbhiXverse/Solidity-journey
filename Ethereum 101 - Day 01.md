@@ -87,7 +87,8 @@ Types of Decentralization:
 - Logical decentralization
 
 Different Units of Ether: 
-- Wei   =>  
+-  Wei   =>  1 Wei 
+-  Babbage 
 
 
 
