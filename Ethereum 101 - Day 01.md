@@ -88,7 +88,10 @@ Types of Decentralization:
 
 Different Units of Ether: 
 -  Wei   =>  1 Wei 
--  Babbage 
+-  Babbage =>  10 ** 3 Wei 
+-  Lovelace  =>  10 ** 6 Wei 
+-  Shannon  =>  10 ** 9 Wei 
+-  Szabo  =>.  
 
 
 
