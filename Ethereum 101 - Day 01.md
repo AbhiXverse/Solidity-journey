@@ -37,7 +37,7 @@ Core Components
 - Unlike traditional client-server models, Ethereum nodes interact as peers, exchanging messages
 
 - Transactions: 
-    -  Messages containing sender, recipient, value and data payload
+    - Messages containing sender, recipient, value and data payload
     - Transactions modify the state and trigger smart contract execution
 
 - State machine (EVM):
@@ -70,7 +70,7 @@ Core Components
     - Since Ethereum runs smart contracts, it cannot predict if a contract will stop or how long it will run. To prevent contracts from running indefinitely and consuming unlimited resources, Ethereum uses a gas system
 - Why gas ? 
     - Gas acts as a meter that limits how much       computation a contract can perform 
-    - 
+    - Users must pay gas fees to execute smart contract 
 
 
 
