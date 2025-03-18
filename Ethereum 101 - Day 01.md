@@ -96,7 +96,9 @@ Different Units of Ether:
 -  Ether       =>  10 ** 18 Wei 
 
 - Gwei (Shannon): Used for gas fees in Etheruem transactions
-- Wei: The smallest and most 
+- Wei: The smallest and most fundamental unit 
+
+
 
 
 
