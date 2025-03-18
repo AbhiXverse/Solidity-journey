@@ -86,7 +86,7 @@ Types of Decentralization:
 - Political decentralization 
 - Logical decentralization
 
-
+How Ehter is divided 
 
 
 
