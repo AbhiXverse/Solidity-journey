@@ -42,7 +42,9 @@ Core Components
     -   Stores state in a database (LevelDB)
     -  Uses Merkle Patricia Tree for efficient transaction and state storage
 - Economic Security:
-   -  
+    -  Previously used Ethash (PoW)
+    -  Now secured by staking in PoS 
+- Software 
 
 
 
