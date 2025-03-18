@@ -44,7 +44,9 @@ Core Components
 - Economic Security:
     -  Previously used Ethash (PoW)
     -  Now secured by staking in PoS 
-- Software 
+- Software Implementations 
+    -  Go-Ethereum (Geth) - Most widely used 
+    -  OpenEthereum - Deprecated, transitioning to Erigon 
 
 
 
