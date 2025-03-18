@@ -81,6 +81,10 @@ How Ethereum Powers Web3:
 - File Storage -> Swarm 
 - Messaging -> Waku (previously whisper)
 
+Types of Decentralization:
+
+- 
+
 
 
 
