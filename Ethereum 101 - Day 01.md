@@ -91,7 +91,9 @@ Different Units of Ether:
 -  Babbage =>  10 ** 3 Wei 
 -  Lovelace  =>  10 ** 6 Wei 
 -  Shannon  =>  10 ** 9 Wei 
--  Szabo  =>.  
+-  Szabo      =>  10 ** 12 Wei 
+-  Finnay     =>  10 ** 15 Wei 
+-  Ether       =>  10 ** 18 Wei 
 
 
 
