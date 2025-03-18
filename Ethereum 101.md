@@ -63,7 +63,7 @@ Core Components
 
 - Halting Problem in Etheruem:
 
-     -  Ethereum's Ethereum Virtual machine
+     -  Ethereum's Ethereum Virtual Machine (EVM) can read and write 
 
 
 
