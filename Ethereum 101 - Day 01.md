@@ -70,7 +70,7 @@ Core Components
     - Since Ethereum runs smart contracts, it cannot predict if a contract will stop or how long it will run. To prevent contracts from running indefinitely and consuming unlimited resources, Ethereum uses a gas system
 - Why gas ? 
     - Gas acts as a meter that limits how much       computation a contract can perform 
-    - Users must pay gas fees to execute smart contract 
+    - Users must pay gas fees to execute smart contract, ensuring efficient use of network r
 
 
 
