@@ -50,7 +50,7 @@ Core Components
 
 - Consensus Algorithms:
     - Bitcoin uses Nakamoto Consensus PoW (proof-of -work), securing the chain by making it costly to attack
-    - Ethereum originally used PoW(Ethash) but transitioned to PoS (proof-of-state) in Ethereum 2.0 (Serenity) for better scalability and efficiency
+    - Ethereum originally used PoW (Ethash) but transitioned to PoS (proof-of-state) in Ethereum 2.0 (Serenity) for better scalability and efficiency
 
 - Economic Security:
     -  PoW ensured security by making the 51% attack expensive
@@ -59,11 +59,11 @@ Core Components
 - Software Implementations 
     -  Go-Ethereum (Geth) - Most widely used 
     -  OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
-    - Other clients: Nethermind, Erigon, Turbo-geth
+    -  Other clients: Nethermind, Erigon, Turbo-geth
 
 - Halting Problem in Etheruem:
 
-     -  
+     -  Ethereum's Ethereum Virtual machine
 
 
 
