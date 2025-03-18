@@ -82,8 +82,11 @@ How Ethereum Powers Web3:
 - Messaging -> Waku (previously whisper)
 
 Types of Decentralization:
+- Architectural decentralization 
+- Political decentralization 
+- Logical decentralization
 
-- 
+
 
 
 
