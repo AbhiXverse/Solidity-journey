@@ -61,6 +61,11 @@ Core Components
     -  OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
     - Other clients: Nethermind, Erigon, Turbo-geth
 
+- Halting Problem in Etheruem:
+
+     -  
+
+
 
 
 
