@@ -45,8 +45,11 @@ Core Components
     -  Executes smart contract written in Solidity or Vyper
 
 - Data Structures:
-    -   Stores state in a database (LevelDB)
+    -  Stores state in a database (LevelDB)
     -  Uses Merkle Patricia Tree for efficient transaction and state storage
+
+- Consensus Algorithms:
+    -  Bitcoin uses Na
 
 - Economic Security:
     -  Previously used Ethash (PoW)
