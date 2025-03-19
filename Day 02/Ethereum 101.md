@@ -51,11 +51,11 @@ Smart Contract in Ethereum
 
 - Smart contract are self-executing stored on the Ethereum blockchain 
 - Smart contact can - 
-     - Store and manage data persistently 
+     - Store and manage data 
      - Execute functions automatically when triggered by a transaction
      - Send and receive Ether 
      - Call other contracts 
- - Smart contract have their own address and cannot initiate transactions themselves 
+ - Smart contract have their own address and cannot send transactions by themselves 
  - Executed when an external transaction or another smart contract calls them
 
      
