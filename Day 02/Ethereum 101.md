@@ -49,6 +49,6 @@ Transaction in Ethereum:-
 
 Smart Contract in Ethereum 
 
-- 
+- Smart contract are self-execut
      
 
