@@ -66,5 +66,11 @@ Ethereum Clients and Nodes :-
      - Sharing transactions with others in the network 
      - Validating blocks 
      - storing blockchain history 
+
+Ethereum State & Merkle Patricia Tree :- 
+
+- Ethereum state is stored 
+
+
     
 
