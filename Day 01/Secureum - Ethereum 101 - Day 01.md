@@ -95,7 +95,7 @@ Different Units of Ether:
 -  Finney     =>  10 ** 15 Wei 
 -  Ether       =>  10 ** 18 Wei 
 
-- Gwei (Shannon): Used for gas fees in Etheruem transactions
+- Gwei (Shannon): Used for gas fees in Etheruem transactions.
 - Wei: The smallest and most fundamental unit.
 
 
