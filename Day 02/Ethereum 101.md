@@ -8,7 +8,7 @@ Cryptography in Ethereum:-
 - Digital Signature Algorithm used: ECDSA (Elliptic Curve Digital Signature Algorithm)
 - Elliptic Curve Cryptography (ECC): A method of public-key cryptography using mathematical properties of elliptic curves
 - Curve used: SECP-256K1 (same as Bitcoin)
-- Keys:
+- Keys -
     - Private key: A 256-bit random number, secret, used to generate the public key
     - Public key: Generated from the private key and used to derive the Ethereum address 
 - Ethereum addresses: Derived from the last 20 bytes of the Keccak-256 hash of the public key
@@ -20,5 +20,8 @@ Ethereum Accounts:-
      1. Externally Owned Accounts (EOAs): Controlled by private keys
      2. Contract Accounts: Controlled by smart contract code
 - Fields in an Ethereum accounts -
-    - Nonce: 
+    - Nonce: Prevents duplicate transactions
+    - Balance: Account of Ether held 
+    - Contract code: Present only in contract accounts 
+    - Storage: Stores contraxr
 
