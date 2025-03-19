@@ -8,6 +8,6 @@
  - Structs: Use struct to create custom data types 
  - Strings: Special type in solidity; must specify memory or calldata 
  - Mapping: Stores key-value pairs.
- - Only
+ - Data storage locations: Only special types like strings, structs, tuples need memory or calldata 
  - 
 
