@@ -36,6 +36,8 @@ Transaction in Ethereum:-
      - Recipient: Address receiving the transaction
      - Value: Amount of Ether being sent
      - Data: Extra information, mainly for smart contract 
-     - v, r 
+     - v, r, s : Digital signature values verifying transaction authenticity
+ - Types of transaction - 
+ - 
      
 
