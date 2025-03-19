@@ -99,6 +99,9 @@ Different Units of Ether:
 - Wei: The smallest and most fundamental unit 
 
 
+[[Day 02]]
+
+
 
 
 
