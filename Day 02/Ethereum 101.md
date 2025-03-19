@@ -55,6 +55,8 @@ Smart Contract in Ethereum
      - Execute functions automatically when triggered by a transaction
      - Send and receive Ether 
      - Call other contracts 
- - Smart contract have their own address and cannot initiate transactions themsel
+ - Smart contract have their own address and cannot initiate transactions themselves 
+ - Executed when an external transaction or another smart contract calls them
+
      
 
