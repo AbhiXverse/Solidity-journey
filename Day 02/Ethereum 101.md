@@ -10,4 +10,7 @@ Cryptography in Ethereum
 - Curve used: SECP-256K1 (same as Bitcoin)
 - Keys:
     - Private key: A 256-bit random number, secret, used to generate the public key
-    - Public key: Generated from the private key and used to derivv
+    - Public key: Generated from the private key and used to derive the Ethereum address 
+- Ethereum addresses: Derived from the last 20 bytes of the Keccak-256 hash of the public key
+
+
