@@ -42,6 +42,8 @@ Transaction in Ethereum:-
      - Contract creation transactions: Deploying new smart contracts
      - Contract interaction transactions: Calling functions in deployed smart contracts
  - Transactions properties - 
-     - 
+     - Atomic: Either fully executes or fails (all - or - nothing)
+     - Serial: Processed one after another 
+     - Inclusion: Depends on network cogestion and gads 
      
 
