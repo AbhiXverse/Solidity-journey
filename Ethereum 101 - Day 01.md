@@ -1,14 +1,14 @@
 
 Ethereum is "A Next-Generation Smart Contract and Decentralized Application"
 
-Purpose 
+Purpose:
 
 - Ethereum is more than just a currency or payment network 
 - It has a native currency called Ether (Eth)
 - Ether is needed to run ay part of ethereum platform 
 - It acts as a utility token for using the ethereum platform 
 
-Programming language 
+Programming language:
 
 - Bitcoin uses a simple scripting language called Script
 - This language is limited and only checks if a transaction is true or false 
@@ -31,7 +31,7 @@ How they track transactions ?
     - It tracks not only the Ether ownership but also the state of smart contract 
     - Transaction can change the state of contracts and interact with decentralized applications (Dapps)
 
-Core Components 
+Core Components:
 
 - P2P Network - Runs on Ethereum mainnet, uses TCP port 30303, and follows the DEVp2p protocol
 - Unlike traditional client-server models, Ethereum nodes interact as peers, exchanging messages
@@ -56,7 +56,7 @@ Core Components
     - PoW ensured security by making the 51% attack expensive
     - PoS enchances security by requiring validatiors to stake ETH, discouraging malicious behavior
 
-- Software Implementations 
+- Software Implementations:
     - Go-Ethereum (Geth) - Most widely used
     - OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth)
     - Other clients: Nethermind, Erigon, Turbo-geth
