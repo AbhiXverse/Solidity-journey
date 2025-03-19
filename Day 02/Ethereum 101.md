@@ -23,5 +23,9 @@ Ethereum Accounts:-
     - Nonce: Prevents duplicate transactions
     - Balance: Account of Ether held 
     - Contract code: Present only in contract accounts 
-    - Storage: Stores contraxr
+    - Storage: Stores contract data, initially empty
+
+Transaction in Ethereum:- 
+
+- A tran is a 
 
