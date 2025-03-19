@@ -29,5 +29,7 @@ Transaction in Ethereum:-
 
 - A transaction is a signed message that changes Ethereum's state 
 - Transaction are created by EOAs and broadcasted to the network 
-- Compone
+- Components of a transaction: 
+     - Nonce: Transaction count from the sender's account 
+     - Gas price: Fee per gas uint
 
