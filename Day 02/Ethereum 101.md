@@ -31,5 +31,8 @@ Transaction in Ethereum:-
 - Transaction are created by EOAs and broadcasted to the network 
 - Components of a transaction: 
      - Nonce: Transaction count from the sender's account 
-     - Gas price: Fee per gas uint
+     - Gas price: Fee per gas uint (measured in Wei) 
+     - Gas limit: Maximum gas allowed for the transaction
+     - Recipient: Address receiving the transaction
+     - Value: Amoint 
 
