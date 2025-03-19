@@ -69,7 +69,9 @@ Ethereum Clients and Nodes :-
 
 Ethereum State & Merkle Patricia Tree :- 
 
-- Ethereum state is stored 
+- Ethereum state is stored using a modified Merkle Patricia Tree (MPT)
+- MPT ensures efficient storage and verification of Ehtereum's state 
+- Tree 
 
 
     
