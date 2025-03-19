@@ -6,4 +6,7 @@ Cryptography in Ethereum
 - Ethereum uses asymmetric cryptography for digital signatures 
   (not for encryption)
 - Digital Signature Algorithm used: ECDSA (Elliptic Curve Digital Signature Algorithm)
-- Elliptic Curve Cryptography (ECC): A method of public-key cryptography using mathematical propert
+- Elliptic Curve Cryptography (ECC): A method of public-key cryptography using mathematical properties of elliptic curves
+- Curve used: SECP-256K1 (same as Bitcoin)
+- Keys:
+    - Private key: A 256-bit random number,
