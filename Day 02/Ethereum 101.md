@@ -9,4 +9,5 @@ Cryptography in Ethereum
 - Elliptic Curve Cryptography (ECC): A method of public-key cryptography using mathematical properties of elliptic curves
 - Curve used: SECP-256K1 (same as Bitcoin)
 - Keys:
-    - Private key: A 256-bit random number,
+    - Private key: A 256-bit random number, secret, used to generate the public key
+    - Public key: Generated from the private key and used to derivv
