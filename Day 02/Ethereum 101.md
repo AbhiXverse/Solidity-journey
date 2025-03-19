@@ -38,6 +38,7 @@ Transaction in Ethereum:-
      - Data: Extra information, mainly for smart contract 
      - v, r, s : Digital signature values verifying transaction authenticity
  - Types of transaction - 
- - 
+     - Value transfer transactions: Sending Ether from one account to another 
+     - Contract creation 
      
 
