@@ -58,5 +58,7 @@ Smart Contract in Ethereum
  - Smart contract have their own address and cannot send transactions by themselves 
  - Executed when an external transaction or another smart contract calls them
 
-     
+Ethereum Clients and Nodes :- 
+
+- Nodes: Computers running Ethereum software, storing blockchain 
 
