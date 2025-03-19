@@ -34,5 +34,8 @@ Transaction in Ethereum:-
      - Gas price: Fee per gas uint (measured in Wei) 
      - Gas limit: Maximum gas allowed for the transaction
      - Recipient: Address receiving the transaction
-     - Value: Amoint 
+     - Value: Amount of Ether being sent
+     - Data: Extra information, mainly for smart contract 
+     - v, r 
+     
 
