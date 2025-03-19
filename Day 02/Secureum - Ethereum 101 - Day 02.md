@@ -74,5 +74,5 @@ Ethereum State & Merkle Patricia Tree :-
 - Tree structure - 
      - Leaf nodes: Contains account data 
      - Intermediate nodes: Hashes of child nodes 
-     - Root node: The top hash representing the entire state.
+     - Root node: The top hash representing the entire state. hi 
 
