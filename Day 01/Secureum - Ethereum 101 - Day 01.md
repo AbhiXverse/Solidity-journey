@@ -1,4 +1,6 @@
 
+[[Secureum - Ethereum 101 - Day 01]]
+
 Ethereum is "A Next-Generation Smart Contract and Decentralized Application"
 
 Purpose:
