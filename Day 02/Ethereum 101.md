@@ -39,6 +39,9 @@ Transaction in Ethereum:-
      - v, r, s : Digital signature values verifying transaction authenticity
  - Types of transaction - 
      - Value transfer transactions: Sending Ether from one account to another 
-     - Contract creation 
+     - Contract creation transactions: Deploying new smart contracts
+     - Contract interaction transactions: Calling functions in deployed smart contracts
+ - Transactions properties - 
+     - 
      
 
