@@ -27,5 +27,7 @@ Ethereum Accounts:-
 
 Transaction in Ethereum:- 
 
-- A tran is a 
+- A transaction is a signed message that changes Ethereum's state 
+- Transaction are created by EOAs and broadcasted to the network 
+- Compone
 
