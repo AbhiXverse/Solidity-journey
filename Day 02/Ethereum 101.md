@@ -27,7 +27,7 @@ Ethereum Accounts:-
 
 Transaction in Ethereum:- 
 
-- A transaction is a signed message that changes Ethereum's state 
+- A transaction is a signed message that changes Ethereum's state
 - Transaction are created by EOAs and broadcasted to the network 
 - Components of a transaction: 
      - Nonce: Transaction count from the sender's account 
@@ -47,6 +47,8 @@ Transaction in Ethereum:-
      - Inclusion: Depends on network congestion and gas fees 
      - Order: Miners decide transaction order based on gas fees
 
-Smart Coi
+Smart Contract in Ethereum 
+
+- 
      
 
