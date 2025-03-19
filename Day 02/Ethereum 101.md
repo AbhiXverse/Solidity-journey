@@ -44,6 +44,9 @@ Transaction in Ethereum:-
  - Transactions properties - 
      - Atomic: Either fully executes or fails (all - or - nothing)
      - Serial: Processed one after another 
-     - Inclusion: Depends on network cogestion and gads 
+     - Inclusion: Depends on network congestion and gas fees 
+     - Order: Miners decide transaction order based on gas fees
+
+Smart Coi
      
 
