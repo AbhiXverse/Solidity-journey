@@ -16,7 +16,9 @@ Cryptography in Ethereum:-
 Ethereum Accounts:-
 
 - Ethereum accounts store and manage funds and transaction 
-- Two types of accounts 
+- Two types of accounts -
      1. Externally Owned Accounts (EOAs): Controlled by private keys
-     2. Contract Accounts: 
+     2. Contract Accounts: Controlled by smart contract code
+- Fields in an Ethereum accounts -
+    - Nonce: 
 
