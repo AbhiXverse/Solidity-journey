@@ -49,6 +49,9 @@ Transaction in Ethereum:-
 
 Smart Contract in Ethereum 
 
-- Smart contract are self-execut
+- Smart contract are self-executing stored on the Ethereum blockchain 
+- Smart contact can - 
+     - Store data persistently 
+     - Execute functions automatically when
      
 
