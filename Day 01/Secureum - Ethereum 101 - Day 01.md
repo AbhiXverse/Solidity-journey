@@ -3,18 +3,18 @@ Ethereum is "A Next-Generation Smart Contract and Decentralized Application"
 
 Purpose:
 
-- Ethereum is more than just a currency or payment network 
-- It has a native currency called Ether (Eth)
-- Ether is needed to run ay part of ethereum platform 
-- It acts as a utility token for using the ethereum platform 
+- Ethereum is more than just a currency or payment network.
+- It has a native currency called Ether (Eth).
+- Ether is needed to run ay part of ethereum platform.
+- It acts as a utility token for using the ethereum platform.
 
 Programming language:
 
-- Bitcoin uses a simple scripting language called Script
-- This language is limited and only checks if a transaction is true or false 
-- In Ethereum, it supports EVM (Ethereum Virtual Machine)
-- EVM is designed to be a general-purpose computing platform 
-- it is Turing complete, meaning it can handle any logic or computation 
+- Bitcoin uses a simple scripting language called Script.
+- This language is limited and only checks if a transaction is true or false.
+- In Ethereum, it supports EVM (Ethereum Virtual Machine).
+- EVM is designed to be a general-purpose computing platform. 
+- It is Turing complete, meaning it can handle any logic or computation 
 
 What Ethereum can do?
 
