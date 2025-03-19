@@ -60,5 +60,8 @@ Smart Contract in Ethereum
 
 Ethereum Clients and Nodes :- 
 
-- Nodes: Computers running Ethereum software, storing blockchain 
+- Nodes: Computers running Ethereum software, storing blockchain data 
+- Clients: Implementations of Ethereum protocol (e.g, Get, OpenEtheruem)
+- Nodes perform tasks like - 
+     - 
 
