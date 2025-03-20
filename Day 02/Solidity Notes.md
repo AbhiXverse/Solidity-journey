@@ -54,24 +54,22 @@ Sending Transaction & funds
 Three ways to send funds: 
 e.g: check example in the code notes  modifier notes on [[Solidity Notes]]
 
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
+`// SPDX-License-Identifier: MIT`
+`pragma solidity ^0.8.18;`
 
-[^1]contract Example {
-    address public owner;
+`contract Example {`
+    `address public owner;`
 
-    constructor() {
-        owner = msg.sender;
-    }
+    `constructor() {`
+        `owner = msg.sender;`
+    `}`
 
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Not the owner");
-        _;
-    }
+    `modifier onlyOwner() {`
+        `require(msg.sender == owner, "Not the owner");`
+        `_;`
+    `}`
 
-    function withdraw() public onlyOwner {
-        payable(owner).transfer(address(this).balance);
-    }
-}
-
-[^1]: 
+    `function withdraw() public onlyOwner {`
+        `payable(owner).transfer(address(this).balance);`
+    `}`
+`}`
