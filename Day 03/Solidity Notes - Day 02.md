@@ -9,8 +9,11 @@
 - Example of Interface: 
      - e.g:-  
 ```
-interface MyInterface  { function getValue() external view returns (uint256);  }
+interface MyInterface  {
+function getValue() external view returns (uint256);
+}
 ```
+
      - this only defines the function getValue(), but does not include any logic inside it.
  - No decimals in solidity: Only whole numbers exist. To store decimal values, you usually multiply by 10^18 (Eth's smallest unit Wei)
 
