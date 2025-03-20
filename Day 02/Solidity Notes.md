@@ -54,16 +54,10 @@ Sending Transaction & funds
 Three ways to send funds: 
 e.g: check example in the code notes  modifier notes on [[Solidity Notes]]
 
-
-
-
-
-
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-contract Example {
+[^1]contract Example {
     address public owner;
 
     constructor() {
@@ -79,3 +73,5 @@ contract Example {
         payable(owner).transfer(address(this).balance);
     }
 }
+
+[^1]: 
