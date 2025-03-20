@@ -52,9 +52,30 @@ Sending Transaction & funds
     -  e.g:  [ payable(msg.sender); ]
 
 Three ways to send funds: 
-e.g: check example in the code notes  modifier notes on [[code ]]
+e.g: check example in the code notes  modifier notes on [[code exmaples]]
 
 
 
 
 
+
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.18;
+
+contract Example {
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not the owner");
+        _;
+    }
+
+    function withdraw() public onlyOwner {
+        payable(owner).transfer(address(this).balance);
+    }
+}
