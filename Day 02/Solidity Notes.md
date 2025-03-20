@@ -21,8 +21,8 @@ Inheritance & Function Modifiers
 - Payment & Transactions 
     - Payable functions: Allow contract to receive Eth.
     - Checking payment value: Use **msg.value**, which represent the amount in Wei 
-    - Require statement: Ensures conditions are met, E.g 
-        - [require(msg.value > 1e18);  // Requires at least 1 Eth]
+    - Require statement: Ensures conditions are met,
+        - e.g:-  [require(msg.value > 1e18);      // Requires at least 1 Eth]
     - Nonce: Counts the number of transaction for an account
 
 - Oracles & External data:
