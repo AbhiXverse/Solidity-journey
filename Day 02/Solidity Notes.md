@@ -12,5 +12,5 @@
 
 Inheritance & Function Modifiers 
 
-- Inheritance: Use the **is** keyword 
+- Inheritance: Use the **is** keyword (like)
 
