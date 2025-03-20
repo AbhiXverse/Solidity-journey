@@ -7,14 +7,13 @@
      - They only define function names but don't include the actual code.
      - When compiled, they generate an ABI (Application Binary Interface), which helps other contract or apps interact with them.
 - Example of Interface: 
-     - e.g:-  
 ```
 interface MyInterface  {
 function getValue() external view returns (uint256);
 }
 ```
+ - this only defines the function getValue(), but does not include any logic inside it.
 
- -  this only defines the function getValue(), but does not include any logic inside it.
  - No decimals in solidity: Only whole numbers exist. To store decimal values, you usually multiply by 10^18 (Eth's smallest unit Wei)
 
 Sending Transaction & funds :- 
