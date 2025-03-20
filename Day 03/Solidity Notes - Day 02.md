@@ -1,8 +1,8 @@
+[Solidity-journey /Day 02/Solidity Notes] - 02
 
 
-
-
- Contract Interface & Number Handling: 
+ - Contract Interface & Number Handling: 
+ 
      -  Interface are like a list of rules a contract must follow 
      - They only define function names but don't include the actual code.
      - When compiled, they generate an ABI (Application Binary Interface), which helps other contract or apps interact with them.
@@ -11,7 +11,7 @@
      - this only defines the function getValue(), but does not include any logic inside it.
  - No decimals in solidity: Only whole numbers exist. To store decimal values, you usually multiply by 10^18 (Eth's smallest unit Wei)
 
-Sending Transaction & funds 
+Sending Transaction & funds :- 
 
 - How transaction works: 
      - Every transaction in Ethereum is just an HTTP post request sent t oa node (RPC provider)
