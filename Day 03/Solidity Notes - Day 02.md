@@ -30,4 +30,4 @@ Sending Transaction & funds :-
         - auto-reverts if the transaction fails 
     - send:
         - also has gas limit 2300
-        - returns false in
+        - returns false instead of reverting, so you must manually check 
