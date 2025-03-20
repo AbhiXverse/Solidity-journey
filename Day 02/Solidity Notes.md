@@ -12,5 +12,5 @@
 
 Inheritance & Function Modifiers 
 
-- Inheritance: Use the **is** keyword (like)
+- Inheritance: Use the **is** keyword - like a contract can use the **is** 
 
