@@ -31,9 +31,9 @@ payable(msg.sender);
      - transfer 
      - send 
      - call 
- - Difference between transfer, send & call is :- 
+ - Difference between transfer, send & call is :-
      - transfer: 
-        - has a gas limit of 2300 t oprevent reentrancy attacks 
+        - has a gas limit of 2300 to prevent reentrancy attacks 
         - auto-reverts if the transaction fails 
     - send:
         - also has gas limit 2300
