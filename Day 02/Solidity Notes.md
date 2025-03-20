@@ -25,5 +25,7 @@ Inheritance & Function Modifiers
         - [require(msg.value > 1e18);  // Requires at least 1 Eth]
     - Nonce: Counts the number of transaction for an account
 
-- 
+- Oracles & External data:
+    - Oracles & chainlink: Help smart contract access real-world data
+    - Smart contract can't directly 
 
