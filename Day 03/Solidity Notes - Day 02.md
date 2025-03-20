@@ -45,5 +45,3 @@ payable(msg.sender);
 (bool success, bytes memory data) = payable(msg.sender).call{value: address(this). balance}(""); 
 require(success, "Transfer failed");
 ```
-
-[^1]: 
