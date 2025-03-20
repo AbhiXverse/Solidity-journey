@@ -48,28 +48,8 @@ Sending Transaction & funds
      - Every transaction in Ethereum is just an HTTP post request sent t oa node (RPC provider)
          - RPC Provider:- RPC stands for **Remote Procedure Call** in Etheruem is like a gateway that allows your computer or application to interact with the Ethereum blockchain.
  - Only "payable" addresses can receiver funds.
- - convert an address to payable :- 
+ - Convert an address to payable :- 
     -  e.g:  [ payable(msg.sender); ]
 
 Three ways to send funds: 
-e.g: check example in the code notes  modifier notes on [[Solidity Notes]]
 
-`// SPDX-License-Identifier: MIT`
-`pragma solidity ^0.8.18;`
-
-`contract Example {`
-    `address public owner;`
-
-    `constructor() {`
-        `owner = msg.sender;`
-    `}`
-
-    `modifier onlyOwner() {`
-        `require(msg.sender == owner, "Not the owner");`
-        `_;`
-    `}`
-
-    `function withdraw() public onlyOwner {`
-        `payable(owner).transfer(address(this).balance);`
-    `}`
-`}`
