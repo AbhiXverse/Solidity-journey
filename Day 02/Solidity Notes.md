@@ -9,5 +9,6 @@
  - Strings: Special type in solidity; must specify memory or calldata 
  - Mapping: Stores key-value pairs.
  - Data storage locations: Only special types like strings, structs, tuples need memory or calldata 
- - 
+
+Inheritance & Fu
 
