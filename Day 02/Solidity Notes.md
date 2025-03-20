@@ -34,6 +34,8 @@ Inheritance & Function Modifiers
     - Oracles Problem: Smart contract must work in a predictable way, so they can't directly use things like random numbers or data from external APIs.
 
 - Contract Interface & Number Handling: 
-     -  Interface are like a list of rules 
+     -  Interface are like a list of rules a contract must follow 
+     - They only define function names but don't include the actual code.
+     - When compiled, they generate an ABI (Application Binary Inf)
 
 
