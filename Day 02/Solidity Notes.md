@@ -20,5 +20,6 @@ Inheritance & Function Modifiers
 - Payment & Transactions 
     - Payable functions: Allow contract to receive Eth.
     - Checking payment value: Use **msg.value**, which represent the amount in Wei 
-    - Require statement:
+    - Require statement: Ensures conditions are met, E.g 
+        - [require(msg.value > 1e18);  // Requires at least ]
 
