@@ -52,6 +52,7 @@ Sending Transaction & funds
     -  e.g:  [ payable(msg.sender); ]
 
 Three ways to send funds: 
+e.g: check example in the code notes - [[solidity code note]]
 
 
 
