@@ -46,6 +46,9 @@ Sending Transaction & funds
 
 - How transaction works: 
      - Every transaction in Ethereum is just an HTTP post request sent t oa node (RPC provider)
-         - RPC Provider:- RPC stands for **Remote Procedure Call** in Etheruem is like a gateway that allows your computer or application to interact with the Ethereum b
+         - RPC Provider:- RPC stands for **Remote Procedure Call** in Etheruem is like a gateway that allows your computer or application to interact with the Ethereum blockchain.
+ - Only "payable" addresses can receiver funds.
+ - convert an address to payable :- 
+    -  e.g:  [pa]
 
 
