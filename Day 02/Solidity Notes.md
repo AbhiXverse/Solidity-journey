@@ -49,6 +49,9 @@ Sending Transaction & funds
          - RPC Provider:- RPC stands for **Remote Procedure Call** in Etheruem is like a gateway that allows your computer or application to interact with the Ethereum blockchain.
  - Only "payable" addresses can receiver funds.
  - convert an address to payable :- 
-    -  e.g:  [pa]
+    -  e.g:  [ payable(msg.sender); ]
+
+Three ways to send funds: 
+
 
 
