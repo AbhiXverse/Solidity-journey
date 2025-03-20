@@ -32,5 +32,6 @@ Inheritance & Function Modifiers
          - Make external calls
          - Access off-chain data 
     - Oracles Problem: Smart contract must work in a predictable way, so they can't directly use things like random numbers or data from external APIs.
-- 
+
+- Contract Interface & Number Handling
 
