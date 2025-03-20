@@ -32,4 +32,6 @@ Sending Transaction & funds :-
         - also has gas limit 2300
         - returns false instead of reverting, so you must manually check if it worked 
     - call: 
-        - more flexible, can send Eth and even call any function without neding the contract's ABI 
+        - more flexible, can send Eth and even call any function without needing the contract's ABI
+        - e.g:-  (bool success, bytes memory data) = payable(msg.sender).call{}
+
