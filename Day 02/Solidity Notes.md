@@ -37,6 +37,8 @@ Inheritance & Function Modifiers
      -  Interface are like a list of rules a contract must follow 
      - They only define function names but don't include the actual code.
      - When compiled, they generate an ABI (Application Binary Interface), which helps other contract or apps interact with them.
-- 
+- Example of Interface: 
+     - e.g:-  [interface MyInterface  { 
+                function getValue  }] 
 
 
