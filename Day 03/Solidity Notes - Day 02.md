@@ -7,7 +7,10 @@
      - They only define function names but don't include the actual code.
      - When compiled, they generate an ABI (Application Binary Interface), which helps other contract or apps interact with them.
 - Example of Interface: 
-     - e.g:-  [interface MyInterface  { function getValue() external view returns (uint256);  }]
+     - e.g:-  
+```
+interface MyInterface  { function getValue() external view returns (uint256);  }
+```
      - this only defines the function getValue(), but does not include any logic inside it.
  - No decimals in solidity: Only whole numbers exist. To store decimal values, you usually multiply by 10^18 (Eth's smallest unit Wei)
 
@@ -17,8 +20,10 @@ Sending Transaction & funds :-
      - Every transaction in Ethereum is just an HTTP post request sent to a node (RPC provider)
          - RPC Provider:- RPC stands for **Remote Procedure Call** in Etheruem is like a gateway that allows your computer or application to interact with the Ethereum blockchain.
  - Only "payable" addresses can receiver funds.
- - Convert an address to payable :- 
-    -  e.g:  [ payable(msg.sender); ]
+ - Convert an address to payable :- e.g:
+```
+[ payable(msg.sender); ]
+```
 
 - Three ways to send funds : 
      - transfer 
@@ -33,7 +38,7 @@ Sending Transaction & funds :-
         - returns false instead of reverting, so you must manually check if it worked 
     - call: 
         - more flexible, can send Eth and even call any function without needing the contract's ABI.
-        - e.g:
+        - e.g:-
 ```
 (bool success, bytes memory data) = payable(msg.sender).call{value: address(this). balance}(""); 
 require(success, "Transfer failed");
