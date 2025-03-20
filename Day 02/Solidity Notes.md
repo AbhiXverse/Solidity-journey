@@ -10,7 +10,7 @@
  - Mapping: Stores key-value pairs.
  - Data storage locations: Only special types like strings, structs, tuples need memory or calldata 
 
-Inheritance & Function Modifiers 
+Inheritance & Function Modifiers :-
 
 - Inheritance: 
     - Use the **is** keyword - like a contract can use the **is** keyword to inherit functions and variables from another contract 
@@ -22,10 +22,11 @@ Inheritance & Function Modifiers
     - Payable functions: Allow contract to receive Eth.
     - Checking payment value: Use **msg.value**, which represent the amount in Wei 
     - Require statement: Ensures conditions are met,
-        - e.g:-  [require(msg.value > 1e18);      // Requires at least 1 Eth]
+        - e.g:-  [require(msg.value > 1e18);   // Requires at least 1 Eth]
     - Nonce: Counts the number of transaction for an account
 
 - Oracles & External data:
+
     - Oracles & chainlink: Help smart contract access real-world data
     - Smart contract can't directly - 
          - Connect to API 
