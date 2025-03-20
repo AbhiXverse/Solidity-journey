@@ -31,5 +31,5 @@ Inheritance & Function Modifiers
          - Connect to API 
          - Make external calls
          - Access off-chain data 
-    - Oracles Problem:      
+    - Oracles Problem: Smart contract      
 
