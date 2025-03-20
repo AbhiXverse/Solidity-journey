@@ -12,5 +12,8 @@
 
 Inheritance & Function Modifiers 
 
-- Inheritance: Use the **is** keyword - like a contract can use the **is** 
+- Inheritance: Use the **is** keyword - like a contract can use the **is** keyword to inherit functions and variables from another contract 
+- Overriding: 
+     - Parent function must have **virtual**
+     - 
 
