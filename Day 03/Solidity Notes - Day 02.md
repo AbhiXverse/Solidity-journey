@@ -25,5 +25,9 @@ Sending Transaction & funds :-
      - send 
      - call 
  - Difference between transfer, send & call is :- 
-     - tramsfer: 
-        - has a gas limit of 2300 
+     - transfer: 
+        - has a gas limit of 2300 t oprevent reentrancy attacks 
+        - auto-reverts if the transaction fails 
+    - send:
+        - also has gas limit 2300
+        - returns false in
