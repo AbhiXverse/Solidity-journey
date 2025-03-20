@@ -45,6 +45,6 @@ Inheritance & Function Modifiers
 Sending Transaction & funds 
 
 - How transaction works: 
-     - 
+     - Every transaction in Ethereum is just an HTTP post request sent t oa node ()
 
 
