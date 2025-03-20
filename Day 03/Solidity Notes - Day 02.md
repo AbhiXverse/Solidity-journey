@@ -14,7 +14,7 @@ function getValue() external view returns (uint256);
 }
 ```
 
-         -  this only defines the function getValue(), but does not include any logic inside it.
+ -  this only defines the function getValue(), but does not include any logic inside it.
  - No decimals in solidity: Only whole numbers exist. To store decimal values, you usually multiply by 10^18 (Eth's smallest unit Wei)
 
 Sending Transaction & funds :- 
@@ -25,7 +25,7 @@ Sending Transaction & funds :-
  - Only "payable" addresses can receiver funds.
  - Convert an address to payable :- e.g:
 ```
-[ payable(msg.sender); ]
+payable(msg.sender);
 ```
 
 - Three ways to send funds : 
