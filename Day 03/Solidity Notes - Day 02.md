@@ -19,3 +19,5 @@ Sending Transaction & funds :-
  - Only "payable" addresses can receiver funds.
  - Convert an address to payable :- 
     -  e.g:  [ payable(msg.sender); ]
+
+- 
