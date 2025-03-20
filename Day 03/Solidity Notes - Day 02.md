@@ -20,4 +20,10 @@ Sending Transaction & funds :-
  - Convert an address to payable :- 
     -  e.g:  [ payable(msg.sender); ]
 
-- Three 
+- Three ways to send funds : 
+     - transfer 
+     - send 
+     - call 
+ - Difference between transfer, send & call is :- 
+     - tramsfer: 
+        - has a gas limit of 2300 
