@@ -18,5 +18,6 @@ Inheritance & Function Modifiers
      - Child function must have **override** at the end 
 
 - Payment & Transactions 
-    - 
+    - Payable functions: Allow contract to receive Eth.
+    - Checking payment value: Use **msg.value** 
 
