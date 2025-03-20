@@ -10,5 +10,7 @@
  - Mapping: Stores key-value pairs.
  - Data storage locations: Only special types like strings, structs, tuples need memory or calldata 
 
-Inheritance & Fu
+Inheritance & Function Modifiers 
+
+- Inheritance: Use the **is** keyword 
 
