@@ -27,5 +27,9 @@ Inheritance & Function Modifiers
 
 - Oracles & External data:
     - Oracles & chainlink: Help smart contract access real-world data
-    - Smart contract can't directly 
+    - Smart contract can't directly - 
+         - Connect to API 
+         - Make external calls
+         - Access off-chain data 
+    - Oracles Problem:      
 
