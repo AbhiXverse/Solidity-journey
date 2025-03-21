@@ -100,4 +100,5 @@ event Transfer(address indexed from, address indexed to, uint256 amount);
 
 emit Transfer(msg.sender, receive, amount);
 ```
-t
+Here, the indexed keyword helps find transactions faster in blockchain explorers.
+
