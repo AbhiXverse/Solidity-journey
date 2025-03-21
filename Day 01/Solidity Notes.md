@@ -37,3 +37,5 @@ SPDX License:
 Pragmas: 
 
 - Syntax - pragma solidity x.y.z;
+- Example - pragma solidity ^0.8.3 
+     - allows version form 0.8.3 to <0.9.0
