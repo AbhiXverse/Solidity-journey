@@ -19,13 +19,16 @@ Modifiers (Adding extra logic to functions):-
 
 - Modifiers let you add reusable checks to functions 
 - E.g : 
+```
   modifier onlyowner( ) {
       require(msg.sender == owner, "Not the owner");
-      _ ;
+      _;
      }
 
 	  function withdraw() public onlyowner {
-	     payable(ow)}
+	     payable(owner). transfer(address(this).balance); 
+	     }
    }
+```
 
   
