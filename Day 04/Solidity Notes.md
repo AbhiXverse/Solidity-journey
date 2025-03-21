@@ -83,4 +83,6 @@ Events & Logging :-
     }
  }
 ```
-here, whenever 
+here, whenever someone sends Eth to this contract, it shows (logs) who sent it and how much they sent.
+
+
