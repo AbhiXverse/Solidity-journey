@@ -17,6 +17,8 @@ Contract Ownership & Security :-
 
 Modifiers (Adding extra logic to functions):-
 
-- Modifiers let you 
+- Modifiers let you add reusable checks to functions 
+- E.g : 
+- 
 
   
