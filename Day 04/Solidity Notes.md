@@ -57,8 +57,7 @@ Receiving Eth without a function call :-
 - If someone sends Eth without calling a function, Solidity uses: 
     - receive() function - when Eth is sent without any data
     - fallback() function - when data is sent, but no matching function exists
-    - E.g 
- 
+    - E.g - 
 ```
    contract ReceiveExample {
       event Received(address sender, uint256 amount);
@@ -67,5 +66,4 @@ Receiving Eth without a function call :-
           emit Receivced(msg.sender, msg.value);
       }
     }
-
 ```
