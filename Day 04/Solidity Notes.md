@@ -43,7 +43,7 @@ Constant & Immutable Variables :-
      address public immutable i_owner;
      
   constructor() {
-      i_owner - msg.sender;   // set only once 
+      i_owner = msg.sender;   // set only once 
       
   }  
 }
@@ -97,7 +97,6 @@ Indexed vs. Non-indexed Event parameters :-
   E.g: 
 ```
 event Transfer(address indexed from, address indexed to, uint256 amount);
-
 emit Transfer(msg.sender, receive, amount);
 ```
 Here, the indexed keyword helps find transactions faster in blockchain explorers.
