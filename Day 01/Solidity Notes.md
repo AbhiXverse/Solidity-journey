@@ -46,4 +46,7 @@ NatSpec tags:
 - @title - contract/interface title 
 - @author - Author 
 - @notice - End-user explanation 
-- @dev - Developer 
+- @dev - Developer notes 
+- @param - for parameters 
+- @return - for return values 
+- @inheritance - inherit doc from base 
