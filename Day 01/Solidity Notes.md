@@ -24,4 +24,11 @@ Source file Layourt:
     - import directives 
     - definations of struct, enum, contract 
 - Best contract layout order - 
-    - 
+    - state variables 
+    - Events 
+    - modifiers 
+    - constructor 
+    - functions 
+
+SPDX License: 
+- 
