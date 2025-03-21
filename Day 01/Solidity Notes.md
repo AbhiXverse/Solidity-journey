@@ -51,7 +51,6 @@ NatSpec tags:
 - @return - for return values 
 - @inheritance - inherit doc from base 
 
-
 Function visibility: 
 
 - Public - accessible everywhere 
