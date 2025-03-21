@@ -69,4 +69,7 @@ Receiving Eth without a function call :-
 ```
 this contract logs the sender and amount when it receives Eth.
 
-Events & Log
+Events & Logging :- 
+
+- Events helps track changes in a contract without using storage (save gas)
+- 
