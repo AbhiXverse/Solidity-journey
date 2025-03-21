@@ -33,5 +33,11 @@ Modifiers (Adding extra logic to functions):-
 - here, only the contract owner can withdraw the Eth.
 
 Constant & Immutable Variables 
-- Constant: - Cannot be changed, written in All C
+- Constant:- Cannot be changed, written in All Caps
+- Immutable :- Can be set once (e.g, in the constructor)
+- E.g: 
+```
+  contract Example 
+```
+
   
