@@ -41,4 +41,9 @@ Pragmas:
      - allows version form 0.8.3 to <0.9.0 (called floating pragmas )
  - you can use combination like >=0.8.0 <0.8.3
 
-NatSpec tags
+NatSpec tags: 
+
+- @title - contract/interface title 
+- @author - Author 
+- @notice - End-user explanation 
+- @dev - Developer 
