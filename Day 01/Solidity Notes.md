@@ -14,4 +14,9 @@ Language Influences:
 Features: 
 
 - Statically typed 
-- Supports inheritance, liberi
+- Supports inheritance, libraries. user-defined types
+- Fully-featured, object-oriented
+
+Source file Layourt:
+
+- 
