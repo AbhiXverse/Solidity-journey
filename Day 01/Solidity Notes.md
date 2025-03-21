@@ -55,4 +55,5 @@ NatSpec tags:
 Function visibility: 
 
 - public - accessible everywhere 
-- external - calldata from outside 
+- external - calldata from outside (use this.f() for internal calls)
+- internal - only within contract o
