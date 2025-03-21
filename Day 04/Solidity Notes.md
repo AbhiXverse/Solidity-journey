@@ -88,4 +88,9 @@ here, whenever someone sends Eth to this contract, it shows (logs) who sent it a
 
 Indexed vs. Non-indexed Event parameters :- 
 
-- Indexed Parameters 
+- Indexed Parameters :- 
+    - Can have up to 3 indexed fields 
+    - help in filtering/ searching events efficiently 
+    
+- Non-indexed parameters :- 
+    -  
