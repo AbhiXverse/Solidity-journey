@@ -6,4 +6,9 @@ Contract Ownership & Security
     - Use a **constructor**, which runs only when the contract is deployed 
     - E.g : 
     - contract Ownable {
-    - address }
+    - address public owner ;
+    - 
+    - constructor () {
+    -    owner = msg.sender;    // Assigns contract deployer as the owner 
+    - }
+    - }
