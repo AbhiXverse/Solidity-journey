@@ -19,6 +19,12 @@ Modifiers (Adding extra logic to functions):-
 
 - Modifiers let you add reusable checks to functions 
 - E.g : 
-- 
+  modifier onlyowner( ) {
+      require(msg.sender == owner, "Not the owner");
+      _;
+      _
+   
+   
+   }
 
   
