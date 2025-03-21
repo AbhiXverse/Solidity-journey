@@ -56,4 +56,5 @@ Function visibility:
 
 - public - accessible everywhere 
 - external - calldata from outside (use this.f() for internal calls)
-- internal - only within contract o
+- internal - only within contract or derived contract 
+- private - only within declaring contract 
