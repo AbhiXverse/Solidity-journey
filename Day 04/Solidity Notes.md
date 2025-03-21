@@ -86,3 +86,6 @@ Events & Logging :-
 here, whenever someone sends Eth to this contract, it shows (logs) who sent it and how much they sent.
 
 
+Indexed vs. Non-indexed Event parameters :- 
+
+- Indexed Parameters 
