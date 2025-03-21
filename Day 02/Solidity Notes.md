@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 02/Solidity Notes] - 01 
+[Solidity-journey /Day 02/Solidity Notes] - 02
 
 - View & Pure functions: They don't cost gas 
      - View reads blockchain data
