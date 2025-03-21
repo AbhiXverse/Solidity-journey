@@ -55,5 +55,6 @@ why use them ?
 Receiving Eth without a function call :- 
 
 - If someone sends Eth without calling a function, Solidity uses: 
-    - receive
+    - receive() - function (if no data is send)
+    - fallback() - function (if data is sent but no matching function exis)
   
