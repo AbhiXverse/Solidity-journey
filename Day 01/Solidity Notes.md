@@ -19,4 +19,9 @@ Features:
 
 Source file Layourt:
 
-- 
+- Can contain - 
+    - pragma directives 
+    - import directives 
+    - definations of struct, enum, contract 
+- Best contract layout order - 
+    - 
