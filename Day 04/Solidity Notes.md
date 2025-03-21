@@ -32,7 +32,8 @@ Modifiers (Adding extra logic to functions):-
 ```
 - here, only the contract owner can withdraw the Eth.
 
-Constant & Immutable Variables 
+Constant & Immutable Variables :- 
+
 - Constant:- Cannot be changed, written in All Caps
 - Immutable :- Can be set once (e.g, in the constructor)
 - E.g: 
@@ -51,5 +52,8 @@ why use them ?
 - Stored in bytecode, not storage slots, so they save gas.
 
 
-Receiveing 
+Receiving Eth without a function call :- 
+
+- If someone sends Eth without calling a function, Solidity uses: 
+    - receive
   
