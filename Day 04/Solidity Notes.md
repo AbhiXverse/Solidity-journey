@@ -37,7 +37,12 @@ Constant & Immutable Variables
 - Immutable :- Can be set once (e.g, in the constructor)
 - E.g: 
 ```
-  contract Example 
+  contract Example {
+     uint256 public constant FEE - 1000;  // Never changes
+     address public immutable i_owner;
+
+      
+}
 ```
 
   
