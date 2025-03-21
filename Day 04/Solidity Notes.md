@@ -21,10 +21,11 @@ Modifiers (Adding extra logic to functions):-
 - E.g : 
   modifier onlyowner( ) {
       require(msg.sender == owner, "Not the owner");
-      _;
-      _
-   
-   
+      _ ;
+     }
+
+	  function withdraw() public onlyowner {
+	     payable(ow)}
    }
 
   
