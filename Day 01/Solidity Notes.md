@@ -32,4 +32,8 @@ Source file Layourt:
 
 SPDX License: 
 - SPDX = Software Package Data Exchange 
-- Included in bytecode metadata 
+- Included in bytecode metadata for machine readability 
+
+Pragmas: 
+
+- Syntax - pragma solidity x.y.z;
