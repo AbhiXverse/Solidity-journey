@@ -2,4 +2,8 @@
 
 Contract Ownership & Security 
 
-- Assign a c
+- Assign a contract owner : 
+    - Use a **constructor**, which runs only when the contract is deployed 
+    - E.g : 
+    - contract Ownable {
+    - address }
