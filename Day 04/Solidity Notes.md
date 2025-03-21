@@ -76,5 +76,10 @@ Events & Logging :-
   E.g: 
 ```
   contract EventExample {
-    event Deposit(address indexed )}
+    event Deposit(address indexed user, uint256 amount);
+    
+    function deposit() public payable  {
+       emit Deposit (msg.sender, msg.vale) 
+    }
+ }
 ```
