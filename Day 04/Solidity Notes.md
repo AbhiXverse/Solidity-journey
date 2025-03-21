@@ -61,6 +61,11 @@ Receiving Eth without a function call :-
  
 ```
    contract ReceiveExample {
-      event Received(address sender, uint256 amount)}
+      event Received(address sender, uint256 amount);
+      
+      receive() external payable {
+          emit Receivced(msg.sender, msg.value);
+      }
+    }
 
 ```
