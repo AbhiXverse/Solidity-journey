@@ -40,8 +40,11 @@ Constant & Immutable Variables
   contract Example {
      uint256 public constant FEE - 1000;  // Never changes
      address public immutable i_owner;
-
+     
+  constructor() {
+      i_owner - msg.sender;   // set only once 
       
+  }  
 }
 ```
 
