@@ -69,3 +69,4 @@ Receiving Eth without a function call :-
 ```
 this contract logs the sender and amount when it receives Eth.
 
+Events & Log
