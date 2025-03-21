@@ -9,3 +9,9 @@ Language Influences:
 
 - Mainly from C++
 - Python (modifiers, multiple inheritance)
+- JavaScript (function-level scoping, var keyword)
+
+Features: 
+
+- Statically typed 
+- Supports inheritance, liberi
