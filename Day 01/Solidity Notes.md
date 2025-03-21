@@ -55,4 +55,4 @@ NatSpec tags:
 Function visibility: 
 
 - public - accessible everywhere 
-- external - call
+- external - calldata from outside 
