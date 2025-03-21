@@ -71,7 +71,7 @@ this contract logs the sender and amount when it receives Eth.
 Events & Logging :- 
 
 - Events helps track changes in a contract without using storage (save gas)
-- the frontend (or indexers like chainlink/ thegraph) listens for events 
+- the frontend (or indexers like Chainlink/ Thegraph) listens for events 
   E.g: 
 ```
   contract EventExample {
