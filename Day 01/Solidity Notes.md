@@ -38,4 +38,5 @@ Pragmas:
 
 - Syntax - pragma solidity x.y.z;
 - Example - pragma solidity ^0.8.3 
-     - allows version form 0.8.3 to <0.9.0
+     - allows version form 0.8.3 to <0.9.0 (called floating pragmas )
+ - you can use combination like >=0.8.3 
