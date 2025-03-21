@@ -30,5 +30,7 @@ Modifiers (Adding extra logic to functions):-
 	     }
    }
 ```
+- here, only the contract owner can withdraw the Eth.
+
 
   
