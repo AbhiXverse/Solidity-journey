@@ -96,6 +96,8 @@ Indexed vs. Non-indexed Event parameters :-
     -  Need the ABI to decode
   E.g: 
 ```
-  event Transfer(address indexed from)
+event Transfer(address indexed from, address indexed to, uint256 amount);
 
+emit Transfer(msg.sender, receive, amount);
 ```
+t
