@@ -37,6 +37,6 @@ SPDX License:
 Pragmas: 
 
 - Syntax - pragma solidity x.y.z;
-- Example - pragma solidity ^0.8.3 
+- Example - pragma solidity ^0.8.3; 
      - allows version form 0.8.3 to <0.9.0 (called floating pragmas )
- - you can use combination like >=0.8.3 
+ - you can use combination like >=0.8.0 <0.8.3
