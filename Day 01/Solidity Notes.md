@@ -52,3 +52,7 @@ NatSpec tags:
 - @inheritance - inherit doc from base 
 
 
+Function visibility: 
+
+- public - accessible everywhere 
+- external - call
