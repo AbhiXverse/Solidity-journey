@@ -32,5 +32,6 @@ Modifiers (Adding extra logic to functions):-
 ```
 - here, only the contract owner can withdraw the Eth.
 
-Constant & immu
+Constant & Immutable Variables 
+- Constant: - Cannot be changed, written in All C
   
