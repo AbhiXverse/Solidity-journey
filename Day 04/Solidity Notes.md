@@ -79,7 +79,7 @@ Events & Logging :-
     event Deposit(address indexed user, uint256 amount);
     
     function deposit() public payable  {
-       emit Deposit (msg.sender, msg.value) 
+       emit Deposit(msg.sender, msg.value) 
     }
  }
 ```
