@@ -10,11 +10,10 @@ Contract Ownership & Security :-
     address public owner ;
  
     constructor () {
-        owner = msg.sender; // Assigns contract deployer as the                                  owner 
+        owner = msg.sender; // Assigns contract deployer as the                                           owner 
         }
      }
 ```
-
 Modifiers (Adding extra logic to functions):-
 
 - Modifiers let you add reusable checks to functions 
@@ -30,7 +29,7 @@ Modifiers (Adding extra logic to functions):-
 	     }
    }
 ```
-- here, only the contract owner can withdraw the Eth.
+here, only the contract owner can withdraw the Eth.
 
 Constant & Immutable Variables :- 
 
