@@ -94,3 +94,8 @@ Indexed vs. Non-indexed Event parameters :-
 
 - Non-indexed parameters :- 
     -  Need the ABI to decode
+  E.g: 
+```
+  event Transfer(address indexed from)
+
+```
