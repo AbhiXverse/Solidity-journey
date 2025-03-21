@@ -1,4 +1,4 @@
-[Solidity-journey /Day 02/Solidity Notes] - 02
+[Solidity-journey /Day 03/Solidity Notes] - 02
 
 
  - Contract Interface & Number Handling: 
