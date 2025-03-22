@@ -1,5 +1,5 @@
 
-[[Secureum - Ethereum 101 - Day 01]]
+[Solidity-journey /Day 01/Secureum - Ethereum 101] - 01 
 
 Ethereum is "A Next-Generation Smart Contract and Decentralized Application"
 
