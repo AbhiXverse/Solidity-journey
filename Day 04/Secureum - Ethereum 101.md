@@ -85,3 +85,6 @@ Byte order
     - Most significant byte (MSD) at lowest memory address 
     - Least significant byte (LSD) at highest memory address 
 
+Ethereum instruction set: 
+
+- Stop & Arithematic - ADD, MUL, SUB 
