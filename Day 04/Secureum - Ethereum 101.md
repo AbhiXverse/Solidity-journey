@@ -41,3 +41,6 @@ Ethereum Block Structure (Ethash)
         - 64-bit number that solves the PoW challenge 
 
 
+Gas refund & miner fees:
+
+- Unused gas is refunded 
