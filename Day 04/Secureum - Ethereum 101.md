@@ -18,4 +18,7 @@ Ethereum Block Structure (Ethash)
     - ommersHash 
         - Keccak-256 hash of the ommers list 
     - beneficiary 
-        - 160
+        - 160-bit address receiving transaction fees (miner reward)
+    - stateRoot 
+        - Root hash of the state trie (after all transaction) 
+    - 
