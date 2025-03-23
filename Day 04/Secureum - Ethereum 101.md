@@ -61,4 +61,6 @@ Components:
     - Max 1024 elements 
     - 256-bit words 
     - Operated using PUSH, POP, DUP, SWAP 
-    - E.g: PUSH 01
+```
+	    - E.g: PUSH1 0x60, 
+```
