@@ -82,4 +82,4 @@ Code Execution
 
 Byte order 
 - Big-endian format (means e.g 1234 ---> 12 34)(smallest to biggest)
--
+    - 
