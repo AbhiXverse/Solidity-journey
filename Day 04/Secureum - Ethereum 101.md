@@ -57,10 +57,13 @@ Ethereum Virtual Machine (EVM)
 - Executes bytecode of smart contract 
 
 Components:
-- Stack 
+- Stack:
     - Max 1024 elements 
     - 256-bit words 
     - Operated using PUSH, POP, DUP, SWAP 
 ```
-	    - E.g: PUSH1 0x60, 
+	    - E.g: PUSH1 0x60, DUP1, SWAP1
 ```
+- Memory: 
+    - Byte-addressable 
+    - Volatile 
