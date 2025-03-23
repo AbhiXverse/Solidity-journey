@@ -75,4 +75,8 @@ Components:
 - Calldata: 
     - Read only, byte-addressable input data 
     - Interacted using: CALLDATASIZE, CALLDATALOAD, CALLDATACOPY 
-- 
+
+Code Execution 
+- Code is stored separately in virtual ROM 
+- Not part of memory or storage, interacted with specific instructions 
+
