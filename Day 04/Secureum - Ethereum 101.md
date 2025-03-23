@@ -46,4 +46,7 @@ Gas refund & miner fees:
 - Unused gas is refunded to the sender 
 - Used gas(x gasPrice) is paid to the beneficiary(miner)
 - E.g:
-    - 
+    - Gas limit = 21,000, used = 15,000
+    - Refund = 6000 x gasPrice 
+    - Miner gets 15000 x gasPrice 
+
