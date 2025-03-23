@@ -67,3 +67,7 @@ Components:
 - Memory: 
     - Byte-addressable 
     - Volatile 
+    - Interacted using - SLOAD, SSTORE 
+- Storage:
+    - 256-bit key value store 
+    - No
