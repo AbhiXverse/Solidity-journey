@@ -21,4 +21,8 @@ Ethereum Block Structure (Ethash)
         - 160-bit address receiving transaction fees (miner reward)
     - stateRoot 
         - Root hash of the state trie (after all transaction) 
-    - 
+    - transactionRoot
+        - Root hash of the receipts trie 
+    - logsbloom 
+        - Indicates how hash it is to mine this block 
+    - number 
