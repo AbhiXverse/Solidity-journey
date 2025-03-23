@@ -26,3 +26,9 @@ Ethereum Block Structure (Ethash)
     - logsbloom 
         - Indicates how hash it is to mine this block 
     - number 
+        - Block number (0 for genesis block) 
+    - gasLimit 
+        - max gas allowed in this block 
+    - gasiu
+
+		   
