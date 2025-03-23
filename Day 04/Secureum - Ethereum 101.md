@@ -13,4 +13,4 @@ Ethereum Block Structure (Ethhash)
     - Transactions 
     - ommers (uncle) block headers 
 - Block header fields:
-    - 
+    - parentHash: 
