@@ -73,4 +73,6 @@ Components:
     - Non-volatile, part of blockchain state 
     - interacted using - SLOAD, SSTORE 
 - Calldata: 
-    - 
+    - Read only, byte-addressable input data 
+    - Interacted using: CALLDATASIZE, CALLDATALOAD, CALLDATACOPY 
+- 
