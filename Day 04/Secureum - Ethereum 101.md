@@ -83,4 +83,5 @@ Code Execution
 Byte order 
 - Big-endian format (means e.g 1234 ---> 12 34)(smallest to biggest)
     - Most significant byte (MSD) at lowest memory address 
-    - Least significant byte (LSD) at 
+    - Least significant byte (LSD) at highest memory address 
+
