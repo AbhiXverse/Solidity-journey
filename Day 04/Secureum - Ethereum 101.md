@@ -93,8 +93,10 @@ Ethereum instruction set:
     - EQ, LT, AND, XOR, OR 
 - SHA3:
     - it is for computing Keccak-256 hash 
-- Environmental Info 
+- Block Info: 
     - BLOCKHASH, COINBASE, TIMESTAMP, DIFFICULTY, GASLIMIT 
-- Stack, Memory, Stroage, FLow 
+- Environmental Info:
+    - ADDRESS, ORIGIN, CALLER, CALLVALUE 
+- Stack, Memory, Stroage, FLow: 
     - MLOAD, SSTORE, JUMP, JUMPI
-- Push Operation  
+- Push Operations 
