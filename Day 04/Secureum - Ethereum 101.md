@@ -33,6 +33,11 @@ Ethereum Block Structure (Ethash)
         - Total gas consumed by transactions in the block 
     - timestamp 
         - unix timestamp of block creation 
+    - extraData 
+        - optional data (max 32 byte) 
+    - mixHash
+        - 256 bit hash proving required computation was performed 
+    - nonce
     - 
 
 		   
