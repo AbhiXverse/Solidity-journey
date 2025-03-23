@@ -87,11 +87,14 @@ Byte order
 
 Ethereum instruction set: 
 
-- Stop & Arithematic - 
+- Stop & Arithematic: 
     - ADD, MUL, SUB, STOP 
-- Comparison & Bitwise logic 
+- Comparison & Bitwise logic: 
     - EQ, LT, AND, XOR, OR 
-- SHA3
-- it is for computing Keccak-256 hash 
-- Environmental Info - BLOCKHASH, COINBASE, TIMESTAMP, DIFFICULTY, GASLIMIT 
-- Stack, Memory, Stroage, FLow - 
+- SHA3:
+    - it is for computing Keccak-256 hash 
+- Environmental Info 
+    - BLOCKHASH, COINBASE, TIMESTAMP, DIFFICULTY, GASLIMIT 
+- Stack, Memory, Stroage, FLow 
+    - MLOAD, SSTORE, JUMP, JUMPI
+- Push Operation  
