@@ -67,7 +67,10 @@ Components:
 - Memory: 
     - Byte-addressable 
     - Volatile 
-    - Interacted using - SLOAD, SSTORE 
+    - Interacted using - MLOAD, MSTORE, MSTORE8
 - Storage:
     - 256-bit key value store 
-    - No
+    - Non-volatile, part of blockchain state 
+    - interacted using - SLOAD, SSTORE 
+- Calldata: 
+    - 
