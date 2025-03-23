@@ -103,4 +103,9 @@ Ethereum instruction set:
     - PUSH1 TO PUSH32 
 - Duplication Operations
     - DUP1 to DUP16 
-- 
+- Exchange Operations: 
+    - SWAP1 to SWAP16
+- Logging Operations:
+    - LOG0 to LOG4
+- System Operations:
+    - CREATE, CALL, DELEGATECALL, 
