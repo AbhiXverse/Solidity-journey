@@ -108,4 +108,4 @@ Ethereum instruction set:
 - Logging Operations:
     - LOG0 to LOG4
 - System Operations:
-    - CREATE, CALL, DELEGATECALL, 
+    - CREATE, CALL, DELEGATECALL, SELFDESTRUCT, RETURN
