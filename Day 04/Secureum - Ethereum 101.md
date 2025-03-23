@@ -14,4 +14,8 @@ Ethereum Block Structure (Ethash)
     - ommers (uncle) block headers 
 - Block header fields:
     - parentHash: 
-        - Keccak-256 hash of the parent  
+        - Keccak-256 hash of the parent block's header 
+    - ommersHash 
+        - Keccak-256 hash of the ommers list 
+    - beneficiary 
+        - 160
