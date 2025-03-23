@@ -44,4 +44,6 @@ Ethereum Block Structure (Ethash)
 Gas refund & miner fees:
 
 - Unused gas is refunded to the sender 
-- Used 
+- Used gas(x gasPrice) is paid to the beneficiary(miner)
+- E.g:
+    - 
