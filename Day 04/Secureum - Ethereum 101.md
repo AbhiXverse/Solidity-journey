@@ -99,4 +99,8 @@ Ethereum instruction set:
     - ADDRESS, ORIGIN, CALLER, CALLVALUE 
 - Stack, Memory, Stroage, FLow: 
     - MLOAD, SSTORE, JUMP, JUMPI
-- Push Operations 
+- Push Operations:
+    - PUSH1 TO PUSH32 
+- Duplication Operations
+    - DUP1 to DUP16 
+- 
