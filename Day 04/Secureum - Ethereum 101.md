@@ -56,4 +56,9 @@ Ethereum Virtual Machine (EVM)
 - Quasi Turning-complete: Computation is bounded by gas 
 - Executes bytecode of smart contract 
 
-Compone
+Components:
+- Stack 
+    - Max 1024 elements 
+    - 256-bit words 
+    - Operated using PUSH, POP, DUP, SWAP 
+    - E.g: PUSH 01
