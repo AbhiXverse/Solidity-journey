@@ -53,4 +53,7 @@ Gas refund & miner fees:
 
 Ethereum Virtual Machine (EVM)
 
-- Quasi Tur
+- Quasi Turning-complete: Computation is bounded by gas 
+- Executes bytecode of smart contract 
+
+Compone
