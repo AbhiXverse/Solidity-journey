@@ -36,8 +36,8 @@ Ethereum Block Structure (Ethash)
     - extraData 
         - optional data (max 32 byte) 
     - mixHash
-        - 256 bit hash proving required computation was performed 
+        - 256-bit hash proving required computation was performed 
     - nonce
-    - 
+        - 64-bit number that solves the PoW challenge 
 
-		   
+
