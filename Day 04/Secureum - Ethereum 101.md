@@ -8,8 +8,9 @@ Ethash (Ethereum's proof of Work Algorithm)
 
 Ethereum Block Structure (Ethhash)
 
-- Each block consists of :
+- Each block consists of:
     - Block header 
     - Transactions 
     - ommers (uncle) block headers 
-- 
+- Block header fields:
+    - 
