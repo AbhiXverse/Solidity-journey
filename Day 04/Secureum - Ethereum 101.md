@@ -80,3 +80,6 @@ Code Execution
 - Code is stored separately in virtual ROM 
 - Not part of memory or storage, interacted with specific instructions 
 
+Byte order 
+- Big-endian format (means e.g 1234 ---> 12 34)(smallest to biggest)
+-
