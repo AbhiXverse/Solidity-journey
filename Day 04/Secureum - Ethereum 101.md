@@ -87,4 +87,5 @@ Byte order
 
 Ethereum instruction set: 
 
-- Stop & Arithematic - ADD, MUL, SUB 
+- Stop & Arithematic - ADD, MUL, SUB, STOP 
+- Comparison & Bitwise logic - EQ, LT, 
