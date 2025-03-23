@@ -28,7 +28,11 @@ Ethereum Block Structure (Ethash)
     - number 
         - Block number (0 for genesis block) 
     - gasLimit 
-        - max gas allowed in this block 
-    - gasiu
+        - Max gas allowed in this block 
+    - gasused 
+        - Total gas consumed by transactions in the block 
+    - timestamp 
+        - unix timestamp of block creation 
+    - 
 
 		   
