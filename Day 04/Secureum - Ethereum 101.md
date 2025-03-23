@@ -50,3 +50,4 @@ Gas refund & miner fees:
     - Refund = 6000 x gasPrice 
     - Miner gets 15000 x gasPrice 
 
+Ethereum BV
