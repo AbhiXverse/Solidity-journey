@@ -5,6 +5,7 @@ Custom Errors:
 
 
 
+```
 contract Coin {
     // The keyword "public" makes variables
     // accessible from other contracts
@@ -42,4 +43,5 @@ contract Coin {
         emit Sent(msg.sender, receiver, amount);
     }
 }
+```
 
