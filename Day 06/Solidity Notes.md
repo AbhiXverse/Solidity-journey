@@ -32,4 +32,5 @@ Understanding different integers sizes in Solidity
 
 Note : Beginner tips: 
 - Start with uint256 - its the safest and most common 
-- default to uint256 for most cases like - Token amounts, 
+- default to uint256 for most cases like - Token amounts, ETH/Wei values, any financial calculations, IDs or unique identifiers 
+- Only use smaller sizes when you're absol
