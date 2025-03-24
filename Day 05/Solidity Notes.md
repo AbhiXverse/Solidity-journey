@@ -43,7 +43,7 @@ contract Coin {
 
     
     function send(address receiver, uint amount) public {              // this function lets anyone send their coins to someone else 
-        if (amount > balances[msg.sender] 
+        if (amount > balances[msg.sender] {
         revert InsufficientBalance(amount, balances[msg.sender]));   // this make sure that sender has enough coins, if not then show the custom error message 
         balances[msg.sender] -= amount;                                // subtract the coins from sener 
         balances[receiver] += amount;                                  // add the coins to receiver
@@ -64,8 +64,9 @@ error InsufficientBalance(uint requested, uint available);
 
 How it is used in code: 
 ```
-if (amount > balance[msg.sender]
+if (amount > balance[msg.sender] {
 revert InsufficientBalance(amount, balance[msg.sender]));
+}
 ```
 - this line checks if the user has enough balance 
 - if not, revert the transaction and show the custom error message with real values 
@@ -78,14 +79,16 @@ Note:-
 - traditional require statement: you only pass the simple string message
 e.g:
 ```
-require(amount <= balance, "Insufficient balance")
+require(amount <= balance, "Insufficient balance");
 ```
 
 - But with the custom errors: 
     - you need to use an **if** condition and then explicitly **revert** with your custom error:
       e.g: 
+```
     if (amount > balance) 
-     revert insufficientBalance (amount , balances)
+     revert insufficientBalance (amount , balance);
+```
 
 
 
