@@ -72,7 +72,7 @@ require (amount <= balance[msg.sender], InsufficientBalance(amount, balance[msg.
 - and it provides more info then just showing "insufficient balance"
 
 
-v
+
 
 
 
