@@ -1,51 +1,6 @@
 [Secureum - Ethereum 101 - Day 05] - 04
 
-Ethereum Block Structure (Ethash)
-
-- Each block consists of:
-    - Block header 
-    - Transactions 
-    - ommers (uncle) block headers 
-- Block header fields:
-    - parentHash: 
-        - Keccak-256 hash of the parent block's header 
-    - ommersHash 
-        - Keccak-256 hash of the ommers list 
-    - beneficiary 
-        - 160-bit address receiving transaction fees (miner reward)
-    - stateRoot 
-        - Root hash of the state trie (after all transaction) 
-    - transactionRoot
-        - Root hash of the receipts trie 
-    - logsbloom 
-        - Indicates how hash it is to mine this block 
-    - number 
-        - Block number (0 for genesis block) 
-    - gasLimit 
-        - Max gas allowed in this block 
-    - gasused 
-        - Total gas consumed by transactions in the block 
-    - timestamp 
-        - unix timestamp of block creation 
-    - extraData 
-        - optional data (max 32 byte) 
-    - mixHash
-        - 256-bit hash proving required computation was performed 
-    - nonce
-        - 64-bit number that solves the PoW challenge 
-
-
-Gas refund & miner fees:
-
-- Unused gas is refunded to the sender 
-- Used gas(x gasPrice) is paid to the beneficiary(miner)
-- E.g:
-    - Gas limit = 21,000, used = 15,000
-    - Refund = 6000 x gasPrice 
-    - Miner gets 15000 x gasPrice 
-
-
-Ethereum Virtual Machine (EVM)
+Ethereum Virtual Machine (EVM):
 
 - Quasi Turning-complete: Computation is bounded by gas 
 - Executes bytecode of smart contract 
@@ -56,7 +11,7 @@ Components:
     - 256-bit words 
     - Operated using PUSH, POP, DUP, SWAP 
 ```
-	    - E.g: PUSH1 0x60, DUP1, SWAP1
+E.g: PUSH1 0x60, DUP1, SWAP1
 ```
 - Memory: 
     - Byte-addressable 
