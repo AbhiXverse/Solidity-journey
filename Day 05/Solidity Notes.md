@@ -44,7 +44,7 @@ contract Coin {
 
     // tjhis function lets anyone send their coins to someone else 
     function send(address receiver, uint amount) public {
-        require(amount <= balances[msg.sender], InsufficientBalance(amount, balances[msg.sender]));
+        require(amount <= balances[msg.sender], InsufficientBalance(amount, balances[msg.sender]));  // this make sure that sender has enough 
         balances[msg.sender] -= amount;
         balances[receiver] += amount;
         emit Sent(msg.sender, receiver, amount);
