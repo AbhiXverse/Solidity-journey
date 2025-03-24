@@ -95,6 +95,10 @@ require(amount <= balance, "Insufficient balance");
 Note 2 :- 
 - Curly brackets with if statements:
   e.g : 
-if (amount > balance)
-
+```
+if (amount > balance) {
+revert InsufficientBalance(amount, balance);
+}
+```
+So, with Curly bracket after the If statement 
 
