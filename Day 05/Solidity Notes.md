@@ -103,5 +103,8 @@ revert InsufficientBalance(amount, balance);
 So, by using Curly bracket after the If condition, all the statements within the bracket are the part of the If condition 
 and, 
 
-- 
+- Without Curly bracket in If condition:
+  e.g: 
+if (amount > balance) 
+revert InsufficientBalance (amount, balance);
 
