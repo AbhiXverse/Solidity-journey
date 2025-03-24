@@ -28,10 +28,8 @@ contract Coin {
     // event logs every successful coin transfer 
     event Sent(address from, address to, uint amount);
 
-    // Constructor code is only run when the contract
-    // is created
     constructor() {
-        minter = msg.sender;
+        minter = msg.sender;  // set the deployer as a 
     }
 
     // Sends an amount of newly created coins to an address
