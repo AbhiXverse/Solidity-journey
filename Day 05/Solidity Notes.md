@@ -19,16 +19,16 @@ Contract Example :
 ```
 contract Coin {
 
-    address public minter;    // only the deployer of this contract becomes the minter 
+    address public minter;          // only the deployer of this contract becomes the minter 
 
 
-   mapping(address => uint) public balances;     // this keeps track of how many coins each address has
+   mapping(address => uint) public balances;       // this keeps track of how many coins each address has
 
     
     event Sent(address from, address to, uint amount);    // event logs every successful coin transfer 
 
     constructor() {
-        minter = msg.sender;     // set contract deployer as minter
+        minter = msg.sender;       // set contract deployer as minter
     }
 
     
