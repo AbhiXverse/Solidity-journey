@@ -9,10 +9,12 @@ Custom Errors:
 
 How to write it :- 
 E.g:
-dfg
+```
+error ErrorName(type param1, type param2);
+```
 
 
-
+Contract Example : Custom error in a coin contract - 
 ```
 contract Coin {
     // The keyword "public" makes variables
