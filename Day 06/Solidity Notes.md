@@ -7,11 +7,12 @@ Understanding different integers sizes in Solidity
 1. uint8 (0 to 255) 
     - Best for very small numbers like simple counters 
     - use when you're sure the value won't go above 255 and want to save storage 
-    - e.g: 
+    - e.g: Day , hour etc 
     
 2. uint16 (0 to 65,535)
     - best for medium size numbers 
     - use when you're sure that values are within this range and want to save space 
+    - e.g: Year, percentage values, 
 
 3. uint32 (0 to ~18.4 quintillion)
     -  
