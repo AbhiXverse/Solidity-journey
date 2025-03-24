@@ -30,8 +30,10 @@ Understanding different integers sizes in Solidity
     - e.g: token balances, Ether values, hash results etc 
 
 
-Note : Beginner tips: 
-- Start with uint256 - its the safest and most common 
-- default to uint256 for most cases like - Token amounts, ETH/Wei values, any financial calculations, IDs or unique identifiers 
-- Only use smaller sizes when you're absolutely sure about the max value 
-- Since - Solidity 0.8.0, overflow checks are automatic for all sizes 
+Note : 
+- Beginner tips: 
+
+    - Start with uint256 - its the safest and most common 
+    - default to uint256 for most cases like - Token amounts, ETH/Wei values, any financial calculations, IDs or unique identifiers 
+    - Only use smaller sizes when you're absolutely sure about the max value 
+    - Since - Solidity 0.8.0, overflow checks are automatic for all sizes but yeah choosing the right size based on the situation helps to reduce gas costs 
