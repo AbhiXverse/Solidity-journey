@@ -109,4 +109,5 @@ and,
 if (amount > balance) 
 revert InsufficientBalance (amount, balance);
 ```
-So, in this only the next single statement is part of the If condition 
+So, in this only the next single statement is part of the If condition or only the first condition is controlled by the If condition. The second statement will always execute.
+
