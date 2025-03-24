@@ -19,11 +19,10 @@ Contract Example :
 ```
 contract Coin {
 
-    // only the deployer of this contract becomes the minter 
-    address public minter;  
-    
-    // this keeps track of how many coins each address has
-    mapping(address => uint) public balances;
+    address public minter;    // only the deployer of this contract becomes the minter 
+
+
+   mapping(address => uint) public balances;     // this keeps track of how many coins each address has
 
     // event logs every successful coin transfer 
     event Sent(address from, address to, uint amount);
