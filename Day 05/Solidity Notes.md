@@ -62,6 +62,10 @@ error InsufficientBalance(uint requested, uint available);
     - available: how much they actually have 
 
 
+How it is used in code: 
+require (amount <= balance[msg.sender], Insufficient )
+
+
 
 
 
