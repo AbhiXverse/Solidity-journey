@@ -73,7 +73,8 @@ revert InsufficientBalance(amount, balance[msg.sender]));
 - and it provides more info then just showing "insufficient balance"
 
 Note:- 
-- When using **custom errors** in solidity, you cannot pass that custom error directly to a require statement 
+- When using **custom errors** in solidity, you cannot pass that custom error directly to a require statement
+- 
 
 
 
