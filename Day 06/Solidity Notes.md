@@ -20,6 +20,6 @@ Understanding different integers sizes in Solidity
     - e.g: game score, short duration timers etc 
 
 4. uint64 (0 to ~3.4x10^38)
-     - with time or very large numbers etc 
-     - dfgd
-     - 
+     - best for time based values or huge numbers 
+     - use when you deal with time or very large numbers 
+     - e.g : 
