@@ -22,4 +22,7 @@ Understanding different integers sizes in Solidity
 4. uint64 (0 to ~3.4x10^38)
      - best for time based values or huge numbers 
      - use when you deal with time or very large numbers 
-     - e.g : 
+     - e.g : unix timestamps, very large numbers etc 
+
+5. uint256 ( 0 to ~1.16 x 10^77)
+    - 
