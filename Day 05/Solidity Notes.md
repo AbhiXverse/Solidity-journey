@@ -29,11 +29,11 @@ contract Coin {
     event Sent(address from, address to, uint amount);
 
     constructor() {
-        minter = msg.sender;  // set the deployer as a 
+        minter = msg.sender;  // set contract deployer as minter
     }
 
     // Sends an amount of newly created coins to an address
-    // Can only be called by the contract creator
+    // 
     function mint(address receiver, uint amount) public {
         require(msg.sender == minter);
         balances[receiver] += amount;
