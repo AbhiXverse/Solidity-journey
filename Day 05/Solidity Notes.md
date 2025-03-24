@@ -42,7 +42,7 @@ contract Coin {
     error InsufficientBalance(uint requested, uint available);
 
 
-    // 
+    // tjhis function lets anyone send their coins to someone else 
     function send(address receiver, uint amount) public {
         require(amount <= balances[msg.sender], InsufficientBalance(amount, balances[msg.sender]));
         balances[msg.sender] -= amount;
