@@ -19,8 +19,10 @@ Contract Example :
 ```
 contract Coin {
 
-    address public minter;  // 
+    // only the deployer of this contract can mint the coins
+    address public minter;  
     
+    // this keeps track of how many coins 
     mapping(address => uint) public balances;
 
     // Events allow clients to react to specific
