@@ -72,7 +72,8 @@ revert InsufficientBalance(amount, balance[msg.sender]));
 - this version is cheaper in gas 
 - and it provides more info then just showing "insufficient balance"
 
-Note:- 
+
+Note 1:- 
 - When using **custom errors** in solidity, you cannot pass that custom error directly to a require statement
 
 - traditional require statement: you only pass the simple string message
@@ -90,6 +91,8 @@ require(amount <= balance, "Insufficient balance");
 ```
 
 
+
+Note 2 :- 
 
 
 
