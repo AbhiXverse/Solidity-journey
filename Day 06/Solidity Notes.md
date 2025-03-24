@@ -6,7 +6,8 @@ Understanding different integers sizes in Solidity
 
 1. uint8 (0 to 255) 
     - Best for very small numbers like simple counters 
-    - Use when you're sure the value won't go above 255 and want to save storage 
+    - use when you're sure the value won't go above 255 and want to save storage 
     
 2. uint16 (0 to 65,535)
-3. 
+    - best for medium size numbers 
+    - use when you're sure that values are within 
