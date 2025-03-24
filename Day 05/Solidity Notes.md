@@ -19,7 +19,7 @@ Contract Example :
 ```
 contract Coin {
 
-    address public minter;          // only the deployer of this contract becomes the minter 
+    address public minter;                        // only the deployer of this contract becomes the minter 
 
 
    mapping(address => uint) public balances;       // this keeps track of how many coins each address has
@@ -28,26 +28,26 @@ contract Coin {
     event Sent(address from, address to, uint amount);    // event logs every successful coin transfer 
 
     constructor() {
-        minter = msg.sender;       // set contract deployer as minter
+        minter = msg.sender;                      // set contract deployer as minter
     }
 
     
-    function mint(address receiver, uint amount) public {          // this fun. creates new coins and gives them to the receiver
-        require(msg.sender == minter);   // Only minter can mint coins 
-        balances[receiver] += amount;   // add new coins to the receiver's balance 
+    function mint(address receiver, uint amount) public {       // this fun. creates new coins and gives them to the receiver
+        require(msg.sender == minter);                          // Only minter can mint coins 
+        balances[receiver] += amount;                           // add new coins to the receiver's balance 
     }
 
     
-    error InsufficientBalance(uint requested, uint available);     // custom error to show detailed info when balance is low 
+    error InsufficientBalance(uint requested, uint available);   // custom error to show detailed info when balance is low 
 
 
     
-    function send(address receiver, uint amount) public {         // this function lets anyone send their coins to someone else 
+    function send(address receiver, uint amount) public {              // this function lets anyone send their coins to someone else 
         if (amount > balances[msg.sender] 
-          revert InsufficientBalance(amount, balances[msg.sender]));    // this make sure that sender has enough coins, if not then show the custom error message 
-        balances[msg.sender] -= amount;    // subtract the coins from sener 
-        balances[receiver] += amount;    // add the coins to receiver
-        emit Sent(msg.sender, receiver, amount);    // trigger the sent event to show that a transfer happened
+          revert InsufficientBalance(amount, balances[msg.sender]));   // this make sure that sender has enough coins, if not then show the custom error message 
+        balances[msg.sender] -= amount;                                // subtract the coins from sener 
+        balances[receiver] += amount;                                  // add the coins to receiver
+        emit Sent(msg.sender, receiver, amount);                       // trigger the sent event to show that a transfer happened
     }
 }
 ```
