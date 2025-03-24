@@ -19,7 +19,7 @@ Contract Example :
 ```
 contract Coin {
 
-    address public minter;
+    address public minter;  // 
     
     mapping(address => uint) public balances;
 
