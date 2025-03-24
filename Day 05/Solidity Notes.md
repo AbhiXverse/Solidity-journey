@@ -82,7 +82,10 @@ require(amount <= balance, "Insufficient balance")
 ```
 
 - But with the custom errors: 
-    - you need to use an **if** condition and then explicitly 
+    - you need to use an **if** condition and then explicitly **revert** with your custom error:
+      e.g: 
+    if (amount > balance) 
+     revert insufficientBalance (amount , balances)
 
 
 
