@@ -67,6 +67,9 @@ How it is used in code:
 require (amount <= balance[msg.sender], InsufficientBalance(amount, balance[msg.sender]) );
 ```
 - this line checks if the user has enough balance 
+- if not, revert the transaction and show the custom error message with real values 
+- this version is cheaper in gas 
+- and it provides more info then 
 
 
 
