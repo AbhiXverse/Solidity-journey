@@ -56,7 +56,10 @@ contract Coin {
 ```
 error InsufficientBalance(uint requested, uint available);
 ```
-- this error is used when someone 
+- this error is used when someone tries to send more coins than they have 
+- it takes two values: 
+    - requested: how much the user wants to send 
+    - available: how much they actually have 
 
 
 
