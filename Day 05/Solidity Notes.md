@@ -19,14 +19,13 @@ Contract Example :
 ```
 contract Coin {
 
-    // only the deployer of this contract can mint the coins
+    // only the deployer of this contract becomes the minter 
     address public minter;  
     
-    // this keeps track of how many coins 
+    // this keeps track of how many coins each address has
     mapping(address => uint) public balances;
 
-    // Events allow clients to react to specific
-    // contract changes you declare
+    // event logs every successful coin transfer 
     event Sent(address from, address to, uint amount);
 
     // Constructor code is only run when the contract
