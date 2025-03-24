@@ -19,4 +19,7 @@ Understanding different integers sizes in Solidity
     -  use when you're sure that values are within this range and want to save space 
     - e.g: game score, short duration timers etc 
 
-4. uint64 ()
+4. uint64 (0 to ~3.4x10^38)
+     - with time or very large numbers etc 
+     - dfgd
+     - 
