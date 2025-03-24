@@ -44,7 +44,7 @@ contract Coin {
     
     function send(address receiver, uint amount) public {              // this function lets anyone send their coins to someone else 
         if (amount > balances[msg.sender] 
-          revert InsufficientBalance(amount, balances[msg.sender]));   // this make sure that sender has enough coins, if not then show the custom error message 
+        revert InsufficientBalance(amount, balances[msg.sender]));   // this make sure that sender has enough coins, if not then show the custom error message 
         balances[msg.sender] -= amount;                                // subtract the coins from sener 
         balances[receiver] += amount;                                  // add the coins to receiver
         emit Sent(msg.sender, receiver, amount);                       // trigger the sent event to show that a transfer happened
@@ -64,7 +64,8 @@ error InsufficientBalance(uint requested, uint available);
 
 How it is used in code: 
 ```
-require (amount <= balance[msg.sender], InsufficientBalance(amount, balance[msg.sender]) );
+require (amount > balance[msg.sender]
+revert InsufficientBalance(amount, balance[msg.sender]));
 ```
 - this line checks if the user has enough balance 
 - if not, revert the transaction and show the custom error message with real values 
