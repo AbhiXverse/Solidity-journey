@@ -63,8 +63,10 @@ error InsufficientBalance(uint requested, uint available);
 
 
 How it is used in code: 
-require (amount <= balance[msg.sender], Insufficient )
-
+```
+require (amount <= balance[msg.sender], InsufficientBalance(amount, balance[msg.sender]) );
+```
+- this line checks if the user has enough balance 
 
 
 
