@@ -4,7 +4,8 @@
 Custom Errors: 
 
 - Custom errors are a way to define specific messages in solidity 
-- They help you give clear feedback when something goes wrong 
+- They help you give clear feedback when something goes wrong in your contract 
+- Main benefit: They use less gas 
 
 
 
