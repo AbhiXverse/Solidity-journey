@@ -32,10 +32,10 @@ contract Coin {
         minter = msg.sender;  // set contract deployer as minter
     }
 
-    // this fun. creates new coins and gives them to the               receiver 
+    // this fun. creates new coins and gives them to the   receiver 
     function mint(address receiver, uint amount) public {
-        require(msg.sender == minter); // Only minter 
-        balances[receiver] += amount;
+        require(msg.sender == minter); // Only minter can mint coins 
+        balances[receiver] += amount; // add new coins to the receiver's balance 
     }
 
     // Errors allow you to provide information about
