@@ -38,12 +38,9 @@ contract Coin {
         balances[receiver] += amount; // add new coins to the receiver's balance 
     }
 
-    // Errors allow you to provide information about
-    // why an operation failed. They are returned
-    // to the caller of the function.
+    // custom error to show detailed info when balance is low 
     error InsufficientBalance(uint requested, uint available);
 
-    // Sends an amount of existing coins
     // from any caller to an address
     function send(address receiver, uint amount) public {
         require(amount <= balances[msg.sender], InsufficientBalance(amount, balances[msg.sender]));
