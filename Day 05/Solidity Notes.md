@@ -52,7 +52,11 @@ contract Coin {
 }
 ```
 
-
+ Custom error :-
+```
+error InsufficientBalance(uint requested, uint available);
+```
+- this error is used when someone 
 
 
 
