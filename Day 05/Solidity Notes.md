@@ -14,12 +14,13 @@ error ErrorName(type param1, type param2);
 ```
 
 
-Contract Example : Custom error in a coin contract - 
+Contract Example : 
+- Custom error in a Coin contract:
 ```
 contract Coin {
-    // The keyword "public" makes variables
-    // accessible from other contracts
+
     address public minter;
+    
     mapping(address => uint) public balances;
 
     // Events allow clients to react to specific
