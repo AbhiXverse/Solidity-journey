@@ -26,5 +26,7 @@ Understanding different integers sizes in Solidity
 
 5. uint256 ( 0 to ~1.16 x 10^77)
     - best for most use cases related to financial values 
-    - use for 
-    - 
+    - use for almost all financial values
+    - e.g: token balances, Ether values, hash results etc 
+
+
