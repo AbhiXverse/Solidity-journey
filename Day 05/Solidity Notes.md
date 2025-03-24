@@ -42,9 +42,10 @@ contract Coin {
     error InsufficientBalance(uint requested, uint available);
 
 
-    // tjhis function lets anyone send their coins to someone else 
+    // this function lets anyone send their coins to someone else 
     function send(address receiver, uint amount) public {
-        require(amount <= balances[msg.sender], InsufficientBalance(amount, balances[msg.sender]));  // this make sure that sender has enough coins, if not then show the custom error message 
+        if (amount <= balances[msg.sender] 
+          revert InsufficientBalance(amount, balances[msg.sender]));  // this make sure that sender has enough coins, if not then show the custom error message 
         balances[msg.sender] -= amount;  // subtract the coins from sener 
         balances[receiver] += amount;  // add the coins to receiver
         emit Sent(msg.sender, receiver, amount);  // trigger the sent event to show that a transfer happened
