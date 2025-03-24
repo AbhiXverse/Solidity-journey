@@ -12,7 +12,11 @@ Understanding different integers sizes in Solidity
 2. uint16 (0 to 65,535)
     - best for medium size numbers 
     - use when you're sure that values are within this range and want to save space 
-    - e.g: Year, percentage values, 
+    - e.g: Year, percentage values, item counts etc 
 
 3. uint32 (0 to ~18.4 quintillion)
-    -  
+    -  best for medium counters 
+    -  use when you're sure that values are within this range and want to save space 
+    - e.g: game score, short duration timers etc 
+
+4. uint64 ()
