@@ -93,6 +93,8 @@ require(amount <= balance, "Insufficient balance");
 
 
 Note 2 :- 
-
+- Curly brackets with if statements:
+  e.g : 
+if (amount > balance)
 
 
