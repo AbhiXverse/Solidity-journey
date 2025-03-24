@@ -64,7 +64,7 @@ error InsufficientBalance(uint requested, uint available);
 
 How it is used in code: 
 ```
-require (amount > balance[msg.sender]
+if (amount > balance[msg.sender]
 revert InsufficientBalance(amount, balance[msg.sender]));
 ```
 - this line checks if the user has enough balance 
@@ -72,7 +72,8 @@ revert InsufficientBalance(amount, balance[msg.sender]));
 - this version is cheaper in gas 
 - and it provides more info then just showing "insufficient balance"
 
-
+Note:- 
+- The **require** statement in the **send**. 
 
 
 
