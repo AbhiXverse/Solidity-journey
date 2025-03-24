@@ -100,5 +100,5 @@ if (amount > balance) {
 revert InsufficientBalance(amount, balance);
 }
 ```
-So, with Curly bracket after the If statement 
+So, by using Curly bracket after the If condition, all the statements within the bracket a
 
