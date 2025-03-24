@@ -64,9 +64,8 @@ error InsufficientBalance(uint requested, uint available);
 
 How it is used in code: 
 ```
-if (amount > balance[msg.sender] {
+if (amount > balance[msg.sender] 
 revert InsufficientBalance(amount, balance[msg.sender]));
-}
 ```
 - this line checks if the user has enough balance 
 - if not, revert the transaction and show the custom error message with real values 
@@ -86,8 +85,8 @@ require(amount <= balance, "Insufficient balance");
     - you need to use an **if** condition and then explicitly **revert** with your custom error:
       e.g: 
 ```
-    if (amount > balance) 
-     revert InsufficientBalance (amount , balance);
+    if (amount > balance[msg.sender]) 
+     revert InsufficientBalance (amount , balance[msg.sender]);
 ```
 
 
