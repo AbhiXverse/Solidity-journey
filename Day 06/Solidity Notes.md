@@ -32,4 +32,4 @@ Understanding different integers sizes in Solidity
 
 Note : Beginner tips: 
 - Start with uint256 - its the safest and most common 
-- 
+- default to uint256 for most cases like - Token amounts, 
