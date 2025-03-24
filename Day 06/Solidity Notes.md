@@ -30,3 +30,6 @@ Understanding different integers sizes in Solidity
     - e.g: token balances, Ether values, hash results etc 
 
 
+Note : Beginner tips: 
+- Start with uint256 - its the safest and most common 
+- 
