@@ -105,6 +105,8 @@ and,
 
 - Without Curly bracket in If condition:
   e.g: 
+```
 if (amount > balance) 
 revert InsufficientBalance (amount, balance);
-
+```
+So, in this only the next single statement is part of the If condition 
