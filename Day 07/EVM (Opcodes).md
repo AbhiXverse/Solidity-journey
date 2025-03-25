@@ -45,4 +45,7 @@ Categories of Opcodes :
         - ADD, SUB, MUL, DIV
     
 - Comparison Operations: 
-    - Logic checks and bitwise 
+    - Logic checks and bitwise operations 
+    - e.g: 
+         - LT, GT, EQ, ISZERO -> less than, equal etc 
+         - AND, OR, XOR, NOT 
