@@ -19,3 +19,7 @@ Why are Opcodes Important ?
 
 Categories of Opcodes : 
 
+- Stack Operations: 
+    - the EVM uses a stack (lat in , first out)
+    - Example 
+        - PUSH1 0x06 -> Push 1-byte
