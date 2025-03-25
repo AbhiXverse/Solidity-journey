@@ -91,7 +91,4 @@ Gas and Opcodes:
 - e.g :
     - ADD = 3 gas 
     - SSTORE = up t o20,000 gas (because it writes to permanent storage)
-- Tool -> EVM 
-
-
-
+- Tool -> [[EVM (Opcodes)#]]
