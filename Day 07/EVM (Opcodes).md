@@ -72,4 +72,12 @@ Simple Working Example of Opcode:
 ```
 uint a = 2 + 3 ;
 ```
-this complies to 
+this complies to opcode like:
+
+```
+PUSH1 0x02 
+PUSH2 0x03 
+ADD
+```
+Explain : 
+- Push 2 and 3 onto the 
