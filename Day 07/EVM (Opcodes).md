@@ -80,4 +80,14 @@ PUSH2 0x03
 ADD
 ```
 Explain : 
-- Push 2 and 3 onto the 
+- Push 2 and 3 onto the stack 
+- use ADD to get 5 
+- and that's it!
+
+
+Gas and Opcodes:
+
+- Each opcode has a gas cost 
+- e.g :
+    - ADD = 3 gas 
+    - SSTORE 
