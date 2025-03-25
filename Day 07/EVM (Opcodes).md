@@ -53,6 +53,10 @@ Categories of Opcodes :
  - Control flow:
     -  Change how code is executed 
     - e.g: 
-    - JUMP, JUMP1 -> jump to specific code positions 
-    - STOP, RETURN, REVERT 
-    - 
+        - JUMP, JUMP1 -> jump to specific code positions 
+        - STOP, RETURN, REVERT 
+    
+- External Calls: 
+    - Interact with other contracts 
+    - e.g: 
+        - CALL, DELEGATECALL, STATIC
