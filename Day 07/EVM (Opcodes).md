@@ -49,3 +49,10 @@ Categories of Opcodes :
     - e.g: 
          - LT, GT, EQ, ISZERO -> less than, equal etc 
          - AND, OR, XOR, NOT 
+    
+ - Control flow:
+    -  Change how code is executed 
+    - e.g: 
+    - JUMP, JUMP1 -> jump to specific code positions 
+    - STOP, RETURN, REVERT 
+    - 
