@@ -2,4 +2,5 @@
 Opcodes: 
 
 - Opcode stands for operation code 
-- t
+- these are the low-level instructions the Ethereum Virtual Machine(EVM) understand 
+- think of 
