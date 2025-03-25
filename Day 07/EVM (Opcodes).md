@@ -13,4 +13,9 @@ Why are Opcodes Important ?
 - Knowing them helps in :
      - gas optimization 
      - debugging 
-     - security 
+     - security auditing 
+     - understand what your contract really does under the hood 
+
+
+Categories of Opcodes : 
+
