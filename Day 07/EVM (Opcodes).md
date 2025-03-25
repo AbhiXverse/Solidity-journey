@@ -7,4 +7,10 @@ Opcodes:
 - every smart contract written in solidity is complied down to opcode so the EVM can execute them 
 
 
-Why are Opcodes Imp
+Why are Opcodes Important ?
+
+- They are the building blocks of smart contracts on Ethereum 
+- Knowing them helps in :
+     - gas optimization 
+     - debugging 
+     - security 
