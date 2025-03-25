@@ -32,6 +32,8 @@ Categories of Opcodes :
         - MLOAD -> load data form memory 
         - MSTORE -> store data in memory 
         - MSTORE8 -> store 1-byte in memory 
-        
+    
 - Storage Operations: 
-- 
+    - Permanent storage (stored on blockchain)
+    - e.g: 
+        - SLOAD -> 
