@@ -65,4 +65,11 @@ Categories of Opcodes :
     - Emit logs (used in events)
     - e,g: 
         - LOG0. LOG1 upto LOG4 
-        - 
+
+
+Simple Working Example of Opcode: 
+
+```
+uint a = 2 + 3 ;
+```
+this complies to 
