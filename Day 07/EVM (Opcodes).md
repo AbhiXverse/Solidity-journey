@@ -36,4 +36,9 @@ Categories of Opcodes :
 - Storage Operations: 
     - Permanent storage (stored on blockchain)
     - e.g: 
-        - SLOAD -> 
+        - SLOAD -> load from contract storage 
+        - SSTORE -> write to contract storage 
+    
+- Arithematic Operations: 
+    - Basic math operations 
+    - 
