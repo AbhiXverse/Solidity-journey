@@ -59,4 +59,10 @@ Categories of Opcodes :
 - External Calls: 
     - Interact with other contracts 
     - e.g: 
-        - CALL, DELEGATECALL, STATIC
+        - CALL, DELEGATECALL, STATICCALL 
+    
+- Logging: 
+    - Emit logs (used in events)
+    - e,g: 
+        - LOG0. LOG1 upto LOG4 
+        - 
