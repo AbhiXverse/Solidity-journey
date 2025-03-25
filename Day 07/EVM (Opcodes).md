@@ -21,7 +21,11 @@ Categories of Opcodes :
 
 - Stack Operations: 
     - the EVM uses a stack (lat in , first out)
-    - Example 
+    - e.g: 
         - PUSH1 0x06 -> Push 1-byte value 0x06 onto the stack 
         - POP -> Remove the top item from the stack 
-        - DUP1 -> Duplicated
+        - DUP1 -> Duplicate the top item 
+- Memory Operations:
+    - Temporary memory used only during the execution 
+    - e.g:
+        - 
