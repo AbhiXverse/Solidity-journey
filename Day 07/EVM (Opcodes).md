@@ -25,7 +25,13 @@ Categories of Opcodes :
         - PUSH1 0x06 -> Push 1-byte value 0x06 onto the stack 
         - POP -> Remove the top item from the stack 
         - DUP1 -> Duplicate the top item 
+    
 - Memory Operations:
     - Temporary memory used only during the execution 
     - e.g:
-        - 
+        - MLOAD -> load data form memory 
+        - MSTORE -> store data in memory 
+        - MSTORE8 -> store 1-byte in memory 
+        
+- Storage Operations: 
+- 
