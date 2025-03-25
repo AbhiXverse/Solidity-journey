@@ -41,4 +41,8 @@ Categories of Opcodes :
     
 - Arithematic Operations: 
     - Basic math operations 
-    - 
+    - e.g :
+        - ADD, SUB, MUL, DIV
+    
+- Comparison Operations: 
+    - Logic checks and bitwise 
