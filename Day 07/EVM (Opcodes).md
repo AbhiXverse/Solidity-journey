@@ -90,4 +90,8 @@ Gas and Opcodes:
 - Each opcode has a gas cost 
 - e.g :
     - ADD = 3 gas 
-    - SSTORE 
+    - SSTORE = up t o20,000 gas (because it writes to permanent storage)
+- Tool -> EVM 
+
+
+
