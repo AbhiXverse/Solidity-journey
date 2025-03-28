@@ -21,6 +21,8 @@ Enums:
 
 Constructor 
 
-- Runs only once wh
-- 
+- Runs only once when the contract is deployed 
+- Used to set initial values 
+- Only one constructor is allowed per contract 
+- Not part of the final deployed code 
  
