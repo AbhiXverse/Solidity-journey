@@ -21,4 +21,6 @@ if the user is the zero address (invalid), solidity doesn't even check the balan
 Integers Types: 
 
 - Signed (int) & Unsigned (uint) of various sizes - int8 to int256, uint8 to uint256 
-- int and uint are al
+- int and uint are short form for the 256-bit version 
+- Operators:
+    - Comparison 
