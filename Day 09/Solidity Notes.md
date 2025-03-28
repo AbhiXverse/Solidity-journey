@@ -9,6 +9,10 @@ Boolean Type:
 - Operators - ! (not), && (and), | | (or), == (equal ), != (not equal)
 - && and | | use short-circuit logic (stop if result is known early) 
   e.g: 
+```
 function sendToken (address user) public {
-     if (user != address (0) && balance [user] > 0 )
+     if (user != address (0) && balance [user] > 0) {
+     }
 }
+```
+if the user is the zero address (inval)
