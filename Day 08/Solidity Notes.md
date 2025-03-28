@@ -25,4 +25,9 @@ Constructor
 - Used to set initial values 
 - Only one constructor is allowed per contract 
 - Not part of the final deployed code 
+
+
+Receive function 
+
+- 
  
