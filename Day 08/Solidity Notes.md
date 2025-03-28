@@ -89,4 +89,8 @@ Scoping Rules in Solidity:
 
 - Variables inside { } block are only visible there 
 - e.g: 
-function demo() public 
+function demo() public {
+     uint x = 5;   // x is only available inside this function 
+}
+
+//  Outside this function, x does not exist 
