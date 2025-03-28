@@ -30,5 +30,5 @@ Constructor
 Receive function 
 
 - Runs when the contract gets plain Ether (with empty calldata)
-- 
+- Only 
  
