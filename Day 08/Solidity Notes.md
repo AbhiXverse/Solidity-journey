@@ -136,4 +136,4 @@ parameters like a and b are created when the function is called and go away afte
         }
      }
 ```
-state variables (declare outside any func)
+state variables (declare outside any function) and functions are visible everywhere in the contract - even before they are declared in the code
