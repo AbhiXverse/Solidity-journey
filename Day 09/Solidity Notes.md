@@ -26,4 +26,6 @@ Integers Types:
     - Comparison: <,  >,  <=,  >=,  == ,  !=
     - Bitwise: &,  |,  ^,  ~
     - Shifts: << ,  >>
-    - Arithmetic: +, -, *, / , %, **
+    - Arithmetic: +,  -,  * ,  / ,  %,  **
+- Checked and Unchecked Math: 
+    - By default - Checked -> erros 
