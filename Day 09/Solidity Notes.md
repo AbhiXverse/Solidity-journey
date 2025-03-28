@@ -23,6 +23,7 @@ Integers Types:
 - Signed (int) & Unsigned (uint) of various sizes - int8 to int256, uint8 to uint256 
 - int and uint are short form for the 256-bit version 
 - Operators:
-    - Comparison: <, >, <=, >=, == , !=
-    - Bitwise: &, |, ^, ~
-    - 
+    - Comparison: <,  >,  <=,  >=,  == ,  !=
+    - Bitwise: &,  |,  ^,  ~
+    - Shifts: << ,  >>
+    - Arithmetic: +, -, *, / , %, **
