@@ -14,5 +14,12 @@ Enums:
 - Used to define a list of constant values (like options)
 - Improves readability 
 - Values start from 0 to go up (0,1,2....)
-- can be converted to/from 
+- can be converted to/from integers 
+- first value is the default 
+- can have 1 to 256 members 
+
+
+Constructor 
+
+- Special 
  
