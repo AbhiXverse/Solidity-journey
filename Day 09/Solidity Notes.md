@@ -32,3 +32,4 @@ Integers Types:
     - Use unchecked {} -> to disable safety checks (faster, but riskier)
 
 
+Address Types 
