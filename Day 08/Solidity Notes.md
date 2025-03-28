@@ -59,4 +59,4 @@ fallback(byte calldata) external returns (bytes memory)
 
 Solidity data types: 
 
-- 
+- Value types 
