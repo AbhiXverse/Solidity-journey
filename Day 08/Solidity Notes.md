@@ -96,6 +96,8 @@ function demo() public {
 
 //  Outside this function, x does not exist 
 ```
-So, if oyu delcare a variable inside a functino or a block {}, you can't use it outside  
+So, if you declare a variable inside a function or a block { }, you can't use it outside that block  
 
-- 
+- For-loop variables only exist inside the loop 
+    - e.g: 
+function loop() public 
