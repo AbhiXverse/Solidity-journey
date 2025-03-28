@@ -30,6 +30,6 @@ Constructor
 Receive function 
 
 - Runs when the contract gets plain Ether (with empty calldata)
-- Only one allowed per contract 
-- 
+- Only one receive function allowed per contract 
+- Can't take input
  
