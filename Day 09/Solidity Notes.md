@@ -49,7 +49,7 @@ Transfer vs Send:
      - must manually check the return value 
 
 
-Call/ Delegatecall / Staticcall:
+Call / Delegatecall / Staticcall:
 
 - call():
     - low-level call , forwards all gas 
