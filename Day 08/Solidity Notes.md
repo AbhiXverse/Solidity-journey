@@ -57,19 +57,22 @@ fallback(byte calldata) external returns (bytes memory)
 ```
 
 
+
 Solidity data types: 
 
-- Value types (copied when used) - 
+
+1. Value types (copied when used) - 
 ```
 bool, int, uint, address, contract, byte1-32 ,enum, function
 ```
-    - Always passes by value (copied on use)
+- Always passes by value (copied on use)
 
-- Reference type (point to data)
+2. Reference type (point to data)
 ```
 array, struct, mapping, string, bytes
 ```
-changes made via one reference affect all   
+- changes made via one reference affect all   
+
 
 
 Default Values: 
@@ -83,6 +86,7 @@ address         -> 0x0
 enum            -> first member 
 string/byte/array -> empty
 ```
+
 
 
 Scoping Rules in Solidity: 
