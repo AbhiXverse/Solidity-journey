@@ -42,6 +42,8 @@ receive( ) external payable {...}
 
 Fallback Function:
 
-- 
+- Used when - 
+    - Call doesn't math any function 
+    - or calldata os non-empty 
 
 
