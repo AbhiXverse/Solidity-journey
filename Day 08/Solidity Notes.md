@@ -74,4 +74,10 @@ array, struct, mapping, string, bytes
 
 Default Values: 
 
-- Uninitialized variables
+- Uninitialized variables = default value (zero state)
+- e.g:
+    - bool -> false 
+    - uint/int -> 0 
+    - address -> 0x0
+    - enum -> first member 
+    - string/b
