@@ -11,5 +11,8 @@ Struct:
 
 Enums:
 
-- Used to
+- Used to define a list of constant values (like options)
+- Improves readability 
+- Values start from 0 to go up (0,1,2....)
+- can be converted to/from 
  
