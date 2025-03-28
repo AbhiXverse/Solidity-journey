@@ -112,10 +112,14 @@ the loop variable i is temporary - only works inside the loop
 
 
 - Function/Modifiers parameters are only available inside that function
-- e.g: 
+    - e.g: 
 ```
 function add(uint a, uint b) public returns (uint) {
      return a + b;   // a and b are visible here 
 }
 // you cannot access a or b outside this function 
 ```
+parameters like a and b are created when the function is called and go away after it finishes
+
+
+- 
