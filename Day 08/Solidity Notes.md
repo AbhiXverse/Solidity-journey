@@ -4,5 +4,7 @@
 
 Struct: 
 
+- Structs are custom data types that group different variables together 
+- Useful for organizing realted data(like address + amount)
 - 
  
