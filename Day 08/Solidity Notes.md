@@ -27,7 +27,7 @@ Constructor
 - Not part of the final deployed code 
 
 
-Receive function:
+Receive Function:
 
 - Runs when the contract gets plain Ether (with empty calldata)
 - Only one receive function allowed per contract 
@@ -35,7 +35,13 @@ Receive function:
 - limited to 2300 gas (can't do much logic)
 - can receive Ether via. **send()** or **.transfer()**
 E.g: Syntax
+```
 receive( ) external payable {...}
+```
 
+
+Fallback Function:
+
+- 
 
 
