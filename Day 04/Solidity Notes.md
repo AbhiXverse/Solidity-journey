@@ -104,5 +104,8 @@ Here, the indexed keyword helps find transactions faster in blockchain explorers
 Emit:
 
 - Use emit to trigger an event
-- e.g 
+- e.g -
+```
 emit deposit(msg.sender, _id, msg.value);
+```
+
