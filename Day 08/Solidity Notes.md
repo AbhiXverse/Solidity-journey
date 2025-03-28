@@ -45,5 +45,8 @@ Fallback Function:
 - Used when - 
     - Call doesn't math any function 
     - or calldata is non-empty and no receive() is present
-- It must be external, can b
+- It must be external, can be payable if you want to receive the Ether 
+- also limited to 2300 gas if used for Ether receiving 
+- e.g: 
+fallback() ext
 
