@@ -15,4 +15,9 @@ function sendToken (address user) public {
      }
 }
 ```
-if the user is the zero address (inval)
+if the user is the zero address (invalid), solidity doesn't even check the balance
+
+
+Integers Types: 
+
+- 
