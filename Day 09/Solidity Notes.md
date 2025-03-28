@@ -4,5 +4,7 @@
 
 Boolean Type:
 
-- Declared using -  bool 
-- Values 
+- Declared using - bool 
+- Values - true, false 
+- Operators - ! (not), && (and), || (or), == (equal ), != (not equal)
+- && 
