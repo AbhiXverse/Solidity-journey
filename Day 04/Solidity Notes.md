@@ -100,3 +100,7 @@ emit Transfer(msg.sender, receive, amount);
 ```
 Here, the indexed keyword helps find transactions faster in blockchain explorers.
 
+
+Emit :
+
+- 
