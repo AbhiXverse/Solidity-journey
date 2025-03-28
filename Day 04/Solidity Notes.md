@@ -108,4 +108,4 @@ Emit:
 ```
 emit deposit(msg.sender, _id, msg.value);
 ```
-
+this sends out a signal with the details so outside apps can know something happened in the contract
