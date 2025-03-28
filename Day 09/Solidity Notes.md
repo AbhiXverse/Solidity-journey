@@ -52,4 +52,8 @@ Transfer vs Send:
 Call/ Delegatecall / Staticcall:
 
 - call():
-    - 
+    - low-level call , forwards all gas 
+    - use with encoded data 
+    - can send Ether 
+- delegatecall() - 
+    - uses target contrat
