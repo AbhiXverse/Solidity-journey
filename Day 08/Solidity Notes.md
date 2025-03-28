@@ -111,4 +111,6 @@ function loop() public {
 the loop variable i is temporary - only works inside the loop 
 
 
-- 
+- Function/Modifiers parameters are only available inside that function
+- e.g: 
+function add(uint a, uint b) publ
