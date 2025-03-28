@@ -84,3 +84,9 @@ enum            -> first member
 string/byte/array -> empty
 ```
 
+
+Scoping Rules in Solidity: 
+
+- Variables inside { } block are only visible there 
+- e.g: 
+function demo() public 
