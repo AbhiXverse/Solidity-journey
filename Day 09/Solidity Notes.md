@@ -32,4 +32,7 @@ Integers Types:
     - Use unchecked {} -> to disable safety checks (faster, but riskier)
 
 
-Address Types 
+Address Types:
+
+- address -> 20-byte Ethereum address 
+- address payable -> can 
