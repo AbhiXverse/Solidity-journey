@@ -126,14 +126,14 @@ parameters like a and b are created when the function is called and go away afte
     - e.g: 
 ``
     contract Mycontract { 
-        uint public number = 10;  // state variables 
+        uint public number = 10;     // state variables 
 
         function get() public view returns (uint) {
-           return number;    // we can access 'number' from anywhere inside the contract 
+            return number;    // we can access 'number' from anywhere inside the contract 
         }
          function set() public {
               // number is still available here 
         }
-} 
-
+     }
 ```
+state variables (declare outside any func)
