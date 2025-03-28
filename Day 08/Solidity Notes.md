@@ -60,4 +60,10 @@ fallback(byte calldata) external returns (bytes memory)
 Solidity data types: 
 
 - Value types (copied when used) - 
-     - bool, int, uint, address, contract, byte1-32
+```
+bool, int, uint, address, contract, byte1-32 ,enum, function
+```
+    - Always passes by value (copied on use)
+- 
+
+
