@@ -88,9 +88,14 @@ string/byte/array -> empty
 Scoping Rules in Solidity: 
 
 - Variables inside { } block are only visible there 
-- e.g: 
+    - e.g: 
+```
 function demo() public {
      uint x = 5;   // x is only available inside this function 
 }
 
 //  Outside this function, x does not exist 
+```
+So, if oyu delcare a variable inside a functino or a block {}, you can't use it outside  
+
+- 
