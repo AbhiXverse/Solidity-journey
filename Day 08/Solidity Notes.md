@@ -116,7 +116,7 @@ function loop() public {
 the loop variable i is temporary - only works inside the loop 
 
 
-- Function/Modifiers parameters are only available inside that function
+3. Function/Modifiers parameters are only available inside that function
     - e.g: 
 ```
 function add(uint a, uint b) public returns (uint) {
@@ -127,18 +127,18 @@ function add(uint a, uint b) public returns (uint) {
 parameters like a and b are created when the function is called and go away after it finishes
 
 
-- State variables and functions are visible across the whole contract  
+4. State variables and functions are visible across the whole contract  
     - e.g: 
-``
-    contract Mycontract { 
-        uint public number = 10;     // state variables 
+```
+contract Mycontract { 
+    uint public number = 10;     // state variables 
 
-        function get() public view returns (uint) {
-            return number;    // we can access 'number' from anywhere inside the contract 
-        }
-         function set() public {
+    function get() public view returns (uint) {
+        return number;    // we can access 'number' from anywhere inside the contract 
+    }
+    function set() public {
               // number is still available here 
-        }
-     }
+    }
+}
 ```
 state variables (declare outside any function) and functions are visible everywhere in the contract - even before they are declared in the code
