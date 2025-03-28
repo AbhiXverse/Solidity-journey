@@ -48,5 +48,9 @@ Fallback Function:
 - It must be external, can be payable if you want to receive the Ether 
 - also limited to 2300 gas if used for Ether receiving 
 - e.g: 
-fallback() ext
+```
+fallback() external 
+or 
+fallback(byte calldata) external returns (bytes memory)
+```
 
