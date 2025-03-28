@@ -46,3 +46,10 @@ Transfer vs Send:
     - safe and simple to use 
 - send() - 
      - returns false on failure (doesn't revert) 
+     - must manually check the return value 
+
+
+Call/ Delegatecall / Staticcall:
+
+- call():
+    - 
