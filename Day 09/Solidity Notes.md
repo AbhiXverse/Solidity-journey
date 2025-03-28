@@ -64,3 +64,6 @@ Call/ Delegatecall / Staticcall:
 
 Contract type:
 
+- every contract defines its own type
+- can convert contract to address
+- only external / public functions and variables are accessibles from outside 
