@@ -122,4 +122,8 @@ function add(uint a, uint b) public returns (uint) {
 parameters like a and b are created when the function is called and go away after it finishes
 
 
-- 
+- State variables and functions are visible across the whole contract 
+    - e.g: 
+    contract Mycontract { }
+       
+ 
