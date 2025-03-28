@@ -69,5 +69,9 @@ bool, int, uint, address, contract, byte1-32 ,enum, function
 ```
 array, struct, mapping, string, bytes
 ```
+    - changes made via one reference affect all   
 
 
+Default Values: 
+
+- Uninitialized variables
