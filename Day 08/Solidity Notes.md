@@ -77,9 +77,10 @@ Default Values:
 - Uninitialized variables = default value (zero state)
 - e.g:
 ```
-bool           -> false 
-uint/int -> 0 
-address -> 0x0
-enum -> first member 
+bool            -> false 
+uint/int        -> 0 
+address         -> 0x0
+enum            -> first member 
 string/byte/array -> empty
 ```
+
