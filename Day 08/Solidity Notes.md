@@ -100,9 +100,15 @@ So, if you declare a variable inside a function or a block { }, you can't use it
 
 - For-loop variables only exist inside the loop 
     - e.g: 
+```
 function loop() public {
-     for (uint i = 0; i < 5; i++) {
+     for (uint i = 0; i < 5; i++)  {
          // i is visible only inside this for loop
-         }
-         
+     }
+         // i is not available here 
 }
+```
+the loop variable i is temporary - only works inside the loop 
+
+
+- 
