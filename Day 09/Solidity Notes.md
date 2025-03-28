@@ -40,5 +40,9 @@ Address Types:
 
 Transfer vs Send: 
 
-- transfer() - 
-- 
+- transfer() -
+    - sends Ether, reverts the failure 
+    - fixed 2300 gas 
+    - safe and simple to use 
+- send() - 
+     - returns false on failure (doesn't revert) 
