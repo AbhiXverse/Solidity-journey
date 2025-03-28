@@ -91,7 +91,7 @@ string/byte/array -> empty
 
 Scoping Rules in Solidity: 
 
-- Variables inside { } block are only visible there 
+1. Variables inside { } block are only visible there 
     - e.g: 
 ```
 function demo() public {
@@ -102,7 +102,8 @@ function demo() public {
 ```
 So, if you declare a variable inside a function or a block { }, you can't use it outside that block  
 
-- For-loop variables only exist inside the loop 
+
+2. For-loop variables only exist inside the loop 
     - e.g: 
 ```
 function loop() public {
