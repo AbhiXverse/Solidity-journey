@@ -28,4 +28,7 @@ Integers Types:
     - Shifts: << ,  >>
     - Arithmetic: +,  -,  * ,  / ,  %,  **
 - Checked and Unchecked Math: 
-    - By default - Checked -> erros 
+    - By default - Checked -> erros on overflow/ underflow
+    - Use unchecked {} -> to disable safety checks (faster, but riskier)
+
+
