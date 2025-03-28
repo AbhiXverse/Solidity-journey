@@ -44,6 +44,6 @@ Fallback Function:
 
 - Used when - 
     - Call doesn't math any function 
-    - or calldata os non-empty 
-
+    - or calldata is non-empty and no receive() is present
+- It must be external, can b
 
