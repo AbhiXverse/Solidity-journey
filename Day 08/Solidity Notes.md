@@ -64,6 +64,10 @@ Solidity data types:
 bool, int, uint, address, contract, byte1-32 ,enum, function
 ```
     - Always passes by value (copied on use)
-- 
+
+- Reference type (point to data)
+```
+array, struct, mapping, string, bytes
+```
 
 
