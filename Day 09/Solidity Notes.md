@@ -35,4 +35,10 @@ Integers Types:
 Address Types:
 
 - address -> 20-byte Ethereum address 
-- address payable -> can 
+- address payable -> can be used whenever address is expected 
+
+
+Transfer vs Send: 
+
+- transfer() - 
+- 
