@@ -125,5 +125,9 @@ parameters like a and b are created when the function is called and go away afte
 - State variables and functions are visible across the whole contract 
     - e.g: 
     contract Mycontract { }
-       
+       uint public number = 10;  // state variables 
+
+        function get() public view returns (uint) {
+           return number;    // we can acces
+        }
  
