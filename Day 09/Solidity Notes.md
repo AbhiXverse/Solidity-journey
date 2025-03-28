@@ -56,4 +56,11 @@ Call/ Delegatecall / Staticcall:
     - use with encoded data 
     - can send Ether 
 - delegatecall() - 
-    - uses target contrat
+    - uses target contract's code but current contract's state 
+    - used for libraries 
+- staticcall() - 
+     - Same as call() but doesn't allow state changes 
+
+
+Contract type:
+
