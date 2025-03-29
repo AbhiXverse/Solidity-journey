@@ -25,5 +25,5 @@ but if you want to access characters, you can convert it to bytes:
 bytes memory temp = bytes(message);
 bytes1 leter = temp[0];    // Now this wiorks, gives you "H"
 ```
-    
-    Real life use case example of string 
+
+Real Use case - String cannot be accessed by index 
