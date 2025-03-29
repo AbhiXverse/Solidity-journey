@@ -61,3 +61,10 @@ struct Car {
      uint256 year;
 }
 ```
+
+
+Mapping Types:
+
+- Key-value pairs
+e.g 
+mapping(keyType  =>  ValueType) variablenam
