@@ -54,7 +54,11 @@ Array Slices:
 
 - Represent a portion of an array 
 - written as array [start:end], where :
-    - start 
+    - start is included 
+    - end is excluded 
+e.g: 
+uint256[] calldata numbers = [1, 2, 3, 4, 5] ;
+uint256[] calldata slice = number[1:4]
 
 Struct Type:
 
