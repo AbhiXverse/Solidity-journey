@@ -11,6 +11,8 @@ Special Array types:
     - Similar to bytes, but cannot be accessed by index or modified 
     - means e.g:
         - A string is used to store text (like name, message etc )
-        - It's similar to bytes, but you cannot access or change individual character
+        - It's similar to bytes, but you cannot access or change individual characters using an index like mystring[0]
+        - e.g: 
+        
     
     
