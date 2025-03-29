@@ -23,4 +23,4 @@ Data types:
     
     - String literals: 
         - Enclosed in single quotes('abhi') or double quotes ("abhi") 
-        - 
+        - Only printable ASCII characters allowed 
