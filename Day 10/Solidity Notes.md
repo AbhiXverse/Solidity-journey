@@ -34,3 +34,5 @@ Data types:
         - prefixed with hex, used for raw byte data 
         - e.g: hex"001122FF" is a sequence of raw bytes 
 
+
+Data Locations 
