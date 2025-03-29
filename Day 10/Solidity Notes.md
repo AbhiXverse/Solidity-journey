@@ -55,4 +55,6 @@ uint256 public storedData;    // stored in blockchain permanently
     - similar to memory. but read-only 
     - used for external function arguments to optimize gas usage 
     - e.g: 
-function examplefun (string calldata  _data) external { }
+```
+function examplefun (string calldata _data) external { }
+```
