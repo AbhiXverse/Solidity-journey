@@ -53,4 +53,6 @@ uint256 public storedData;    // stored in blockchain permanently
 
 3. Calldata: 
     - similar to memory. but read-only 
-    - used for external function arguments 
+    - used for external function arguments to optimize gas usage 
+    - e.g: 
+function examplefun (string calldata  _data) external { }
