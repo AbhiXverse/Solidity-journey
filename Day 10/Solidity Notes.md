@@ -102,3 +102,6 @@ numbers.push(2);      // numbers = [2]
 numbers.push(4);     // numbers = [2, 4]
 
 4. .pop() -> removes the last item from the array 
+e.g: 
+uint[] numbers = [5, 10, 15];
+numbers.pop();       // numbers = [5, 10]  (15 is removed)
