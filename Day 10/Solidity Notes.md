@@ -81,4 +81,10 @@ Arrays:
 
 Array Methods: 
 
-1. .length -> tells how many ite
+1. .length -> tells how many items are in the array 
+e.g: 
+```
+uint[] numbers = [10, 20, 30];
+uint count = numbers.length;   // count = 3 
+```
+
