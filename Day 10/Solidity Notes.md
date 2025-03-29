@@ -8,6 +8,7 @@ Data types:
     - types - byte1, byte2,.... to byte32 
     - hold 1 to 32 bytes 
     - Use bytes instead of byte[] to optimize storage and gas 
+
 - Literals - 
     - Address literals:
         - A valid Ethereum address is a hexadecimal value passing the checksum test (EIP - 55)
@@ -15,4 +16,4 @@ Data types:
         - Addresses must be between 39 to 41 characters
     
     - Integers & Rational literals:
-        - 
+        - Integers liternals - only numbers (0-9), wothout 
