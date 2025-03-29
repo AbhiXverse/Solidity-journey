@@ -52,4 +52,12 @@ uint256;     // fixed size
 
 Struct Type:
 
-- Custom data structures comb
+- Custom data structures combining multiple values 
+- can obtain arrays and mappings but not themselves 
+e.g: 
+```
+struct Car {
+     string model;
+     uint256 year;
+}
+```
