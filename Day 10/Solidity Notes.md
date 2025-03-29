@@ -90,5 +90,11 @@ uint count = numbers.length;   // count = 3
 
 2. .push() -> ads an empty (zero) value at the end of the array 
 e.g: 
+```
 uint[] numbers;
-numbers.push( );    // adds a zero 
+numbers.push( );    // adds a zero  :  numbers = [0]
+```
+
+3. .push(x) -> adds x to the end of the array 
+e.g: 
+uint[ nu]
