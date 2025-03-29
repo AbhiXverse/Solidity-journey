@@ -62,10 +62,11 @@ function examplefun (string calldata _data) external { }
 
 Data Locations & Assignments:
 
-- Storage <-> memory - creates a copy 
+- Storage <-> Memory - creates a copy 
     - e.g - this is like copying a photo from your phone to your laptop - changing one doesn't affect the other 
 
-- Memory <-> memory - creates a reference 
+- Memory <-> Memory - creates a reference 
      - e.g - like giving someone access to your google docs. If one updates it, the other can sees the change too 
 
- - Storage <-> 
+ - Storage <-> Storage - also create a reference 
+     - e.g - same as the upper one - where 
