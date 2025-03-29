@@ -50,6 +50,12 @@ uint256;     // fixed size
 ```
 
 
+Array Slices: 
+
+- Represent a portion of an array 
+- written as array [start:end], where :
+    - start 
+
 Struct Type:
 
 - Custom data structures combining multiple values 
