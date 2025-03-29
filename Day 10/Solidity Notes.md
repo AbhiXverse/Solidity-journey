@@ -88,3 +88,7 @@ uint[] numbers = [10, 20, 30];
 uint count = numbers.length;   // count = 3 
 ```
 
+2. .push() -> ads an empty (zero) value at the end of the array 
+e.g: 
+uint[] numbers;
+numbers.push( );    // adds a zero 
