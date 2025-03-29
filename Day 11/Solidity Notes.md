@@ -22,7 +22,8 @@ Special Array types:
 
 but if you want to access characters, you can convert it to bytes:
 
-bytes memory temp = bytes
+bytes memory temp = bytes(message);
+bytes1 leter = temp[0];    // Now this wiorks, gives you "H"
 ```
     
     
