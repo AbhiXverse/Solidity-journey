@@ -66,4 +66,6 @@ Data Locations & Assignments:
     - e.g - this is like copying a photo from your phone to your laptop - changing one doesn't affect the other 
 
 - Memory <-> memory - creates a reference 
-     - e.g - 
+     - e.g - like giving someone access to your google docs. If one updates it, the other can sees the change too 
+
+ - Storage <-> 
