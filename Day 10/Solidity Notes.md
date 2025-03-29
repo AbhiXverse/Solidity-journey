@@ -69,4 +69,4 @@ Data Locations & Assignments:
      - e.g - like giving someone access to your google docs. If one updates it, the other can sees the change too 
 
  - Storage <-> Storage - also create a reference 
-     - e.g - same as the upper one - where 
+     - e.g - same as the upper one - like google doc. where more then 1 person can able to work one a doc and everyone can sees the changes
