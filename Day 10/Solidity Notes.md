@@ -79,3 +79,6 @@ Arrays:
 - Indices are zero-based 
 - arrays can store mappings and structs 
 
+Array Methods: 
+
+1. .length -> tells how many ite
