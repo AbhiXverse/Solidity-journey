@@ -70,3 +70,10 @@ Data Locations & Assignments:
 
  - Storage <-> Storage - also create a reference 
      - e.g - same as the upper one - like google doc. where more then 1 person can able to work one a doc and everyone can sees the changes
+
+
+
+Arrays: 
+
+- Can be fixed-size (uint256[3] numbers;) or dynamic size (uint[] numbers;)
+- 
