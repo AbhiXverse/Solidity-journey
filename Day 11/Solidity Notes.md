@@ -14,9 +14,9 @@ Special Array types:
         - It's similar to bytes, but you cannot access or change individual characters using an index like mystring[0]
         - e.g: 
 ```
-        string message = "Hello";
+string message = "Hello";
 
-     You can't do this:
+    You can't do this:
          bytes letter = message[0];
          // this will give you an error 
 
