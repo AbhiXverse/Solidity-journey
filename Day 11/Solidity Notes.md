@@ -26,4 +26,4 @@ bytes memory temp = bytes(message);
 bytes1 leter = temp[0];    // Now this wiorks, gives you "H"
 ```
     
-    
+    Real life use case example of string 
