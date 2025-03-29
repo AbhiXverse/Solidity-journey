@@ -100,3 +100,5 @@ e.g:
 uint[] numbers;
 numbers.push(2);      // numbers = [2]
 numbers.push(4);     // numbers = [2, 4]
+
+4. .pop() -> removes the last item from the array 
