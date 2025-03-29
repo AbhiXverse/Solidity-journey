@@ -1,4 +1,4 @@
-[Solidity-journey /Day 04/Solidity Notes] - 04
+[Solidity-journey /Day 04/Solidity Notes] - #04
 
 Contract Ownership & Security :- 
 
