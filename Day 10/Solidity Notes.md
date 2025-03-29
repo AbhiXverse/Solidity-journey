@@ -44,7 +44,13 @@ Data Locations:
     - data disappears after functions execution 
     - e.g: function arguments and temporary variables 
 
-- storage:
+2. storage:
     - used for state variables (persistant data stored in the contract)
     - e.g: 
+```
 uint256 public storedData;    // stored in blockchain permanently 
+```
+
+3. Calldata: 
+    - similar to memory. but read-only 
+    - used for external function arguments 
