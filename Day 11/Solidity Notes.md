@@ -44,7 +44,7 @@ function checkcapital(string memory name) public pure returns (bool) {
 
 Memory Array:
 
-- Created using new T[](size)
+- Created using new T[ ] (size)
 - Cannot be resized (no .push() or pop() available)
 e.g 
 ```
@@ -61,8 +61,9 @@ Array Slices:
 e.g: 
 ```
 uint256[] calldata numbers = [1, 2, 3, 4, 5] ;
-uint256[] calldata slice = number[1 : 4];       // contains [2, 3, 4]
+uint256[] calldata slice = number[1 : 4];       // result [2, 3, 4]
 ```
+
 
 
 Struct Type:
@@ -76,6 +77,7 @@ struct Car {
      uint256 year;
 }
 ```
+
 
 
 Mapping Types:
