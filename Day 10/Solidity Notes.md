@@ -92,16 +92,20 @@ uint count = numbers.length;   // count = 3
 e.g: 
 ```
 uint[] numbers;
-numbers.push( );    // adds a zero  :  numbers = [0]
+numbers.push( );     // adds a zero  :  numbers = [0]
 ```
 
 3. .push(x) -> adds x to the end of the array 
 e.g: 
+```
 uint[] numbers;
 numbers.push(2);      // numbers = [2]
-numbers.push(4);     // numbers = [2, 4]
+numbers.push(4);      // numbers = [2, 4]
+```
 
 4. .pop() -> removes the last item from the array 
 e.g: 
+```
 uint[] numbers = [5, 10, 15];
 numbers.pop();       // numbers = [5, 10]  (15 is removed)
+```
