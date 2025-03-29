@@ -57,8 +57,11 @@ Array Slices:
     - start is included 
     - end is excluded 
 e.g: 
+```
 uint256[] calldata numbers = [1, 2, 3, 4, 5] ;
-uint256[] calldata slice = number[1:4]
+uint256[] calldata slice = number[1 : 4];       // contains [2, 3, 4]
+```
+
 
 Struct Type:
 
