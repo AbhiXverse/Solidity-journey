@@ -19,4 +19,4 @@ Data types:
         - Integers liternals - only numbers (0-9), without a decimal point (e.g: 123)
         - Rational literals  - contains a decimal point (e.g: 12.34)
         - Scientific notations - numbers of exponential format (e.g: 1.2e3 -> 1200)
-        - 
+        - Underscores9_
