@@ -10,4 +10,5 @@ Data types:
     - byte[] wastes space due to pading - better to use bytes instead 
 - Literals - 
     - Address literals 
-        - 
+        - A valid Ethereum address is a hexadecimal value passing the checksum test (EIP - 55)
+        - if an invalid checksum is used
