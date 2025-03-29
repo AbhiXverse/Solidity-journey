@@ -63,4 +63,4 @@ function examplefun (string calldata _data) external { }
 Data Locations & Assignments:
 
 - Storage <-> memory - creates a copy 
-    - e.g - 
+    - e.g - this is like copying a photo from your phone to your laptop - editing one 
