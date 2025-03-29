@@ -73,4 +73,7 @@ mapping(keyType  =>  ValueType) variablename;
 - key can be primitive type (uint, bytes, address) 
 - Value can be anything, including arrays and structs 
 - Mapping are not iterable 
--
+e.g 
+```
+mapping (address => uint256) public balances;
+```
