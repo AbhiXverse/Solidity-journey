@@ -16,19 +16,21 @@ Special Array types:
 ```
 string message = "Hello";
 
-    You can't do this:
-         bytes letter = message[0];
-         // this will give you an error 
+You can't do this:
+
+bytes letter = message[0];     // this will give you an error 
+           
 
 but if you want to access characters, you can convert it to bytes:
 
 bytes memory temp = bytes(message);
-bytes1 leter = temp[0];    // Now this wiorks, gives you "H"
+bytes1 leter = temp[0];       // Now this wiorks, gives you "H"
 ```
 
 Real Use case - String cannot be accessed by index 
 
 - For example I am building a form in a DApp, and I want to validate that the user's name start with a capital letter (e.g: "Abhi', not "abhi")
+
 code: 
 ```
 function checkcapital(string memory name) public pure returns (bool) {
