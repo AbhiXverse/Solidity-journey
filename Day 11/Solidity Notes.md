@@ -40,3 +40,7 @@ function checkcapital(string memory name) public pure returns (bool) {
 
 
 
+Memory Array:
+
+- Created using new T[](size)
+- Canot be resized (no .push() or pop() available)
