@@ -26,4 +26,6 @@ Data types:
         - Only printable ASCII characters allowed 
         - supports escape characters (e.g: \n for new line)
     
-    - Unicode literals
+    - Unicode literals:
+        - Prefixed with unicode, supporting UTF-8 encoding
+        - E.g: 
