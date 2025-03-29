@@ -30,8 +30,13 @@ Real Use case - String cannot be accessed by index
 
 - For example I am building a form in a DApp, and I want to validate that the user's name start with a capital letter (e.g: "Abhi', not "abhi")
 code: 
+```
 function checkcapital(string memory name) public pure returns (bool) {
      bytes memory temp = bytes(name);
      if (temp.length == 0) return false;
-     return (temp[0] >= 0x41 && temp[0] <= 0x5A);     // checks if the letter comes in the range of A to Z (ASCII) 
+     return (temp[0] >= 0x41 && temp[0] <= 0x5A);     // checks if the letter comes in the range of A to Z (ASCII) (capital letters range 65(0x41) to 90(0x5A) )
 }
+```
+
+
+
