@@ -16,4 +16,6 @@ Data types:
         - Addresses must be between 39 to 41 characters
     
     - Integers & Rational literals:
-        - Integers liternals - only numbers (0-9), wothout 
+        - Integers liternals - only numbers (0-9), without a decimal point (e.g: 123)
+        - Rational literals  - contains a decimal point (e.g: 12.34)
+        - 
