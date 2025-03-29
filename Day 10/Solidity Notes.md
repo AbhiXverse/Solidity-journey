@@ -58,3 +58,6 @@ uint256 public storedData;    // stored in blockchain permanently
 ```
 function examplefun (string calldata _data) external { }
 ```
+
+
+Data locations & assignments
