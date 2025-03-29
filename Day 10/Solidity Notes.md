@@ -28,6 +28,9 @@ Data types:
     
     - Unicode literals:
         - Prefixed with unicode, supporting UTF-8 encoding
-        - E.g: unicode"hello(emoiji)" 
+        - e.g: unicode"hello(emoiji)" 
     
-    - hexadecimal 
+    - hexadecimal literals:
+        - prefixed with hex, used for raw byte data 
+        - e.g: hex"001122FF" is a sequence of raw bytes 
+
