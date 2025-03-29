@@ -20,4 +20,7 @@ Data types:
         - Rational literals  - contains a decimal point (e.g: 12.34)
         - Scientific notations - numbers of exponential format (e.g: 1.2e3 -> 1200)
         - Underscores*() - used for readability (e.g: 1_00_00 is same as 10000)
-    - 
+    
+    - String literals: 
+        - Enclosed in single quotes('abhi') or double quotes ("abhi") 
+        - 
