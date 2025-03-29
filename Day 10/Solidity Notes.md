@@ -76,4 +76,5 @@ Data Locations & Assignments:
 Arrays: 
 
 - Can be fixed-size (uint256[3] numbers;) or dynamic size (uint[] numbers;)
-- 
+- Indices are zero-based 
+- arrays can store mappings and 
