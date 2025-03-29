@@ -13,10 +13,16 @@ Special Array types:
         - A string is used to store text (like name, message etc )
         - It's similar to bytes, but you cannot access or change individual characters using an index like mystring[0]
         - e.g: 
+```
         string message = "Hello";
 
      You can't do this:
          bytes letter = message[0];
-         // this will 
+         // this will give you an error 
+
+but if you want to access characters, you can convert it to bytes:
+
+bytes memory temp = bytes
+```
     
     
