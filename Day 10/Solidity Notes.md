@@ -45,4 +45,6 @@ Data Locations:
     - e.g: function arguments and temporary variables 
 
 - storage:
-    - used fir
+    - used for state variables (persistant data stored in the contract)
+    - e.g: 
+uint256 public storedData;    // stored in blockchain permanently 
