@@ -43,4 +43,13 @@ function checkcapital(string memory name) public pure returns (bool) {
 Memory Array:
 
 - Created using new T[](size)
-- Canot be resized (no .push() or pop() available)
+- Cannot be resized (no .push() or pop() available)
+e.g 
+```
+uint256;     // fixed size
+```
+
+
+Struct Type:
+
+- Custom data structures comb
