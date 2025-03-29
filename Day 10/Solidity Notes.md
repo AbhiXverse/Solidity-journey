@@ -7,8 +7,9 @@ Data types:
 - Fixed-sized arrays - 
     - types - byte1, byte2,.... to byte32 
     - hold 1 to 32 bytes 
-    - byte[] wastes space due to pading - better to use bytes instead 
+    - Use bytes instead of byte[] to optimize storage and gas 
 - Literals - 
     - Address literals 
         - A valid Ethereum address is a hexadecimal value passing the checksum test (EIP - 55)
-        - if an invalid checksum is used
+        - if an invalid checksum is used, solidity throws an error
+        - Addresses must be between 
