@@ -30,8 +30,7 @@ bytes1 leter = temp[0];       // Now this wiorks, gives you "H"
 Real Use case - String cannot be accessed by index 
 
 - For example I am building a form in a DApp, and I want to validate that the user's name start with a capital letter (e.g: "Abhi', not "abhi")
-
-  code: 
+  code e.g: 
 ```
 function checkcapital(string memory name) public pure returns (bool) {
      bytes memory temp = bytes(name);
