@@ -60,4 +60,7 @@ function examplefun (string calldata _data) external { }
 ```
 
 
-Data locations & assignments
+Data Locations & Assignments:
+
+- Storage <-> memory - creates a copy 
+    - e.g - 
