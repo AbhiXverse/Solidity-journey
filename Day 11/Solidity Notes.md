@@ -33,5 +33,5 @@ code:
 function checkcapital(string memory name) public pure returns (bool) {
      bytes memory temp = bytes(name);
      if (temp.length == 0) return false;
-     return (temp[0] >= 0x41 )
+     return (temp[0] >= 0x41 && temp[0] <= 0x5A);     // checks if the letter comes in the range of A to Z (ASCII) 
 }
