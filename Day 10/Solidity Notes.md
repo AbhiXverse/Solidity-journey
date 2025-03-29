@@ -28,4 +28,6 @@ Data types:
     
     - Unicode literals:
         - Prefixed with unicode, supporting UTF-8 encoding
-        - E.g: unicode"hello
+        - E.g: unicode"hello(emoiji)" 
+    
+    - hexadecimal 
