@@ -40,4 +40,9 @@ Data Locations:
 - Solidity has three data locations that determines how the data is stored and accessed 
 
 1. memory: 
-    - used for temporary  
+    - used for temporary data inside functions 
+    - data disappears after functions execution 
+    - e.g: function arguments and temporary variables 
+
+- storage:
+    - used fir
