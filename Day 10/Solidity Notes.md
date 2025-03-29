@@ -35,4 +35,9 @@ Data types:
         - e.g: hex"001122FF" is a sequence of raw bytes 
 
 
-Data Locations 
+Data Locations: 
+
+- Solidity has three data locations that determines how the data is stored and accessed 
+
+1. memory: 
+    - used for temporary  
