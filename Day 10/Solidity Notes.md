@@ -97,4 +97,6 @@ numbers.push( );    // adds a zero  :  numbers = [0]
 
 3. .push(x) -> adds x to the end of the array 
 e.g: 
-uint[ nu]
+uint[] numbers;
+numbers.push(2);      // numbers = [2]
+numbers.push(4);     // numbers = [2, 4]
