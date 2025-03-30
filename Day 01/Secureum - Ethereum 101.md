@@ -7,7 +7,7 @@ Purpose:
 
 - Ethereum is more than just a currency or payment network.
 - It has a native currency called Ether (Eth).
-- Ether is needed to run ay part of ethereum platform.
+- Ether is needed to run a part of ethereum platform.
 - It acts as a utility token for using the ethereum platform.
 
 Programming language:
