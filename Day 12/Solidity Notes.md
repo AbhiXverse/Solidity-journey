@@ -14,3 +14,7 @@ Block and Transaction Properties:
         - returns the current chain ID (helps prevent replay attacks across different chains) 
     
     - block.coinbase -> address payable 
+        - returns the address of the miner (validator) who produced the block 
+        
+    - block.difficulty -> uint 
+        - 
