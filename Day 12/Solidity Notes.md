@@ -19,3 +19,5 @@ Block and Transaction Properties:
     - block.difficulty -> uint 
         - represents the difficulty level of mining the current block
         - In proof-of-stake (PoS) ethereum, this is replaced by **prevrandao**(used for randomness)
+    
+    - 
