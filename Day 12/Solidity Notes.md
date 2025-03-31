@@ -28,4 +28,5 @@ Block and Transaction Properties:
         - the block height i.e - the number of the current blokc in the blockchain 
     
     -  block.timestamp -> uint 
-        - the timestamp of the block (in seconds )
+        - the timestamp of the block (in seconds since the Unix epoch)
+        - 
