@@ -4,5 +4,7 @@
 
 Block and Transaction Properties:
 
-- Block Properties - 
-    - 
+1. Block Properties - 
+    - Blockhash (uint blockNumber) -> bytes32
+        - returns the hash of a specific block 
+        - works only for the 
