@@ -10,4 +10,7 @@ Block and Transaction Properties:
         - works only for the last 256 blocks, excluding the current block 
         - older block hashes return 0 due to scalability reasons 
     
-        - 
+    - block.chainid -> uint 
+        - returns the current chain ID (helps prevent replay attacks across different chains) 
+    
+    - block.coinbase -> address payable 
