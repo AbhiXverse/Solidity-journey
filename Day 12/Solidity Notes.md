@@ -42,5 +42,4 @@ Block and Transaction Properties:
         - msg.value -> uint 
             - the amount of wei sent with the message
         
-            - 
-        
+        - 
