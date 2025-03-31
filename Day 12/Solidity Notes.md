@@ -7,4 +7,7 @@ Block and Transaction Properties:
 1. Block Properties - 
     - Blockhash (uint blockNumber) -> bytes32
         - returns the hash of a specific block 
-        - works only for the 
+        - works only for the last 256 blocks, excluding the current block 
+        - older block hashes return 0 due to scalability reasons 
+    
+        - 
