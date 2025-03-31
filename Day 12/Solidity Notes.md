@@ -39,5 +39,6 @@ Block and Transaction Properties:
             - returns the address of the entity (EOA or contract) that initiated the current function call 
             - can change during external calls, so be safe when using it for authentication 
         
-        - 
+        - msg.sig -> uint 
+            - 
         
