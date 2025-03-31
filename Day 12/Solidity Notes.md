@@ -35,4 +35,5 @@ Block and Transaction Properties:
             - contains the entire calldata send with the transaction 
         
         - msg.sender -> address 
-            - returns the address of the enti
+            - returns the address of the entity (EOA or contract) that initiated the current function call 
+            - 
