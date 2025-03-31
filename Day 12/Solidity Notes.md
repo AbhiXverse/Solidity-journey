@@ -42,4 +42,7 @@ Block and Transaction Properties:
         - msg.value -> uint 
             - the amount of wei sent with the message
         
-        - tx.gasprice -> 
+        - tx.gasprice -> address 
+             - the gas price (in wei) that the sender agreed to apy per uint of gas 
+        
+         - gasleft
