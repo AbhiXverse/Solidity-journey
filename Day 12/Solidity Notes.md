@@ -22,4 +22,7 @@ Block and Transaction Properties:
     
     - block.gaslimit -> uint 
         - maximum amount of gas allowed in the current block 
-        - set by miners/valida
+        - set by miners/validators and varies form the block to block 
+    
+    - block.number -> uint 
+        - the block 
