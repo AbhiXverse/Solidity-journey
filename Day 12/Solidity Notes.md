@@ -29,4 +29,6 @@ Block and Transaction Properties:
     
     -  block.timestamp -> uint 
         - the timestamp of the block (in seconds since the Unix epoch)
-        - 
+    
+    2. Transaction properties: 
+        -  msg.data
