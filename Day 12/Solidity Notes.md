@@ -31,4 +31,8 @@ Block and Transaction Properties:
         - the timestamp of the block (in seconds since the Unix epoch)
     
     2. Transaction properties: 
-        -  msg.data
+        -  msg.data -> bytes calldata 
+            - contains the entire calldata send with the transaction 
+        
+        - msg.sender -> address 
+            - returns the address of the enti
