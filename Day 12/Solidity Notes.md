@@ -25,4 +25,7 @@ Block and Transaction Properties:
         - set by miners/validators and varies form the block to block 
     
     - block.number -> uint 
-        - the block 
+        - the block height i.e - the number of the current blokc in the blockchain 
+    
+    -  block.timestamp -> uint 
+        - the timestamp of the block (in seconds )
