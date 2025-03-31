@@ -45,4 +45,8 @@ Block and Transaction Properties:
         - tx.gasprice -> address 
              - the gas price (in wei) that the sender agreed to apy per uint of gas 
         
-         - gasleft
+         - gasleft() -> uint 
+              - returns the remaining has of execution 
+              - useful to prevent out-of-gas errors in loops or complex logics 
+            
+          - 
