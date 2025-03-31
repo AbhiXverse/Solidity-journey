@@ -49,4 +49,5 @@ Block and Transaction Properties:
               - returns the remaining has of execution 
               - useful to prevent out-of-gas errors in loops or complex logics 
             
-          - 
+          - tx.origin -> address 
+              - the original sender of the transaction  
