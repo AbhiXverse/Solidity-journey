@@ -53,6 +53,10 @@ contract MemoryEg {
 ```
 contract StackEg {
     function addNumber() public pure returns (uint) {
-        uint }
+        uint256 a = 10;      // stored in stack 
+        uint256 b = 20;      // stored in stack 
+        uint sum = a + b;    // stored in stack 
+        return sum; 
+        }
 }
 ```
