@@ -20,5 +20,6 @@ Storage/Gas behavior of Arrays and Mapping:
 Byte Arrays: 
 
 - Arrays of bytes represent fixed length or dynamic byte arrays 
-- efficient for representing raw data (e.g - hashes, )
+- efficient for representing raw data (e.g - hashes, encrypted data etc) 
+- dynamic byte arrays(bytes) cost more in gas compared to fixed-size byte 
 
