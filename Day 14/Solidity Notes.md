@@ -27,4 +27,8 @@ Byte Arrays:
 Enums:
 
 - A custom type with a finite set of values
-- 
+  e.g 
+```
+enum status {pending, completed, cancelled} 
+```
+- provides better readablity 
