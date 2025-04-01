@@ -76,4 +76,6 @@ Conversion Rules:
     - solidity automatically converts between compatible types (e.g - smaller integer to larger integer)
 
 - Explicit conversion - 
-    -  we need to manually convert between types, this is also called as type casting (e.g - )
+    -  we need to manually convert between types, this is also called as type casting (e.g - uint8(5))
+        - converting between uint types (uint256 to uint8)
+        - Address to byte conversion 
