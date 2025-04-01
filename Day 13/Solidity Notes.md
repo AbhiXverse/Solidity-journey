@@ -37,9 +37,12 @@ contract StorageEg {
      - faster than storage, but volatile (lost after function call)
      - e.g - variables declared inside functions
      e.g 
+```
 contract MemoryEg {
-     
+     function getMemory() public pure returns (string memory) {
+         string memory tempstring = }
 }
+```
 
  - Stack:
      - 
