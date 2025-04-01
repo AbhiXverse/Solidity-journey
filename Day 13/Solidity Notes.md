@@ -13,3 +13,8 @@ ABI (Application binary interface) Encoding/decoding
 
 - Tools: 
     - web3.js, ether.js and solidity libraries help interact with ABI 
+
+
+Data Location 
+
+- 
