@@ -27,15 +27,19 @@ contract StorageEg {
     uint public storedNumber;        // stored in storage (persistent)
       
       function setNumber(uint _num) public {
-          storedUm}
-  
+          storedNUmber = _num;       // writing in storage (costs gas)
+    }
 }
 ```
 
 - Memory:
      - Temporary data - used for computation 
      - faster than storage, but volatile (lost after function call)
-     - e.g - variables declared inside functions 
+     - e.g - variables declared inside functions
+     e.g 
+contract MemoryEg {
+     
+}
 
  - Stack:
      - 
