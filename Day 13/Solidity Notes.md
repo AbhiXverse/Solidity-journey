@@ -68,3 +68,9 @@ Literals:
 - e.g -
     - uint256 = 5  (a literal value for a uint type)
     - "Abhi" (a string literal)
+
+
+Conversion Rules: 
+
+- Implicit conversions - 
+   - 
