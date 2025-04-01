@@ -25,4 +25,7 @@ Data Location
 - Memory:
      - Temporary data - used for computation 
      - faster than storage, but volatile (lost after function call)
-     - e.g - variables declared inside functio
+     - e.g - variables declared inside functions 
+
+ - Stack:
+     - 
