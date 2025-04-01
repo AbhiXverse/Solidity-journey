@@ -13,6 +13,6 @@ Storage/Gas behavior of Arrays and Mapping:
 - Mappings: 
     - mappings do not have length property, you can't easily check how many entries exist 
     - gas cost depends on how many entries you add
-    - 
-    - 
+    - keys are hashed, so access is quick and efficient 
+    - mapping are more gas efficient then arrays cuz you don't need to loop through 
 
