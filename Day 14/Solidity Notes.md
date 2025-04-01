@@ -10,5 +10,6 @@ Storage/Gas behavior of Arrays and Mapping:
     - fixed sized arrays - they are more efficient but less flexible 
     - gas cost increases with the size and number of elements in an array 
 
-- Mapping 
+- Mappings: 
+    - 
 
