@@ -6,5 +6,6 @@ Storage/Gas behavior of Arrays and Mapping:
 
 - Arrays: 
     - Storage arrays - dynamic arrays cost gas based on the size and type of data stored 
-    - Memory arrays - 
+    - Memory arrays - no gas costs for storage cuz they are temporary 
+    - fixed sized arrays - they are more e
 
