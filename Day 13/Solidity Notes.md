@@ -23,4 +23,6 @@ Data Location
     - e.g - state variables inside contracts 
 
 - Memory:
-     - Temporary 
+     - Temporary data - used for computation 
+     - faster than storage, but volatile (lost after function call)
+     - e.g - variables declared inside functio
