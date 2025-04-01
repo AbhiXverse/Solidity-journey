@@ -5,4 +5,7 @@
 ABI (Application binary interface) Encoding/decoding 
 
 - What is ABI ? 
-    -  this is a standard where you can interact between smart contracts and external actors (e.g - other contracts, a)
+    -  this is a standard where you can interact between smart contracts and external actors (e.g - other contracts, applications)
+
+- Encoding/ Decoding: 
+    - Encoding - Converts data (like number, adresses etc) in to
