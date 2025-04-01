@@ -65,4 +65,7 @@ contract StackEg {
 Literals: 
 
 - Literals types refers to fixed values in solidity (like numbers )
-- e.g - uint256 = 5 
+- e.g ->
+. 
+  .        - uint256 = 5  (a literal value for a uint type)
+      ->  
