@@ -47,4 +47,5 @@ contract MemoryEg {
 ```
 
  - Stack:
+     - Temporary as well but high speed storage 
      - 
