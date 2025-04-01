@@ -17,4 +17,9 @@ ABI (Application binary interface) Encoding/decoding
 
 Data Location 
 
+- Storage 
+    - Persistent state - variables stored here cost gas to modify 
+    - data is kept on-chain 
+    - e.g - state variables inside contracts 
+
 - 
