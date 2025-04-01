@@ -21,6 +21,11 @@ Data Location
     - Persistent state - variables stored here cost gas to modify 
     - data is kept on-chain 
     - e.g - state variables inside contracts 
+     e.g 
+contract StorageEg {
+      uint public storedNumber;         // stored in storage (persistent)
+  
+}
 
 - Memory:
      - Temporary data - used for computation 
