@@ -41,7 +41,7 @@ contract StorageEg {
 contract MemoryEg {
      function getMemory() public pure returns (string memory) {
          string memory tempstring = "Hello Abhi";   // Stored in memory   
-         return tempstring;                        // Existed only diring function execution 
+         return tempstring;                         // Existed only diring function execution 
     }
 }
 ```
