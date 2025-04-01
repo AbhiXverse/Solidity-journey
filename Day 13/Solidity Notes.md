@@ -76,4 +76,4 @@ Conversion Rules:
     - solidity automatically converts between compatible types (e.g - smaller integer to larger integer)
 
 - Explicit conversion - 
-    -  
+    -  we need to manually convert between types, this is also called as type casting (e.g - )
