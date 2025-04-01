@@ -8,4 +8,7 @@ ABI (Application binary interface) Encoding/decoding
     -  this is a standard where you can interact between smart contracts and external actors (e.g - other contracts, applications)
 
 - Encoding/ Decoding: 
-    - Encoding - Converts data (like number, adresses etc) in to
+    - Encoding - Converts data (like number, adresses etc) into a format suitable for EVM 
+    - Decoding - converts raw transaction data back  into human readable format 
+
+- 
