@@ -24,9 +24,9 @@ Data Location
      e.g 
 ```
 contract StorageEg {
-    uint public storedNumber;        // stored in storage (persistent)
+    uint256 public storedNumber;        // stored in storage (persistent)
       
-      function setNumber(uint _num) public {
+      function setNumber(uint256 _num) public {
           storedNUmber = _num;       // writing in storage (costs gas)
     }
 }
@@ -64,4 +64,4 @@ contract StackEg {
 
 Literals: 
 
-- Literals types 
+- Literals types refers to fixed values in solidity (like numbers )

@@ -42,7 +42,7 @@ contract Coin {
 
 
     
-    function send(address receiver, uint amount) public {              // this function lets anyone send their coins to someone else 
+    function send(address receiver, uint256 amount) public {              // this function lets anyone send their coins to someone else 
         if (amount > balances[msg.sender] 
         revert InsufficientBalance(amount, balances[msg.sender]));   // this make sure that sender has enough coins, if not then show the custom error message 
         balances[msg.sender] -= amount;                                // subtract the coins from sener 
