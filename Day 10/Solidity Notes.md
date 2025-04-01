@@ -85,7 +85,7 @@ Array Methods:
 e.g: 
 ```
 uint[] numbers = [10, 20, 30];
-uint count = numbers.length;   // count = 3 
+uint256 count = numbers.length;   // count = 3 
 ```
 
 2. .push() -> ads an empty (zero) value at the end of the array 
