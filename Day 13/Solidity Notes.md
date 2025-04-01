@@ -56,7 +56,12 @@ contract StackEg {
         uint256 a = 10;      // stored in stack 
         uint256 b = 20;      // stored in stack 
         uint sum = a + b;    // stored in stack 
-        return sum; 
-        }
+        return sum;          // the result is also stroed in stacl but temporarily 
+    }
 }
 ```
+
+
+Literals: 
+
+- Literals types 
