@@ -72,5 +72,8 @@ Literals:
 
 Conversion Rules: 
 
-- Implicit conversions - 
-   - 
+- Implicit conversion - 
+    - solidity automatically converts between compatible types (e.g - smaller integer to larger integer)
+
+- Explicit conversion - 
+    -  
