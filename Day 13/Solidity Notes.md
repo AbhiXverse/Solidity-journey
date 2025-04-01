@@ -22,10 +22,15 @@ Data Location
     - data is kept on-chain 
     - e.g - state variables inside contracts 
      e.g 
+```
 contract StorageEg {
-      uint public storedNumber;         // stored in storage (persistent)
+    uint public storedNumber;        // stored in storage (persistent)
+      
+      function setNumber(uint _num) public {
+          storedUm}
   
 }
+```
 
 - Memory:
      - Temporary data - used for computation 
