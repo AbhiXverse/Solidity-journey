@@ -95,7 +95,7 @@ Scoping Rules in Solidity:
     - e.g: 
 ```
 function demo() public {
-     uint x = 5;   // x is only available inside this function 
+     uint256 x = 5;   // x is only available inside this function 
 }
 
 //  Outside this function, x does not exist 
@@ -119,7 +119,7 @@ the loop variable i is temporary - only works inside the loop
 3. Function/Modifiers parameters are only available inside that function
     - e.g: 
 ```
-function add(uint a, uint b) public returns (uint) {
+function add(uint256 a, uint256 b) public returns (uint) {
      return a + b;   // a and b are visible here 
 }
 // you cannot access a or b outside this function 
@@ -131,9 +131,9 @@ parameters like a and b are created when the function is called and go away afte
     - e.g: 
 ```
 contract Mycontract { 
-    uint public number = 10;     // state variables 
+    uint256 public number = 10;     // state variables 
 
-    function get() public view returns (uint) {
+    function get() public view returns (uint256) {
         return number;    // we can access 'number' from anywhere inside the contract 
     }
     function set() public {
