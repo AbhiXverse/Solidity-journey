@@ -4,6 +4,7 @@
 
 Storage/Gas behavior of Arrays and Mapping: 
 
-- Arrays 
-    - 
+- Arrays: 
+    - Storage arrays - dynamic arrays cost gas based on the size and type of data stored 
+    - Memory arrays - 
 
