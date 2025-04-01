@@ -22,7 +22,7 @@ contract Coin {
     address public minter;                        // only the deployer of this contract becomes the minter 
 
 
-   mapping(address => uint) public balances;       // this keeps track of how many coins each address has
+   mapping(address => uint256) public balances;       // this keeps track of how many coins each address has
 
     
     event Sent(address from, address to, uint amount);    // event logs every successful coin transfer 
@@ -38,7 +38,7 @@ contract Coin {
     }
 
     
-    error InsufficientBalance(uint requested, uint available);   // custom error to show detailed info when balance is low 
+    error InsufficientBalance(uint256 requested, uint256 available);   // custom error to show detailed info when balance is low 
 
 
     
@@ -54,7 +54,7 @@ contract Coin {
 
  Custom error :-
 ```
-error InsufficientBalance(uint requested, uint available);
+error InsufficientBalance(uint256 requested, uint256 available);
 ```
 - this error is used when someone tries to send more coins than they have 
 - it takes two values: 
