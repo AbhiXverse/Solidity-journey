@@ -11,5 +11,6 @@ Storage/Gas behavior of Arrays and Mapping:
     - gas cost increases with the size and number of elements in an array 
 
 - Mappings: 
+    - mappings do not have length property, so gas cost depends on individual entries 
     - 
 
