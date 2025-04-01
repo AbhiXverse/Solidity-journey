@@ -48,4 +48,6 @@ contract MemoryEg {
 
  - Stack:
      - Temporary as well but high speed storage 
-     - 
+     - stores simple values and function return values 
+      eg 
+    
