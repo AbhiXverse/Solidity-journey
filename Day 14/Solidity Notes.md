@@ -31,4 +31,5 @@ Enums:
 ```
 enum status {pending, completed, cancelled} 
 ```
-- provides better readablity 
+- provides better readability 
+- Enums are cheaper than strings for storing predefined states 
