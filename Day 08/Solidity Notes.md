@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 08/Solidity Notes] - #07
+[Solidity-journey /Day 08/Solidity - 101 Notes] - #07
 
 
 Struct: 

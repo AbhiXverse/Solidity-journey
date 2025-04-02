@@ -1,4 +1,4 @@
-[Solidity-journey /Day 06/Solidity Notes] - #06
+[Solidity-journey /Day 06/Solidity - 101 Notes] - #06
 
 
 Understanding different integers sizes in Solidity 

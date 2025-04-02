@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 12/Solidity Notes] - #11
+[Solidity-journey /Day 12/Solidity - 101 Notes] - #11
 
 
 Block and Transaction Properties:

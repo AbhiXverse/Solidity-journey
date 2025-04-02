@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 09/Solidity Notes] - #08
+[Solidity-journey /Day 09/Solidity - 101 Notes] - #08
 
 
 Boolean Type:

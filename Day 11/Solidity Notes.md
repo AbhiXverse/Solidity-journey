@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 11/Solidity Notes] - #10
+[Solidity-journey /Day 11/Solidity - 101 Notes] - #10
 
 
 Special Array types: 

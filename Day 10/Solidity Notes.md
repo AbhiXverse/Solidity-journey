@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 10/Solidity Notes] - #09
+[Solidity-journey /Day 10/Solidity - 101 Notes] - #09
 
 
 Data types:

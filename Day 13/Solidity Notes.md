@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 13/Solidity Notes] - #12
+[Solidity-journey /Day 13/Solidity - 101 Notes] - #12
 
 
 ABI (Application binary interface) Encoding/decoding 
