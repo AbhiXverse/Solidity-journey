@@ -91,7 +91,7 @@ Indexed vs. Non-indexed Event parameters :-
 - Indexed Parameters :- 
     - Can have up to 3 indexed fields 
     - help in filtering/ searching events efficiently 
-    - Indexing event parameters created sec
+    - Indexing event parameters created searchable topics 
 
 - Non-indexed parameters :- 
     -  Need the ABI to decode
