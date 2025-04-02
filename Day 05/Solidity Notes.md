@@ -1,4 +1,4 @@
-[Solidity-journey /Day 05/Solidity Notes] - #05
+[Solidity-journey /Day 05/Solidity - 101 Notes] - #05
 
 
 Custom Errors: 
