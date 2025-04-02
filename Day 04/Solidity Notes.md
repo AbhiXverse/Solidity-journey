@@ -72,6 +72,7 @@ Events & Logging :-
 
 - Events helps track changes in a contract without using storage (save gas)
 - the frontend (or indexers like Chainlink/Thegraph) listens for events 
+- Events are meant for off-chain applications
   E.g: 
 ```
   contract EventExample {
@@ -90,6 +91,7 @@ Indexed vs. Non-indexed Event parameters :-
 - Indexed Parameters :- 
     - Can have up to 3 indexed fields 
     - help in filtering/ searching events efficiently 
+    - Indexing event parameters created sec
 
 - Non-indexed parameters :- 
     -  Need the ABI to decode
