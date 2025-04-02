@@ -66,12 +66,13 @@ Solidity data types:
 bool, int, uint, address, contract, byte1-32 ,enum, function
 ```
 - Always passes by value (copied on use)
+-  they are immutable 
 
 2. Reference type (point to data)
 ```
 array, struct, mapping, string, bytes
 ```
-- changes made via one reference affect all   
+- changes made via one reference affect all  
 
 
 
