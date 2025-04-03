@@ -50,4 +50,7 @@ Trade Mechanism:
 
 - Price Determination:
     - the price of the tokens in Uniswap is determined by the ratio of the two assets in the liquidity pool
-        - as more of one toke
+        - as more of one token is swapped, the reserve ratio shifts, changing the price
+
+
+
