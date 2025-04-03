@@ -8,6 +8,9 @@ What is Uniswap ?
 - It operates without trusted intermediaries (no centralized order book), ensuring decentralized, censorship resistance and security.
 
 
-Core Concepts 
+Core Concepts:
 
-- Automated Market Maker (AMM):
+- Automated Market Maker (AMM) - 
+    - Uniswap uses an AMM model instead of traditional order book for matching buyers and sellers
+
+- Liquidity 
