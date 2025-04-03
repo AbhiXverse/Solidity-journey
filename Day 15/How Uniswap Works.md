@@ -39,3 +39,4 @@ Liquidity Providers (LPs):
 - Pool Tokens: 
     - In return, LPs receive pool token that represent their share in the pool 
     - these tokens track the LP's pro-rata share of the total pool 
+    - LP's can r
