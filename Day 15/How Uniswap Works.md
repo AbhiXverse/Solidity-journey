@@ -37,4 +37,5 @@ Liquidity Providers (LPs):
     - anyone can provide liquidity to a pool by depositing an equal value of two tokens (e.g: ETH or USDT) into the pool 
 
 - Pool Tokens: 
-    - In return, LPs 
+    - In return, LPs receive pool token that represent their share in the pool 
+    - these tokens track the LP's pro-rata share of the total pool 
