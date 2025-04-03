@@ -27,4 +27,5 @@ X * Y = K
 - X - Reserve of token A 
 - Y - Reserve of token B 
 - K - a constant value that must remains same or unchanged 
-- Key point 
+
+- Key point - when a trade occurs, the formula must hold so the product of the reserves (X * Y) stays equal to K 
