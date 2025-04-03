@@ -29,3 +29,9 @@ X * Y = K
 - K - a constant value that must remains same or unchanged 
 
 - Key point - when a trade occurs, the formula must hold so the product of the reserves (X * Y) stays equal to K 
+
+
+Liquidity Providers (LPs): 
+
+- How to become an LP: 
+    - anyone can provide liquidity to a poil 
