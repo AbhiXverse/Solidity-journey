@@ -24,3 +24,4 @@ Constant Product Formula:
 ```
 X * Y = K
 ```
+- X - Reserve of 
