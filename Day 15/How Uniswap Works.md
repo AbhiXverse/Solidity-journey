@@ -34,9 +34,15 @@ X * Y = K
 Liquidity Providers (LPs): 
 
 - How to become an LP: 
-    - anyone can provide liquidity to a pool by depositing an equal value of two tokens (e.g: ETH or USDT) into the pool 
+    - anyone can provide liquidity to a pool by depositing an equal value of two tokens (e.g: ETH and USDT) into the pool 
 
 - Pool Tokens: 
     - In return, LPs receive pool token that represent their share in the pool 
     - these tokens track the LP's pro-rata share of the total pool 
-    - LP's can r
+    - LP's can redeem pool tokens for the underlying tokens (ETH & USDT) at any time 
+
+
+
+Trade Mechanism: 
+
+- Uniswap allows users to swap 
