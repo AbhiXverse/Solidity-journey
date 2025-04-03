@@ -13,4 +13,9 @@ Core Concepts:
 - Automated Market Maker (AMM) - 
     - Uniswap uses an AMM model instead of traditional order book for matching buyers and sellers
 
-- Liquidity 
+- Liquidity Pools:
+    - A liquidity pool is a reserve of two ERC-20 tokens, managed by a Uniswap smart contract used for token swaps 
+
+
+
+Cnstant
