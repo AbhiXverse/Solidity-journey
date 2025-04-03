@@ -24,4 +24,7 @@ Constant Product Formula:
 ```
 X * Y = K
 ```
-- X - Reserve of 
+- X - Reserve of token A 
+- Y - Reserve of token B 
+- K - a constant value that must remains same or unchanged 
+- Key point 
