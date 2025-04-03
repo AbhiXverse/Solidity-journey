@@ -20,4 +20,7 @@ Core Concepts:
 
 Constant Product Formula: 
 
-- Uniswap's liquidity pools follow the Constant Product Formula - X * Y
+- Uniswap's liquidity pools follow the Constant Product Formula - ```
+```
+X * Y = K
+```
