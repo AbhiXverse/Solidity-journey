@@ -49,4 +49,5 @@ Trade Mechanism:
     - e.g: a user can swap ETH to DAI 
 
 - Price Determination:
-- 
+    - the price of the tokens in Uniswap is determined by the ratio of the two assets in the liquidity pool
+        - as more of one toke
