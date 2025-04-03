@@ -34,4 +34,7 @@ X * Y = K
 Liquidity Providers (LPs): 
 
 - How to become an LP: 
-    - anyone can provide liquidity to a poil 
+    - anyone can provide liquidity to a pool by depositing an equal value of two tokens (e.g: ETH or USDT) into the pool 
+
+- Pool Tokens: 
+    - In return, LPs 
