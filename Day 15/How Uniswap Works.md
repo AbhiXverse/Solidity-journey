@@ -45,4 +45,8 @@ Liquidity Providers (LPs):
 
 Trade Mechanism: 
 
-- Uniswap allows users to swap 
+- Uniswap allows users to swap one token for another. 
+    - e.g: a user can swap ETH to DAI 
+
+- Price Determination:
+- 
