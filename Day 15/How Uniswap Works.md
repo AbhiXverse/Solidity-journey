@@ -4,4 +4,5 @@
 
 What is Uniswap ? 
 
-- Uniswap is a decentralized exchange (DEX) 
+- Uniswap is a decentralized exchange (DEX) protocol on the Ethereum blockchain 
+- It operates without trusted intermediaries (no centralized order book), ensuring decentr
