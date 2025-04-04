@@ -29,4 +29,6 @@ Arbitrage and Price Adjustment:
 
 Benefits of Uniswap's Design: 
 
-- No Middleman - No trusted intermediary is needed, ensuring decentralized and trustle
+- No Middleman - No trusted intermediary is needed, ensuring decentralized and trustless trades 
+- Permissionless - Anyone can create a liquidity pool, allowing for the exchanges of any pair of ERC-20 tokens 
+- Security - Powered by smart contrsc
