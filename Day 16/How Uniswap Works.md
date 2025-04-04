@@ -31,4 +31,4 @@ Benefits of Uniswap's Design:
 
 - No Middleman - No trusted intermediary is needed, ensuring decentralized and trustless trades 
 - Permissionless - Anyone can create a liquidity pool, allowing for the exchanges of any pair of ERC-20 tokens 
-- Security - Powered by smart contrsc
+- Security - Powered by smart contract on Ethereum, which are immutable and decentralized 
