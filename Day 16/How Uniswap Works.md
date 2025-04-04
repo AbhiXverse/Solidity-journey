@@ -9,3 +9,9 @@ Impact of the Constant product Formula
 
  - Price changes faster with big trades - 
      - The bigger the trade, the faster the price moves. This stops people from doing trades that can change the price too much. 
+
+
+Fees and Rewards for LPs: 
+
+- Transaction fees - 
+    - Uniswap applies a 0.30% fee each trade. 
