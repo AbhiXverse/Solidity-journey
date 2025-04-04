@@ -8,4 +8,4 @@ Impact of the Constant product Formula
      - If someone tries to trade a large amount, they get a bad rate. This helps keep prices stable 
 
  - Price changes faster with big trades - 
-     - The bigger the trade, the faster the price moves. This stops people from doing traddes tha
+     - The bigger the trade, the faster the price moves. This stops people from doing trades that can change the price too much. 
