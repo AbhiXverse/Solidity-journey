@@ -4,4 +4,5 @@
 
 Impact of the Constant product Formula 
 
-- 
+- Bigger trade get worse price -  
+     - If some
