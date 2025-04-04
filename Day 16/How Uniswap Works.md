@@ -19,3 +19,8 @@ Fees and Rewards for LPs:
 
 - Fee structure - 
     - In the future, Uniswap may adjust the fee to 0.25%, with the remaining 0.05% reserved as a protocol fee  
+
+
+Arbitrage and Price Adjustment: 
+
+- divergences between Uniswap's token prices 
