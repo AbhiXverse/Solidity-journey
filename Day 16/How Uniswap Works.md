@@ -27,3 +27,6 @@ Arbitrage and Price Adjustment:
 - traders take advantage of price difference between Uniswap and other exchanges 
 
 
+Benefits of Uniswap's Design: 
+
+- No Middleman - No trusted intermediary is needed, ensuring decentralized and trustle
