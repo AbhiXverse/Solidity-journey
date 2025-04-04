@@ -18,4 +18,4 @@ Fees and Rewards for LPs:
     - the fee is distributed to the LPs based on their shares of the pool 
 
 - Fee structure - 
-    - In the future, Uniswap may adjust the fee to 0.25%, with the remaining  
+    - In the future, Uniswap may adjust the fee to 0.25%, with the remaining 0.05% reserved as a protocol fee  
