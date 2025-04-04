@@ -14,4 +14,7 @@ Impact of the Constant product Formula
 Fees and Rewards for LPs: 
 
 - Transaction fees - 
-    - Uniswap applies a 0.30% fee each trade. 
+    - Uniswap applies a 0.30% fee each trade. This fees is added to the reserves of the liquidity pool
+    - the fee is distributed to the LPs based on their shares of the pool 
+
+- 
