@@ -23,4 +23,7 @@ Fees and Rewards for LPs:
 
 Arbitrage and Price Adjustment: 
 
-- divergences between Uniswap's token prices 
+- divergences between Uniswap's token prices and external markets can create arbitrage opportunities 
+- traders take advantage of price difference between Uniswap and other exchanges 
+
+
