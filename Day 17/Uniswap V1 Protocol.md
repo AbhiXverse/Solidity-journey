@@ -28,4 +28,7 @@ Features -
     - larger trades cause more price slippage 
 
 5. Fees - 
-    - 
+    - 0.3% fee on each trade 
+    - collected fees stay in the pool and go to liquidity providers when they remove liquidity
+
+6. Fully On-chain 
