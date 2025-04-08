@@ -33,4 +33,10 @@ Features -
 
 6. Fully On-chain - 
     - All interactions happen on Ethereum 
-    - Anyone can access it via smart contracts or use 
+    - Anyone can access it via smart contracts
+
+
+Step-by-Step Working - 
+
+1. Exchange contracts - 
+    -  One 
