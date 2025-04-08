@@ -24,4 +24,8 @@ Features -
 4. Automated Market Making - 
     - Uses the constant Product formula - X * Y = K 
     - X = ETH reserve , Y = Token reserve and K = constant 
-    - guarantees that the product of ETH and token 
+    - guarantees that the product of ETH and token reserves remains the same after a trade 
+    - larger trades cause more price slippage 
+
+5. Fees - 
+    - 
