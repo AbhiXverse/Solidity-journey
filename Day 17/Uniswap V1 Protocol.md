@@ -17,3 +17,6 @@ Features -
     - Every token is paired with ETH, not directly with other tokens 
     - e.g - to trade token A for token B, you go: Token A -> ETH -> Token B
 
+3. Liquidity Pools(LPs) - 
+    - Users can deposit both ETH and a token into a pool 
+    - In return, they get LP tokens that their 
