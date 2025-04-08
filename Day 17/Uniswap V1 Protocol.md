@@ -6,4 +6,8 @@
     - launched - November 2018 at Devon 4 
     - Purpose - A decentralized protocol for swapping ERC-20 tokens on Ethereum 
     - Design - Fully permissionless and open-source, anyone can use it
-    - Philosophy - Focused on simpli
+    - Philosophy - Focused on simplicity, decentralized, censorship resistance and security 
+
+
+Features - 
+1. Supports for al
