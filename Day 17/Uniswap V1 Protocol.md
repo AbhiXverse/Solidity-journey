@@ -19,4 +19,8 @@ Features -
 
 3. Liquidity Pools(LPs) - 
     - Users can deposit both ETH and a token into a pool 
-    - In return, they get LP tokens that their 
+    - In return, they get LP tokens that their share in the pool 
+
+4. Automated Market Making - 
+     - Uses the constant Product formula - X * Y = K 
+     - 
