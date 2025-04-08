@@ -10,4 +10,8 @@
 
 
 Features - 
-1. Supports for al
+1. Supports for all ERC-20 tokens - 
+    - Anyone can create a trading pair(exchanging contract) for any ERC-20 token 
+
+2. ETH-Token pairs only - 
+3. 
