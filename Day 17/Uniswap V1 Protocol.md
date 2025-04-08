@@ -1,7 +1,7 @@
 
 [Solidity-journey /Day 16/Uniswap working - Notes] -  #3
 
-- Uniswap V1 is the first version of the protocol, launched in Nov. 2018 at Devcon 4. And cuz of its permis
+- Uniswap V1 is the first version of the protocol, launched in Nov. 2018 at Devcon 4. And cuz of its permissionless nature, it will exist for as long as Ethereum does
 - It is a decentralized exchange (DEX) that allows users to swap ERC-20 tokens directly on-chain 
 - Unlike traditional exchanges, it uses automated liquidity pool instead of order book 
 
