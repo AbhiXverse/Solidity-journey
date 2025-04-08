@@ -6,4 +6,6 @@
 
 
 
-Core Id
+Core Idea behind Uniswap V1 
+
+- Uniswap V1 introduced the idea of an Automated Market Maker(AMM) - a smart contract that holds liquidity pools and lets perople
