@@ -14,4 +14,6 @@ Features -
     - Anyone can create a trading pair(exchanging contract) for any ERC-20 token 
 
 2. ETH-Token pairs only - 
-3. 
+    - Every token is paired with ETH, not directly with other tokens 
+    - e.g - to trade token A for token B, you go: Token A -> ETH -> Token B
+
