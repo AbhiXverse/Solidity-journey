@@ -53,6 +53,7 @@ Step-by-Step Working -
     - Based on reserves, it calculation how much of the other asset you'll get 
     - Swaps tokens using the constant product formula 
 
-- 
+- Token to Token Trade - 
+    - SInce ther a
 
 
