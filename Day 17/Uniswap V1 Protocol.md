@@ -59,6 +59,7 @@ Step-by-Step Working -
         - DAI -> ETH -> USDC (2 transaction bundled into 1)
 
 - Limit Order-Like Behaviour 
-    - 
+    - Users can set min/max bounds fir how much they're willing to receive/spend 
+    - helps preve
 
 
