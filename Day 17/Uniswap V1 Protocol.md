@@ -49,6 +49,8 @@ Step-by-Step Working -
     - Later, you can burn those tokens to get your share of the pool 
 
 - Trading Process - 
-    - 
+    - You send ETH or token to the contract 
+    - Based on reserves, it calculation how much of the other asset you'll get 
+    - Swaps tokens using the constant
 
 
