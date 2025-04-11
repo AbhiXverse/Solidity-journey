@@ -60,6 +60,10 @@ Step-by-Step Working -
 
 - Limit Order-Like Behaviour 
     - Users can set min/max bounds fir how much they're willing to receive/spend 
-    - helps preve
+    - helps prevent unexpected slippage 
+
+- Gas Optimization - 
+    - At the time, Uniswap V1 had one of the lowest gas fees among DEXs
+    - 
 
 
