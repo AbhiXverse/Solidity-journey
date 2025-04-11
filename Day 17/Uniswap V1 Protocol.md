@@ -69,4 +69,6 @@ Step-by-Step Working -
 
 
 
-Now what are the Limitation of Uniswap V1 lets see - 
+Now what are the limitation of Uniswap V1 lets see - 
+- Only ETH pairs - could not directly trade between two tokens 
+- High slippage for large trades - because 
