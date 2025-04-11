@@ -44,5 +44,5 @@ Step-by-Step Working -
     - stores reserves of ETH and ERC-20 token 
 
 - Liquidity Provision - 
-- You deposit equal values of ETH and a token 
-- In return, you receive 
+    - You deposit equal values of ETH and a token 
+    - In return, you receive pool tokens 
