@@ -51,6 +51,8 @@ Step-by-Step Working -
 - Trading Process - 
     - You send ETH or token to the contract 
     - Based on reserves, it calculation how much of the other asset you'll get 
-    - Swaps tokens using the constant
+    - Swaps tokens using the constant product formula 
+
+- 
 
 
