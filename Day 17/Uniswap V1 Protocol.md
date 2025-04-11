@@ -39,8 +39,8 @@ Features -
 Step-by-Step Working - 
 
 1. Exchange contracts - 
-    -  One exchanges contract per token
-    - create using the uniswap factory contract 
+    - One exchanges contract per token
+    - create using the Uniswap factory contract 
     - stores reserves of ETH and ERC-20 token 
 
 - Liquidity Provision - 
