@@ -47,3 +47,8 @@ Step-by-Step Working -
     - You deposit equal values of ETH and a token 
     - In return, you receive pool tokens 
     - Later, you can burn those tokens to get your share of the pool 
+
+- Trading Process - 
+    - 
+
+
