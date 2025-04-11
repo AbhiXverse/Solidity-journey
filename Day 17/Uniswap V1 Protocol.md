@@ -70,7 +70,7 @@ Step-by-Step Working -
 
 
 Now what are the limitation of Uniswap V1 lets see - 
-x
+
 - Only ETH pairs - could not directly trade between two tokens 
 - High slippage for large trades - because of the formula used 
 - No fee customization - always 0.3% (not adjustable) 
