@@ -64,6 +64,9 @@ Step-by-Step Working -
 
 - Gas Optimization - 
     - At the time, Uniswap V1 had one of the lowest gas fees among DEXs
-    - 
 
 
+
+
+
+Now what are the Limitation of Uniswap V1 lets see - 
