@@ -42,3 +42,7 @@ Step-by-Step Working -
     -  One exchanges contract per token
     - create using the uniswap factory contract 
     - stores reserves of ETH and ERC-20 token 
+
+- Liquidity Provision - 
+- You deposit equal values of ETH and a token 
+- In return, you receive 
