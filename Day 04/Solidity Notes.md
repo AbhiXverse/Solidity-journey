@@ -1,113 +1,33 @@
 [Solidity-journey /Day 04/Solidity Notes] - #04
 
-Contract Ownership & Security :- 
 
-- Assign a contract owner : 
-    - Use a **constructor**, which runs only when the contract is deployed 
-    - E.g : 
-```
-    contract Ownable {
-    address public owner ;
+- **Payment & Transactions** 
+    - Payable functions: Allow contract to receive Eth.
+    - Checking payment value: Use **msg.value**, which represent the amount in Wei 
+    - Require statement: Ensures conditions are met,
+        - e.g:-  [require(msg.value > 1e18);   // Requires at least 1 Eth]
+    - Nonce: Counts the number of transaction for an account
+
+- **Oracles & External data:**
+
+    - Oracles & chainlink: Help smart contract access real-world data
+    - Smart contract can't directly - 
+         - Connect to API 
+         - Make external calls
+         - Access off-chain data 
+    - Oracles Problem: Smart contract must work in a predictable way, so they can't directly use things like random numbers or data from external APIs.
+    
+ - Contract Interface & Number Handling: 
  
-    constructor () {
-        owner = msg.sender; // Assigns contract deployer as the                                           owner 
-        }
-     }
+     -  Interface are like a list of rules a contract must follow 
+     - They only define function names but don't include the actual code.
+     - When compiled, they generate an ABI (Application Binary Interface), which helps other contract or apps interact with them.
+- Example of Interface: 
 ```
-Modifiers (Adding extra logic to functions):-
-
-- Modifiers let you add reusable checks to functions 
-- E.g : 
-```
-  modifier onlyowner( ) {
-      require(msg.sender == owner, "Not the owner");
-      _;
-     }
-
-	  function withdraw() public onlyowner {
-	     payable(owner). transfer(address(this).balance); 
-	     }
-   }
-```
-here, only the contract owner can withdraw the Eth.
-
-Constant & Immutable Variables :- 
-
-- Constant:- Cannot be changed, written in All Caps
-- Immutable :- Can be set once (e.g, in the constructor)
-- E.g: 
-```
-  contract Example {
-     uint256 public constant FEE - 1000;  // Never changes
-     address public immutable i_owner;
-     
-  constructor() {
-      i_owner = msg.sender;   // set only once 
-      
-  }  
+interface MyInterface  {
+function getValue() external view returns (uint256);
 }
 ```
-why use them ?
-- Stored in bytecode, not storage slots, so they save gas.
+ - this only defines the function getValue(), but does not include any logic inside it.
 
-
-Receiving Eth without a function call :- 
-
-- If someone sends Eth without calling a function, Solidity uses: 
-    - receive() function - when Eth is sent without any data
-    - fallback() function - when data is sent, but no matching function exists
-    - E.g - 
-```
-   contract ReceiveExample {
-      event Received(address sender, uint256 amount);
-      
-      receive() external payable {
-          emit Receivced(msg.sender, msg.value);
-      }
-    }
-```
-this contract logs the sender and amount when it receives Eth.
-
-Events & Logging :- 
-
-- Events helps track changes in a contract without using storage (save gas)
-- the frontend (or indexers like Chainlink/Thegraph) listens for events 
-- Events are meant for off-chain applications
-  E.g: 
-```
-  contract EventExample {
-    event Deposit(address indexed user, uint256 amount);
-    
-    function deposit() public payable  {
-       emit Deposit(msg.sender, msg.value) 
-    }
- }
-```
-here, whenever someone sends Eth to this contract, it shows (logs) who sent it and how much they sent.
-
-
-Indexed vs. Non-indexed Event parameters :- 
-
-- Indexed Parameters :- 
-    - Can have up to 3 indexed fields 
-    - help in filtering/ searching events efficiently 
-    - Indexing event parameters created searchable topics 
-
-- Non-indexed parameters :- 
-    -  Need the ABI to decode
-  E.g: 
-```
-event Transfer(address indexed from, address indexed to, uint256 amount);
-emit Transfer(msg.sender, receive, amount);
-```
-Here, the indexed keyword helps find transactions faster in blockchain explorers.
-
-
-Emit:
-
-- Use emit to trigger an event
-- e.g -
-```
-emit deposit(msg.sender, _id, msg.value);
-```
-this sends out a signal with the details so outside apps can know something happened in the contract
+ - No decimals in solidity: Only whole numbers exist. To store decimal values, you usually multiply by 10^18 (Eth's smallest unit Wei)
