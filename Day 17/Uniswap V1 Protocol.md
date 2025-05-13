@@ -1,7 +1,7 @@
 
 [Solidity-journey /Day 16/Uniswap working - Notes] -  #3
 
-- Uniswap V1  - In Depth & Simple Notes
+- **Uniswap V1  - In Depth & Simple Notes**
 
     - launched - November 2018 at Devon 4 
     - Purpose - A decentralized protocol for swapping ERC-20 tokens on Ethereum 
@@ -9,7 +9,8 @@
     - Philosophy - Focused on simplicity, decentralized, censorship resistance and security 
 
 
-Features - 
+**Features -** 
+
 1. Supports for all ERC-20 tokens - 
     - Anyone can create a trading pair(exchanging contract) for any ERC-20 token 
 
@@ -36,7 +37,7 @@ Features -
     - Anyone can access it via smart contracts
 
 
-Step-by-Step Working - 
+**Step-by-Step Working -** 
 
 1. Exchange contracts - 
     - One exchanges contract per token
@@ -67,7 +68,7 @@ Step-by-Step Working -
 
 
 
-Now what are the limitation of Uniswap V1 lets see - 
+**Now what are the limitation of Uniswap V1 lets see -** 
 
 - Only ETH pairs - could not directly trade between two tokens 
 - High slippage for large trades - because of the formula used 
