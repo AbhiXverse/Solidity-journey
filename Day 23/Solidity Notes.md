@@ -1,4 +1,6 @@
 
+[Solidity-journey /Day 23/Solidity - 101 Notes] - #18
+
 **Data Locations & Assignments:**
 
 - Storage <-> Memory - creates a copy 

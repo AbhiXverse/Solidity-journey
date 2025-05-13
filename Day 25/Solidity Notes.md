@@ -1,3 +1,4 @@
+[Solidity-journey /Day 25/Solidity - 101 Notes] - #20
 
 **Struct Type:**
 

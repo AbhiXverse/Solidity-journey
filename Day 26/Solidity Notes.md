@@ -1,3 +1,4 @@
+[Solidity-journey /Day 26/Solidity - 101 Notes] - #21
 
 **Block and Transaction Properties:**
 

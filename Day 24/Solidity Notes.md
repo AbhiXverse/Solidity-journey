@@ -1,3 +1,4 @@
+[Solidity-journey /Day 24/Solidity - 101 Notes] - #19
 
 **Arrays:** 
 
