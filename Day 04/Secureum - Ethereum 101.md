@@ -1,6 +1,6 @@
 [Secureum - Ethereum 101 - Day 04] - 03
 
-How Ethereum Powers Web3:
+**How Ethereum Powers Web3:**
 
 - Computing Power -> Ethereum Blockchain 
 - File Storage -> Swarm 
@@ -13,7 +13,7 @@ Types of Decentralization:
 - Logical decentralization
 
 
-Different Units of Ether: 
+**Different Units of Ether:** 
 
 -  Wei           =>  1 Wei 
 -  Babbage  =>  10 ** 3 Wei 

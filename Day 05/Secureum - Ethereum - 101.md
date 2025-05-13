@@ -1,7 +1,7 @@
 [Secureum - Ethereum 101 - Day 05] - 04
 
 
-Cryptography in Ethereum:- 
+**Cryptography in Ethereum**:- 
 
 - Two types of cryptography: 
     - Symmetric cryptography: Uses the same key for encryption and decryption. 

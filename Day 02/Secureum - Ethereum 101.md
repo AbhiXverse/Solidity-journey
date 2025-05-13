@@ -1,6 +1,6 @@
 [Secureum - Ethereum 101 - Day 02] - 02
 
-Core Components:
+**Core Components**:
 
 - P2P Network - Runs on Ethereum mainnet, uses TCP port 30303, and follows the DEVp2p protocol.
 - Unlike traditional client-server models, Ethereum nodes interact as peers, exchanging messages.
@@ -30,7 +30,7 @@ Core Components:
     - OpenEthereum - Deprecated, transitioning to Erigon (formerly Turbo-geth).
     - Other clients: Nethermind, Erigon, Turbo-geth.
 
-- Halting Problem in Etheruem:
+- **Halting Problem in Etheruem:**
 
      - Ethereum's Ethereum Virtual Machine (EVM) can read and write data to memory, making it a Turing-complete system.
 - What is the halting problem:
@@ -42,4 +42,4 @@ Core Components:
     - If a contract runs out of gas, it stops. 
     - This prevents contracts from running forever and keeps Ethereum safe and efficient.
 
-- DApps (Decentralized Applications) shifts from Web 2.0, where apps are controlled by a central authority, to Web 3.0, where apps runs on decentralized peer-to-peer networks for computing, storage and messaging.
+- **DApps** (Decentralized Applications) shifts from Web 2.0, where apps are controlled by a central authority, to Web 3.0, where apps runs on decentralized peer-to-peer networks for computing, storage and messaging.
