@@ -1,3 +1,4 @@
+[Solidity-journey /Day 22/Solidity - 101 Notes] - #16
 
 **Data Locations:** 
 

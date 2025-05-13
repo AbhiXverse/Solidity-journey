@@ -1,3 +1,4 @@
+[Solidity-journey /Day 21/Solidity - 101 Notes] - #16
 
 **Contract type:**
 

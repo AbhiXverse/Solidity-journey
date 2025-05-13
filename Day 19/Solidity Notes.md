@@ -1,4 +1,6 @@
 
+[Solidity-journey /Day 19/Solidity - 101 Notes] - #15
+
 **Transfer vs Send:** 
 
 - transfer() -
