@@ -1,7 +1,7 @@
 
 [Solidity-journey /Day 09/Solidity - 101 Notes] - #08
 
-Events & Logging :- 
+**Events & Logging :-** 
 
 - Events helps track changes in a contract without using storage (save gas)
 - the frontend (or indexers like Chainlink/Thegraph) listens for events 
@@ -19,7 +19,7 @@ Events & Logging :-
 here, whenever someone sends Eth to this contract, it shows (logs) who sent it and how much they sent.
 
 
-Indexed vs. Non-indexed Event parameters :- 
+**Indexed vs. Non-indexed Event parameters :-** 
 
 - Indexed Parameters :- 
     - Can have up to 3 indexed fields 
@@ -36,7 +36,7 @@ emit Transfer(msg.sender, receive, amount);
 Here, the indexed keyword helps find transactions faster in blockchain explorers.
 
 
-Emit:
+**Emit**:
 
 - Use emit to trigger an event
 - e.g -
@@ -49,26 +49,20 @@ this sends out a signal with the details so outside apps can know something happ
 
 
 
-
-
-
-
-
-
-Custom Errors: 
+**Custom Errors:** 
 
 - Custom errors are a way to define specific messages in solidity 
 - They help you give clear feedback when something goes wrong in your contract 
 - Main benefit: They use less gas compared to writing error messages as string like "Insufficient Balance"
 
-How to write it :- 
+**How to write it :-** 
 E.g:
 ```
 error ErrorName(type param1, type param2);
 ```
 
 
-Contract Example : 
+**Contract Example :** 
 - Custom error in a Coin contract:
 ```
 contract Coin {
