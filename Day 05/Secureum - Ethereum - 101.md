@@ -1,5 +1,6 @@
 [Secureum - Ethereum 101 - Day 05] - 04
 
+
 Cryptography in Ethereum:- 
 
 - Two types of cryptography: 
@@ -15,7 +16,7 @@ Cryptography in Ethereum:-
     - Public key: Generated from the private key and used to derive the Ethereum address.
 - Ethereum addresses: Derived from the last 20 bytes of the Keccak-256 hash of the public key.
 
-Ethereum Accounts:-
+**Ethereum Accounts**:-
 
 - Ethereum accounts store and manage funds and transaction. 
 - Two types of accounts -
