@@ -1,4 +1,4 @@
-
+[Solidity-journey /Day 30/Solidity - 101 Notes] - #25
 
 Storage/Gas behavior of Arrays and Mapping: 
 
