@@ -1,3 +1,4 @@
+[Solidity-journey /Day 28/Solidity - 101 Notes] - #23
 
 **Literals**: 
 
