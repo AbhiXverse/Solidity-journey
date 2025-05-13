@@ -1,4 +1,4 @@
-[Solidity-journey /Day 27/Solidity - 101 Notes] - #22
+[Solidity-journey /Day 28/Solidity - 101 Notes] - #23
 
 **Data Location** 
 
