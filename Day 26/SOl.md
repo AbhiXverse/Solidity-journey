@@ -33,13 +33,13 @@
         - contains the entire calldata send with the transaction 
         
     - msg.sender -> address 
-            - returns the address of the entity (EOA or contract) that initiated the current function call 
-            - can change during external calls, so be safe when using it for authentication 
+        - returns the address of the entity (EOA or contract) that initiated the current function call 
+        - can change during external calls, so be safe when using it for authentication 
         
-        - msg.value -> uint 
+    - msg.value -> uint 
             - the amount of wei sent with the message
         
-        - tx.gasprice -> address 
+    - tx.gasprice -> address 
              - the gas price (in wei) that the sender agreed to apy per uint of gas 
         
          - gasleft() -> uint 
