@@ -28,11 +28,11 @@
         - the timestamp of the block (in seconds since the Unix epoch)
 
 
-    2. **Transaction properties:** 
-        -  msg.data -> bytes calldata 
-            - contains the entire calldata send with the transaction 
+ 2. **Transaction properties:** 
+     - msg.data -> bytes calldata 
+        - contains the entire calldata send with the transaction 
         
-        - msg.sender -> address 
+    - msg.sender -> address 
             - returns the address of the entity (EOA or contract) that initiated the current function call 
             - can change during external calls, so be safe when using it for authentication 
         
