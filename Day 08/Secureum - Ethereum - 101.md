@@ -1,17 +1,19 @@
 
+[Secureum - Ethereum 101 - Day 08] - 06
 
 
-Ethash (Ethereum's proof of Work Algorithm):
+**Ethash (Ethereum's proof of Work Algorithm):**
 
 - Ethash is Ethereum's PoW algorithm (previously Dagger-Hashimoto) 
 - It is memory-hard, making it ASIC-resistant and more GPU-friendly 
 
-Ethereum Block Structure (Ethash)
+**Ethereum Block Structure (Ethash)**
 
 - Each block consists of:
     - Block header 
     - Transactions 
     - ommers (uncle) block headers 
+    
 - Block header fields:
     - parentHash: 
         - Keccak-256 hash of the parent block's header 
@@ -41,14 +43,11 @@ Ethereum Block Structure (Ethash)
         - 64-bit number that solves the PoW challenge 
 
 
-Gas refund & miner fees:
+**Gas refund & miner fees:**
 
 - Unused gas is refunded to the sender 
 - Used gas(x gasPrice) is paid to the beneficiary(miner)
 - E.g:
     - Gas limit = 21,000, used = 15,000
     - Refund = 6000 x gasPrice 
-    - Miner gets 15000 x gasPrice 
-
-
-
+    - Miner gets 15000 x gasPrice
