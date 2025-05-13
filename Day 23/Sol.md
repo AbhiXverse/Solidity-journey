@@ -12,13 +12,13 @@
 
 
 
-Arrays: 
+**Arrays:** 
 
 - Can be fixed-size (uint256[3] numbers;) or dynamic size (uint[] numbers;)
 - Indices are zero-based 
 - arrays can store mappings and structs 
 
-Array Methods: 
+**Array Methods:** 
 
 1. .length -> tells how many items are in the array 
 e.g: 
