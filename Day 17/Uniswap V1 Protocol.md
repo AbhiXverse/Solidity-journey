@@ -1,5 +1,5 @@
 
-[Solidity-journey /Day 16/Uniswap working - Notes] -  #3
+[Solidity-journey /Day 16/Uniswap V1 Protocol - Notes] -  #3
 
 - **Uniswap V1  - In Depth & Simple Notes**
 
