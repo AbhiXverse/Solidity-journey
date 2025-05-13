@@ -31,7 +31,7 @@ How they track transactions ?
 
 2. Ethereum uses an account-based system instead of UTXO. 
     - It tracks not only the Ether ownership but also the state of smart contract.
-    - Transaction can change the state of contracts and interact with decentralized applications (Dapps).
+    - Transaction can change the state of contracts and interact with decentralized applications (Dapps)
 
 
 
