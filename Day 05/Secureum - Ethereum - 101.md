@@ -1,4 +1,5 @@
-[Secureum - Ethereum 101 - Day 05] - 04
+
+[Secureum - Ethereum 101 - Day 0] - 04
 
 
 **Cryptography in Ethereum**:- 
@@ -28,10 +29,11 @@
     - Contract code: Present only in contract accounts 
     - Storage: Stores contract data, initially empty
 
-Transaction in Ethereum:- 
+**Transaction in Ethereum:-** 
 
 - A transaction is a signed message that changes Ethereum's state.
 - Transaction are created by EOAs and broadcasted to the network .
+
 - Components of a transaction: 
      - Nonce: Transaction count from the sender's account 
      - Gas price: Fee per gas uint (measured in Wei) 
@@ -40,10 +42,12 @@ Transaction in Ethereum:-
      - Value: Amount of Ether being sent
      - Data: Extra information, mainly for smart contract 
      - v, r, s : Digital signature values verifying transaction authenticity
+     
  - Types of transaction - 
      - Value transfer transactions: Sending Ether from one account to another 
      - Contract creation transactions: Deploying new smart contracts
      - Contract interaction transactions: Calling functions in deployed smart contracts
+    
  - Transactions properties - 
      - Atomic: Either fully executes or fails (all - or - nothing)
      - Serial: Processed one after another 
